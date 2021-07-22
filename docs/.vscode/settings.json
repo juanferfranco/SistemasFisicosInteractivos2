@@ -1,0 +1,26 @@
+{
+    "python.pythonPath": "/bin/python",
+    "restructuredtext.confPath": "${workspaceFolder}",
+    "cSpell.language": "en,es",
+    "cSpell.words": [
+        "Ardity",
+        "actuador",
+        "actuadores",
+        "cent",
+        "centígrados",
+        "descomenta",
+        "descomentar",
+        "evaluativo",
+        "grados",
+        "hecto",
+        "inal",
+        "inalámbrica",
+        "inalámbricos",
+        "inicializa",
+        "inicializar",
+        "mbrica",
+        "mbricos",
+        "prototipado",
+        "sumativa"
+    ]
+}
