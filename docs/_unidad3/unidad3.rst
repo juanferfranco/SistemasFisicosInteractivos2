@@ -520,8 +520,8 @@ utilizando un computador y un ESP32:
 
     }
 
-Ejercicio 6: proyecto
-^^^^^^^^^^^^^^^^^^^^^^^^
+PROYECTO
+^^^^^^^^^
 
 Ahora piensa qué quieres hacer de proyecto; sin embargo, ten presente estos
 elementos mínimos:
@@ -537,6 +537,3 @@ elementos mínimos:
 
 * La configuración y el control de tu aplicación interactiva debe realizarse 
   mediante una interfaz de usuario gráfica.
-
-Recuerda que antes de comenzar el proyecto debes reunirte con tu profesor para discutir
-los conceptos de la unidad y obtener luz verde para comenzar a trabajar en tu proyecto.

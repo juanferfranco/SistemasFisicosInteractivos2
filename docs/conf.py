@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sensores 2'
+project = 'Sistemas Físicos Interactivos 2'
 copyright = '2021, Juan Franco'
 author = 'Juan Franco'
 
 # The short X.Y version
-version = '1.0.0'
+version = '0.9.0'
 # The full version, including alpha/beta/rc tags
-release = 'rc'
+release = 'beta'
 
 
 # -- General configuration ---------------------------------------------------
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Sensores2'
+htmlhelp_basename = 'sistemasFisicosInteractivos2'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sensores2.tex', 'sensores2 Documentation',
+    (master_doc, 'sistemasFisicosInteractivos2.tex', 'sistemasFisicosInteractivos2 Documentation',
      'Juan Franco', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sensores2', 'sensores2 Documentation',
+    (master_doc, 'sistemasFisicosInteractivos2', 'sistemasFisicosInteractivos2 Documentation',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'sensores2', 'sensores2 Documentation',
-     author, 'sensores2', 'One line description of project.',
+    (master_doc, 'sistemasFisicosInteractivos2', 'sistemasFisicosInteractivos2 Documentation',
+     author, 'sistemasFisicosInteractivos2', 'One line description of project.',
      'Miscellaneous'),
 ]

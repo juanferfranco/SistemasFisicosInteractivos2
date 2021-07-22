@@ -1228,7 +1228,7 @@ Te puedes basar en `esta <https://www.arduino.cc/en/Hacking/libraryTutorial>`__
 referencia para construir tu propia biblioteca.
 
 
-Ejercicio 21: proyecto
+PROYECTO
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ahora piensa que quieres hacer de proyecto; sin embargo, ten presente estos
@@ -1243,5 +1243,3 @@ elementos mínimos:
 * La configuración (puerto serial, velocidad, etc) y el control de tu aplicación
   interactiva debe realizarse mediante una interfaz de usuario gráfica.
 
-Recuerda que antes de comenzar el proyecto debes reunirte con tu profesor para discutir
-los conceptos de la unidad y obtener luz verde para comenzar a trabajar en tu proyecto.
