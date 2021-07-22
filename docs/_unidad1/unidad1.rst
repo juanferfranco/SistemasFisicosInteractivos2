@@ -693,7 +693,7 @@ El código de Unity está `aquí <https://github.com/juanferfranco/sensores2/tre
 
 La escena donde está la implementación se llama DemoScene_RFIDProtocol.
 
-Ejercicio 6: proyecto
+PROYECTO
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ahora piensa que quieres hacer de proyecto; sin embargo, ten presente estos
@@ -707,5 +707,4 @@ elementos mínimos:
 * La configuración (puerto serial, velocidad, etc) y el control de tu aplicación
   interactiva debe realizarse mediante una interfaz de usuario gráfica.
 
-Recuerda que antes de comenzar el proyecto debes reunirte con tu profesor para discutir
-los conceptos de la unidad y obtener luz verde para comenzar a trabajar en tu proyecto.
+

@@ -1,11 +1,14 @@
-Curso Sistemas Físicos Interactivos 2 / 2021-20
-=====================================================
+Curso Sistemas Físicos Interactivos 2/Sensores 2 / 2021-20
+===========================================================
 
 Docente diseñador del curso: Juan Fernando Franco Higuita
 
 Nombre del docente moderador: Juan Fernando Franco Higuita
 
-Créditos y horas totales del curso: 2 créditos - 96 horas totales
+* Para sistemas físicos interactivos 2: créditos y horas totales del curso: 2 créditos - 96 horas totales
+
+* Para sistemas sensores 2: créditos y horas totales del curso: 3 créditos - 144 horas totales
+
 
 .. toctree::
    :maxdepth: 1
