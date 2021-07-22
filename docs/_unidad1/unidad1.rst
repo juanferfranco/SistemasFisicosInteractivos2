@@ -5,7 +5,7 @@ Introducción
 --------------
 
 En esta primera unidad vamos a repasar algunos aspectos
-importantes de sensores 1 que necesitarás de nuevo en este curso.
+importantes de cursos anteriores que necesitarás de nuevo en este curso.
 En especial:
 
 * Comunicaciones seriales mediante protocolos ascii y binarios
@@ -118,7 +118,6 @@ está la guía
 Analicemos en detalle el DEMO. Primero, vamos a analizar el código de arduino:
 
 .. code-block:: cpp
-   :lineno-start: 1
 
     uint32_t last_time = 0;
     
@@ -171,6 +170,7 @@ DemoScene_UserPoll_ReadWrite
 .. image:: ../_static/scenes.jpg
    :scale: 100%
    :align: center
+   :alt: scenes
 
 Nota que la escena tiene 3 gameObjects: Main Camera, SerialController y SampleUserPolling_ReadWrite.
 
@@ -180,12 +180,14 @@ y un script. El script tiene el código como tal de la aplicación del usuario.
 .. image:: ../_static/user_code.jpg
    :scale: 100%
    :align: center
+   :alt: user code
 
 Nota que el script expone una variable pública: serialController. Esta variable es del tipo SerialController.
 
 .. image:: ../_static/serialControllerVarCode.jpg
    :scale: 100%
    :align: center
+   :alt: serialController
 
 Esa variable nos permite almacenar la referencia a un objeto tipo SerialController. ¿Donde estaría ese
 objeto? Pues cuando el gameObject SerialController es creado note que uno de sus componentes es un objeto
@@ -194,6 +196,7 @@ de tipo SerialController:
 .. image:: ../_static/serialControllerGO_Components.jpg
    :scale: 100%
    :align: center
+   :alt: components
 
 Entonces desde el editor de Unity podemos arrastrar el gameObject SerialController al campo SerialController
 del gameObject SampleUserPolling_ReadWrite y cuando se despligue la escena, automáticamente se inicializará
@@ -202,6 +205,7 @@ la variable serialController con la referencia en memoria al objeto SerialContro
 .. image:: ../_static/serialControllerUnityEditor.jpg
    :scale: 100%
    :align: center
+   :alt: Editor
 
 De esta manera logramos que el objeto SampleUserPolling_ReadWrite tenga acceso a la información
 del objeto SerialController.
@@ -209,7 +213,6 @@ del objeto SerialController.
 Observemos ahora qué datos y qué comportamientos tendría un objeto de tipo SampleUserPolling_ReadWrite:
 
 .. code-block:: csharp
-   :lineno-start: 1
 
     /**
      * Ardity (Serial Communication for Arduino + Unity)
@@ -284,6 +287,7 @@ el arduino. El arduino ya debe estar corriendo el código de muestra del sitio w
 .. image:: ../_static/serialControllerCOM.jpg
    :scale: 100%
    :align: center
+   :alt: COM
 
 En este caso el puerto es COM4.
 
@@ -294,11 +298,11 @@ en la consola:
 .. image:: ../_static/unityConsole.jpg
    :scale: 100%
    :align: center
+   :alt: Console
 
 Una vez la aplicación funcione note algo en el código de SampleUserPolling_ReadWrite:
 
 .. code-block:: csharp
-   :lineno-start: 1
 
     serialController = GameObject.Find("SerialController").GetComponent<SerialController>();
 
@@ -309,6 +313,7 @@ Ahora, descomenta la línea y luego borre la referencia al SerialController en e
 .. image:: ../_static/removeSerialControllerUnityEditor.jpg
    :scale: 100%
    :align: center
+   :alt: removeSerialController
 
 Corre de nuevo la aplicación.
 
@@ -318,7 +323,6 @@ Corre de nuevo la aplicación.
 Ahora analicemos el código del método Update de SampleUserPolling_ReadWrite:
 
 .. code-block:: csharp
-   :lineno-start: 1
 
     // Executed each frame
     void Update()
@@ -342,7 +346,6 @@ aplicación. Lo llama automáticamente el motor de Unity
 Nota los dos métodos que se resaltan:
 
 .. code-block:: csharp
-   :lineno-start: 1
 
     serialController.SendSerialMessage("A");
     string message = serialController.ReadSerialMessage();
@@ -365,10 +368,10 @@ que la clase tiene dos variables protegidas importantes:
 .. image:: ../_static/serialControllerUMLClass.jpg
    :scale: 35%
    :align: center
+   :alt: UMLClass
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
    protected Thread thread;
    protected SerialThreadLines serialThread;
 
@@ -378,8 +381,7 @@ de tipo SerialThreadLines.
 En el método onEnable de SerialController tenemos:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
    serialThread = new SerialThreadLines(portName, baudRate, reconnectionDelay, maxUnreadMessages);
    thread = new Thread(new ThreadStart(serialThread.RunForever));
    thread.Start();
@@ -390,8 +392,7 @@ ese código actuará sobre los datos del objeto cuya referencia está almacenada
 Vamos a concentrarnos ahora en serialThread que es un objeto de la clase SerialThreadLines:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     public class SerialThreadLines : AbstractSerialThread
     {
         public SerialThreadLines(string portName,
@@ -423,8 +424,7 @@ sobre los datos del objeto referenciado por serialThread del cual ya sabemos que
 SerialThreadLines y un AbstractSerialThread
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     public void SendSerialMessage(string message)
     {
         serialThread.SendMessage(message);
@@ -435,8 +435,7 @@ Al igual que RunForever, el método SendMessage también está definido en Abstr
 Veamos entonces ahora qué hacemos con la letra A:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     public void SendMessage(object message)
     {
         outputQueue.Enqueue(message);
@@ -456,8 +455,7 @@ guardando en la COLA del SerialThreadLines-AbstractSerialThread
 Si observamos el código de RunForever:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     public void RunForever()
     {
         try
@@ -486,8 +484,7 @@ Si observamos el código de RunForever:
 Los detalles están en RunOnce():
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     private void RunOnce()
     {
         try
@@ -516,23 +513,20 @@ A, el código del hilo pregunta si hay mensajes en la cola. Si los hay,
 note que el mensaje se saca de la cola y se envía:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
    SendToWire(outputQueue.Dequeue(), serialPort);
 
 Si buscamos el método SendToWire en AbstractSerialThread vemos:
 
 .. code-block:: csharp
-   :lineno-start: 1
-   
+      
    protected abstract void SendToWire(object message, SerialPort serialPort);
 
 Y aquí es donde se conectan las clases SerialThreadLines con AbstractSerialThread, ya
 que el método SendToWire es abstracto, SerialThreadLines tendrá que implementarlo
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     public class SerialThreadLines : AbstractSerialThread
     {
         ...
@@ -549,8 +543,7 @@ Aquí vemos finalmente el uso de la clase SerialPort de C# con el método
 Finalmente, para recibir datos desde el serial, ocurre el proceso contrario:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
 
     public class SerialThreadLines : AbstractSerialThread
     {
@@ -577,8 +570,7 @@ hilo:
 Por tanto, volviendo a RunOnce:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     private void RunOnce()
     {
         try
@@ -610,15 +602,13 @@ Por tanto, volviendo a RunOnce:
 Vemos que se envía el mensaje: 
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     SendToWire(outputQueue.Dequeue(), serialPort);
 
 Y luego el hilo se bloquea esperando por una respuesta:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     object inputMessage = ReadFromWire(serialPort);
 
 En este caso no hay respuesta, simplemente luego de enviar la letra A, el hilo
@@ -628,8 +618,7 @@ se bloquea hasta que llegue el mensaje ""Arduino is alive!!""
 TEN MUY PRESENTE ESTO:
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     private void RunOnce()
     {
         try
@@ -669,8 +658,7 @@ que es el tiempo que dura bloqueada la función antes de generar una excepción 
 timeout de lectura.
 
 .. code-block:: csharp
-   :lineno-start: 1
-
+   
     // Amount of milliseconds alloted to a single read or connect. An
     // exception is thrown when such operations take more than this time
     // to complete.
