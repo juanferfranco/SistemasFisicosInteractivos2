@@ -416,7 +416,6 @@ Implementa el siguiente código y analiza parte por parte:
 El código del ESP32 simulando el sensor:
 
 .. code-block:: cpp
-    :linenos:
 
     void setup() {
       Serial.begin(115200);
@@ -470,7 +469,6 @@ controlador, la implementación del protocolo y la aplicación como tal.
 El código para el protocolo:
 
 .. code-block:: csharp
-    :linenos:
 
     using System.Collections;
     using System.Collections.Generic;
@@ -532,7 +530,6 @@ El código para el protocolo:
 El código del controlador:
 
 .. code-block:: csharp
-    :linenos:
 
     using System.Collections;
     using System.Collections.Generic;
@@ -666,7 +663,6 @@ El código del controlador:
 El código de la clase AbstractSerialThread
 
 .. code-block:: csharp
-    :linenos:
 
     /**
     * Ardity (Serial Communication for Arduino + Unity)
@@ -952,7 +948,6 @@ El código de la clase AbstractSerialThread
 Finalmente el código de la aplicación
 
 .. code-block:: csharp
-    :linenos:
 
     using System.Collections;
     using System.Collections.Generic;
