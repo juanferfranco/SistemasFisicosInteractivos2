@@ -92,7 +92,7 @@ correspondiente)
  
 43 (C)  dc (Ü)  0 ()    0 ()
 
-OSC ADDRESS PATTERN: \\"/oscillator/4/frequency\\"
+OSC ADDRESS PATTERN: ``/oscillator/4/frequency``
 Será una secuencia de caracteres ASCII terminados con NULL más 0 bytes NULL
 porque la cantidad de bytes sería múltiplo de 4:
 
@@ -108,7 +108,7 @@ porque la cantidad de bytes sería múltiplo de 4:
  
 6e (n)  63 (c)  79 (y)  0 ()
 
-OSC TYPE TAG STRING: \\",f\\":
+OSC TYPE TAG STRING: ``,f``:
 2c (,)  66 (f)  0 ()    0 ()
 
 Como tenemos solo un argumento, tendremos solo un TAG de
@@ -127,56 +127,49 @@ controlará la drum machine.
 Estos son los paquetes OSC que enviará la aplicación de interfaz remota
 a la aplicación drum machine:
 
-* play:
+play:
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
 
        "/play\x00\x00\x00,i\x00\x00\x00\x00\x00\x01"
 
-* stop:
+stop:
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
 
        "/play\x00\x00\x00,i\x00\x00\x00\x00\x00\x00"
 
-* Activar el beat 5 del instrumento 2:
+Activar el beat 5 del instrumento 2:
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
 
        "/c\x32\x00,ii\x00\x00\x00\x00\x05\x00\x00\x00\x01"
 
-* Desactivar el beat 5 del instrumento 2:
+Desactivar el beat 5 del instrumento 2:
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
 
        "/c\x32\x00,ii\x00\x00\x00\x00\x05\x00\x00\x00\x00"
 
-* Desactivar todos los beats del instrumento 1
+Desactivar todos los beats del instrumento 1
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
 
        "/c\x31\x00,ii\x00\x00\x00\x00\x11\x00\x00\x00\x00"
 
-* Cambiar la velocidad del beat a 100. El rango está de 100 a 300.
+Cambiar la velocidad del beat a 100. El rango está de 100 a 300.
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
 
        "/speed\x00\x00,i\x00\x00\x00\x00\x00\x64"
 
 La drum machine enviará este paquete a la interfaz remota para indicar
 el beat que está reproduciendo en ese momento:
 
-* Trama enviada para la aplicación remota indicando que está
-  reproduciendo el beat 16:
+Trama enviada para la aplicación remota indicando que está
+reproduciendo el beat 16:
 
-    .. code-block:: csharp
-       :lineno-start: 1
+.. code-block:: csharp
        
        2F 63 6f 75 6e 74 65 72 00 00 00 00 2c 69 00 00 00 00 00 10
 
