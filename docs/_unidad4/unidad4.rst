@@ -72,7 +72,7 @@ de la especificación OSC 1.0:
   mensaje.
 
 Considera que queremos enviar un mensaje con el siguiente OSC ADDRESS PATTERN:
-\\"/oscillator/4/frequency\\" y como argumento un número en punto flotante dado
+``/oscillator/4/frequency`` y como argumento un número en punto flotante dado
 por 440.0. El paquete será así (entre paréntesis el carácter ascii
 correspondiente)
 
