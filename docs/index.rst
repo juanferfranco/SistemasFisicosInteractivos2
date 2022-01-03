@@ -1,4 +1,4 @@
-Curso Sistemas Físicos Interactivos 2/Sensores 2 / 2021-20
+Curso Sistemas Físicos Interactivos 2/Sensores 2 / 2022-10
 ===========================================================
 
 Docente diseñador del curso: Juan Fernando Franco Higuita
@@ -14,7 +14,8 @@ Nombre del docente moderador: Juan Fernando Franco Higuita
    :maxdepth: 1
    :caption: Contenidos semanales:
 
-   Introducción al curso <_intro/intro>  
+   Introducción al curso <_intro/intro> 
+.. 
    Unidad 1 <_unidad1/unidad1>
    Unidad 2 <_unidad2/unidad2>
    Unidad 3 <_unidad3/unidad3>

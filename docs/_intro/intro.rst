@@ -41,17 +41,6 @@ Estructura y metodología del curso
 #. Unidad 3: sensores y actuadores inalámbricos.
 #. Unidad 4: aplicaciones interactivas distribuidas.
 
-Cada unidad estará constituida por tres fases:
-
-* Fase 1: fundamentación. En esta fase estudiarás los conceptos más relevantes de cada unidad. Así mismo complementarás con 
-  lecturas y ejercicios que te prepararán progresivamente para la evaluación de la unidad. En esta fase debes repasar los 
-  conceptos olvidados de los semestres anteriores.
-
-* Fase 2: proyecto. En esta fase se realizará un proyecto con el cual será se evaluará la unidad. 
-
-* Fase 3: evaluación. En esta fase se discute el resultado de los proyectos de la unidad.
-
-
 Cronograma
 -----------
 
@@ -63,23 +52,32 @@ Cronograma
 Evaluación
 -----------
 
-* Evaluación 1: 25%. Semana del 9 de agosto. Plazo máximo 15 de agosto.
-* Evaluación 2: 25%. Semana del 6 de septiembre. Plazo máximo 12 de septiembre.
-* Evaluación 3: 25%. Semana del 4 de octubre. Plazo máximo 10 de octubre.
-* Evaluación 4: 25%. Semana del 1 de noviembre. Plazo máximo 7 de noviembre.
+* Evaluación 1: 25%.
+* Evaluación 2: 25%.
+* Evaluación 3: 25%.
+* Evaluación 4: 25%.
 
 Dedicación
 ----------
 
-Este curso es de 2 créditos y se ofrecerá en 2021-20 en modalidad proyecto. Por tanto, 
-tendremos encuentros sincrónicos semanales de 1 hora 40 minutos y 4 horas de trabajo autónomo.
+Este curso en 2022-10 se ofrecerá en modalidad proyecto. En el espacio de asesoría presencial 
+semanal se atenderá un grupo compuesto por dos NRCs correspondientes a sensores 2 y sistemas 
+físicos interactivos 2. Cada NRC tiene una cantidad de créditos diferente y por tanto actividades 
+extra para sensores 2 al tener la mayor cantidad de créditos (uno más, es decir, 3 horas más 
+de trabajo semanal).
+
+* Sistemas físicos interactivos 2 tendrá 1 hora 40 minutos de asesorías presenciales y 4 horas y 20 minutos 
+  de trabajo autónomo.
+* Sensores 2 tendrá 1 hora 40 minutos de asesoría presencial y 7 horas y 20 minutos de trabajo autónomo.
+
 
 Actividades de cada unidad
 ----------------------------
 
-Cada semana nos reuniremos para discutir los conceptos y resolver las inquietudes. Debes 
-dedicar 4 horas de trabajo autónomo para trabajar en las lecturas, ejercicios y en la evaluación 
-de cada unidad.
+Cada unidad está compuesta por lecturas, ejercicios y un proyecto. Cada semana nos reuniremos 
+para resolver las dudas y aclarar conceptos correspondientes al trabajo de esa semana y la semana 
+anterior. El resto del tiempo debes organizar tu agenda para emplear las horas de trabajo autónomas.
+
 
 Evidencias de evaluación
 -------------------------
@@ -118,6 +116,4 @@ En Notion llevarás tu bitácora electrónica.
 Control de versión
 --------------------
 
-* Crea una cuenta en GitHub con tu correo institucional de la UPB.
-* Puedes explorar algunos tutoriales de git `aquí <https://www.gitkraken.com/learn/git/tutorials>`__ 
-  y `aquí <https://youtu.be/WH7qDUYHGK8>`__. 
+* Crea una cuenta en GitHub a menos que ya la tengas.
