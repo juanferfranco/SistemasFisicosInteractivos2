@@ -12,7 +12,7 @@ Nombre del docente moderador: Juan Fernando Franco Higuita
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contenidos semanales:
+   :caption: Unidades:
 
    Introducción al curso <_intro/intro> 
 .. 
