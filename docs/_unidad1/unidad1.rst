@@ -65,7 +65,9 @@ Ejercicio 2: ESP32
 ^^^^^^^^^^^^^^^^^^^^^
 
 En este curso vas a trabajar con el controlador `ESP32 <https://www.didacticaselectronicas.com/index.php/comunicaciones/bluetooth/tarjeta-de-desarrollo-esp32-wroom-32d-tarjetas-modulos-de-desarrollo-con-de-wifi-y-bluetooth-esp32u-con-conector-u-fl-tarjeta-comunicaci%C3%B3n-wi-fi-bluetooth-esp32u-iot-esp32-nodemcu-d0wd-detail>`__ 
-y con el framework de arduino, pero el nuevo IDE: Arduino IDE 2.0 RC(2.0.0-rc3) que puedes descargar 
+y con el framework de arduino. Actualmente hay dos versiones del IDE. Vas a trabajar con la más estable, 
+pero te recomiendo que también le des una mirada a la versión nueva (Arduino IDE 2.0). El link con las
+urls para las descargas de las diferentes versiones de IDE está 
 `aquí <https://www.arduino.cc/en/software>`__.
 
 Para trabajar con el ESP32 debes instalar el soporte para esta plataforma en el IDE de
