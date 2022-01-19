@@ -16,7 +16,7 @@ Adicionalmente, en esta unidad vamos a introducir herramientas
 de trabajo en equipo bajo control de versión y de productividad.
 
 Propósito de aprendizaje
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+***************************
 
 Crear aplicaciones interactivas de tiempo real que integren
 sensores y actuadores mediante puertos seriales utilizando protocolos
@@ -26,7 +26,7 @@ Aplicar herramientas de control de versión y productividad al
 desarrollo del proyecto.
 
 Temas
-^^^^^^
+********
 
 * Protocolos de comunicación seriales ascii y binarios.
 * Arquitecturas de software concurrentes
@@ -35,74 +35,59 @@ Temas
 Trayecto de actividades
 ------------------------
 
-Ejercicio 1: control de versión
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sesión 1
+***********
 
-* Crea una cuenta en GitHub con tu correo institucional de la UPB. Si
-  tienes la tienes en hora buena.
-* Explora `este <https://www.gitkraken.com/student-resources>`__ sitio y 
-  solicita, por medio de tu cuenta de GitHub, el paquete de herramientas
-  para estudiantes. Este proceso requiere aprobación, así que te recomiendo
-  que lo hagas YA.
-* Ingresa a `este <https://www.gitkraken.com/learn/git/tutorials>`__ sitio 
-  para que aprendas los conceptos básicos de git.
-* Finalmente, observa el siguiente `video <https://www.youtube.com/watch?v=lYAHmthUO1M>`__
-  para que analices un posible flujo de trabajo en equipo utilizando herramientas
-  de control de versión. Ten en cuenta que puedes seguir exactamente el mismo
-  flujo para trabajar tu solo. Esto te ayudará a organizarte mucho.
+Ejercicio 1: Introducción a Git y GitHub 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ejercicio 2: practica
-^^^^^^^^^^^^^^^^^^^^^^^^
+(Tiempo estimado: 1 hora 40 minutos)
 
-* Crear un proyecto en Unity y lo colocarás bajo control de versión.
-* Luego vas a escribir 3 features que vas a implementar. Para cada feature
-  sigue las estrategias del flujo de trabajo que aprendiste. No te compliques,
-  la idea es que practiques control de versión, pero sobre una plataforma
-  real de trabajo.
+.. toctree::
+    :maxdepth: 1
 
-¿Para qué te pido que hagas esto? Trabajar bajo control de versión es un
-estándar en la industria y es una habilidad que deberás dominar.
+    Introducción a Git y GitHub <./introGit>
 
-¿Por qué Unity? Porque es una herramienta muy versátil con la que puedes hacer
-muchos tipos de productos interactivos. Te recomiendo además que aprendas
-todo lo que puedas de esta herramienta. No solo es útil para desarrollar sino
-también para hacer prototipos, pruebas de conceptos, maquetas digitales, entre
-otros.
+Trabajo autónomo 1
+*********************
+Tiempo estimado:
 
-Te pido entonces que de ahora en adelante todos los ejercicios que vamos
-a realizar los coloques bajo control de versión. ¿Para qué? para que
-practiques MUCHO!
+* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
+* NRC Sensores 2: 7 horas y 20 minutos
 
-Como ANEXO a este ejercicio:
 
-Te voy a pedir que mires de nuevo `este <https://youtu.be/S03EEusFxoI>`__. 
-¿Por qué es importante para nosotros?
-Por que como tu sabrás cuando hacemos aplicaciones interactivas generamos
-varios archivos binarios. Por tanto git lfs será necesario en nuestros 
-proyectos. 
+Vas a terminar primero el Ejercicio 1. Luego vas a alistar algunas 
+de las herramientas necesarias para este curso. Finalmente, vas a realizar 
+una primera iteración a los siguientes ejercicios de repaso de los cursos Sistemas 
+Físicos Interactivos 1 y sensores 1.
 
-Lo primero entonces que tendrás que hacer es instalar el soporte para Git LFS. 
-Mira `aquí <https://docs.github.com/en/github/managing-large-files/installing-git-large-file-storage>`__ 
-cómo lo harías para tu sistema operativo.
-
-Ahora observa `este <https://youtu.be/LS1VI1Y8WTM>`__ video y repasa con 
-`este <https://youtu.be/09McJ2NL7YM>`__ otro. Te explicarán cómo usar Unity con git lfs.
-
-Ten en cuenta que PUEDES usar lo que has aprendido con otras herramientas, no solo Unity.
-
-Por último te recomiendo que sigas las instrucciones del último video y practica la 
-creación de un proyecto en Unity con control de versión y lfs.
-
-Ejercicio 3: ESP32 
+Ejercicio 2: ESP32 
 ^^^^^^^^^^^^^^^^^^^^^
 
-En este curso vamos a trabajar con el controlador `ESP32 <https://www.didacticaselectronicas.com/index.php/comunicaciones/bluetooth/tarjeta-de-desarrollo-esp32-wroom-32d-tarjetas-modulos-de-desarrollo-con-de-wifi-y-bluetooth-esp32u-con-conector-u-fl-tarjeta-comunicaci%C3%B3n-wi-fi-bluetooth-esp32u-iot-esp32-nodemcu-d0wd-detail>`__ 
-y con el framework de arduino.
+En este curso vas a trabajar con el controlador `ESP32 <https://www.didacticaselectronicas.com/index.php/comunicaciones/bluetooth/tarjeta-de-desarrollo-esp32-wroom-32d-tarjetas-modulos-de-desarrollo-con-de-wifi-y-bluetooth-esp32u-con-conector-u-fl-tarjeta-comunicaci%C3%B3n-wi-fi-bluetooth-esp32u-iot-esp32-nodemcu-d0wd-detail>`__ 
+y con el framework de arduino, pero el nuevo IDE: Arduino IDE 2.0 RC(2.0.0-rc3) que puedes descargar 
+`aquí <https://www.arduino.cc/en/software>`__.
 
 Para trabajar con el ESP32 debes instalar el soporte para esta plataforma en el IDE de
-arduino como indica 
-`este <https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md>`__ 
+arduino como indica `este <https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html>`__ 
 sitio.
+
+¿Qué espero qué hagas en este ejercicio?
+
+* Compra el ESP32.
+* Instala el nuevo entorno de desarrollo.
+* Configura el nuevo entorno.
+* Realiza un programa de prueba que DE MANERA no BLOQUEANTE lea del puerto serial 
+  el carácter ASCII 1 y responda con la cadena ``Hola mundo`` y con el carácter ASCII 2 responda 
+  la cadena ``Chao mundo``.
+
+Ejercicio 3: lee la documentación del ESP32 arduino core  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Con este ejercicio quiero que EXPLORES y que busques todo lo que te cause 
+curiosidad acerca de la documentación oficial del PORT de arduino para el ESP32.
+El repositorio oficial es `este <https://github.com/espressif/arduino-esp32>`__. 
+La página oficial con la documentación es `esta <https://docs.espressif.com/projects/arduino-esp32/en/latest/index.html>`__.
 
 Ejercicio 4: protocolos ASCII
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -674,37 +659,32 @@ timeout de lectura.
 Ejercicio 5: protocolos binarios
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ahora vamos a recordar el proyecto de sensores 1 en
-el cual simulamos un sensor RFID.
+Ahora vas a repasar el uso de protocolos binarios para integrar la información 
+de un sensor que usa este protocolo a una aplicación en Unity. Se trata de un 
+caso de estudio.
 
-`Este sensor <http://www.chafon.com/productdetails.aspx?pid=382>`__ era el sensor y 
+Se trata de un sensor que permite leer TAGs de RFID. Te voy a dejar información 
+del dispositivo:
+
+`Aquí <http://www.chafon.com/productdetails.aspx?pid=382>`__ está el sensor y 
 `aquí <https://drive.google.com/open?id=1uDtgNkUCknkj3iTkykwhthjLoTGJCcea>`__ está
 el manual del fabricante. Finalmente, en `este <https://drive.google.com/open?id=1iVr2Fiv8wXLqNyShr_EOplSvOJBIPqJP>`__ 
-archivo encuentras de nuevo la secuencia de comandos.
+archivo encuentras algunas secuencias de prueba que te permitirán observar la posible respuesta 
+del sensor (RX) a algunas peticiones que realices (TX).
 
-La solución al proyecto se compone del código de Arduino
-para simular el sensor y el código de Unity para leer los
-datos del sensor.
+El caso de estudio está compuesto por código de Arduino para simular el sensor 
+y el código de Unity para leer los datos del sensor enviando algunos de las secuencias 
+de prueba.
 
-El código de Arduino de lo puedes encontrar
+El código de Arduino lo puedes encontrar
 `aquí <https://github.com/juanferfranco/sensores2/tree/master/projects/ESP32_RFID>`__
 
 El código de Unity está `aquí <https://github.com/juanferfranco/sensores2/tree/master/projects/RFIDReader>`__ 
 
 La escena donde está la implementación se llama DemoScene_RFIDProtocol.
 
-PROYECTO
-^^^^^^^^^^^^^^^^^^^^^^^^
+Evaluación
+------------
 
-Ahora piensa que quieres hacer de proyecto; sin embargo, ten presente estos
-elementos mínimos:
-
-* Debes incluir dos dispositivos seriales, es decir, tu aplicación
-  interactiva debe manejar simultáneamente dos puertos.
-
-* En un puerto implementarás un protocolo ASCII y en el otro un protocolo binario.
-
-* La configuración (puerto serial, velocidad, etc) y el control de tu aplicación
-  interactiva debe realizarse mediante una interfaz de usuario gráfica.
-
-
+Revisa de nuevo esta sección al inicio de la semana 4. NO OLVIDES presionar 
+la tecla F5 para refrescar la página.

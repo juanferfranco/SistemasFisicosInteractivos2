@@ -9,14 +9,17 @@ Nombre del docente moderador: Juan Fernando Franco Higuita
 
 * Para sistemas sensores 2, los créditos y horas totales del curso son 3 créditos/144 horas totales
 
+.. toctree::
+   :maxdepth: 1
+   
+   Introducción al curso <_intro/intro>
 
 .. toctree::
    :maxdepth: 1
    :caption: UNIDADES
-
-   Introducción al curso <_intro/intro> 
-.. 
+ 
    Unidad 1 <_unidad1/unidad1>
+..
    Unidad 2 <_unidad2/unidad2>
    Unidad 3 <_unidad3/unidad3>
    Unidad 4 <_unidad4/unidad4>

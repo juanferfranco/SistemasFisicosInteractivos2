@@ -52,10 +52,10 @@ Cronograma
 Evaluación
 -----------
 
-* Evaluación 1: 25%.
-* Evaluación 2: 25%.
-* Evaluación 3: 25%.
-* Evaluación 4: 25%.
+* Evaluación 1: 25%. semana 4.
+* Evaluación 2: 25%. semana 8.
+* Evaluación 3: 25%. semana 12.
+* Evaluación 4: 25%. semana 16.
 
 Dedicación
 ----------
