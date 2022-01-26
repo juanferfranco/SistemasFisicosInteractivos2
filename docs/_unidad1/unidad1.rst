@@ -685,6 +685,27 @@ El código de Unity está `aquí <https://github.com/juanferfranco/sensores2/tre
 
 La escena donde está la implementación se llama DemoScene_RFIDProtocol.
 
+Sesión 2
+***********
+
+Ejercicio 6: revisión de conceptos básicos 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(Tiempo estimado: 1 hora 40 minutos)
+
+En esta sesión vamos a revisar juntos algunos conceptos básicos de manejo del puerto 
+de comunicaciones seriales, las comunicaciones en binario y en ASCII.
+
+Trabajo autónomo 2
+*********************
+Tiempo estimado:
+
+* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
+* NRC Sensores 2: 7 horas y 20 minutos
+
+Vas a revisar de nuevo los ejercicios 2 al 5. La idea es que puedas terminar de analizar detenidamente 
+y si ya lo has hecho te propongo que hagas una nueva iteración.
+
+
 Evaluación
 ------------
 
