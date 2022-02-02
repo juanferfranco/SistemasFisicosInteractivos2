@@ -705,6 +705,20 @@ Tiempo estimado:
 Vas a revisar de nuevo los ejercicios 2 al 5. La idea es que puedas terminar de analizar detenidamente 
 y si ya lo has hecho te propongo que hagas una nueva iteración.
 
+Sesión 3
+***********
+
+Vamos a recorrer entre todos el material de la unidad resolviendo dudas.
+
+Trabajo autónomo 3
+*********************
+Tiempo estimado:
+
+* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
+* NRC Sensores 2: 7 horas y 20 minutos
+
+Vas a revisar de nuevo los ejercicios 2 al 5. La idea es que puedas terminar 
+de analizar detenidamente y si ya lo has hecho te propongo que hagas una nueva iteración.
 
 Evaluación
 ------------
