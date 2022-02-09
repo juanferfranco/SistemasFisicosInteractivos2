@@ -8,7 +8,7 @@ En esta primera unidad vamos a repasar algunos aspectos
 importantes de cursos anteriores que necesitarás de nuevo en este curso.
 En especial:
 
-* Comunicaciones seriales mediante protocolos ascii y binarios
+* Comunicaciones seriales mediante protocolos ASCII y binarios
 * Técnicas de programación concurrente y programación orientada
   a objetos.
 
@@ -20,7 +20,7 @@ Propósito de aprendizaje
 
 Crear aplicaciones interactivas de tiempo real que integren
 sensores y actuadores mediante puertos seriales utilizando protocolos
-de comunicación binarios y ascii.
+de comunicación binarios y ASCII.
 
 Aplicar herramientas de control de versión y productividad al
 desarrollo del proyecto.
@@ -28,7 +28,7 @@ desarrollo del proyecto.
 Temas
 ********
 
-* Protocolos de comunicación seriales ascii y binarios.
+* Protocolos de comunicación seriales ASCII y binarios.
 * Arquitecturas de software concurrentes
 * Control de versión
 
@@ -717,11 +717,27 @@ Tiempo estimado:
 * NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
 * NRC Sensores 2: 7 horas y 20 minutos
 
-Vas a revisar de nuevo los ejercicios 2 al 5. La idea es que puedas terminar 
-de analizar detenidamente y si ya lo has hecho te propongo que hagas una nueva iteración.
+Realiza un programa que funcione usando dos dispositivos seriales. Los dispositivos 
+tendrán el Demo de Ardity que analizamos en clase. 
+
+Sesión 4
+***********
+
+Continuaremos revisando juntos los ejercicios 2 al 5.
+
+
+Trabajo autónomo 4
+*********************
+Tiempo estimado:
+
+* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
+* NRC Sensores 2: 7 horas y 20 minutos
+
+Termina por favor los ejercicios 2 al 5 y prepárate para la evaluación la próxima semana.
+
 
 Evaluación
 ------------
 
-Revisa de nuevo esta sección al inicio de la semana 4. NO OLVIDES presionar 
+Revisa de nuevo esta sección al inicio de la semana 5. NO OLVIDES presionar 
 la tecla F5 para refrescar la página.
