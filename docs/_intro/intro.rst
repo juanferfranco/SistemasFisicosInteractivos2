@@ -44,16 +44,16 @@ Estructura y metodología del curso
 Cronograma
 -----------
 
-#. Unidad 1: semanas 1,2,3,4.
-#. Unidad 2: semanas 5,6,7,8.
-#. Unidad 3: semanas 9,10,11,12.
+#. Unidad 1: semanas 1,2,3,4,5,6
+#. Unidad 2: semanas 7,8,9.
+#. Unidad 3: semanas 10,11,12.
 #. Unidad 4: semanas 13,14,15,16.
 
 Evaluación
 -----------
 
-* Evaluación 1: 25%. semana 4.
-* Evaluación 2: 25%. semana 8.
+* Evaluación 1: 25%. semana 6.
+* Evaluación 2: 25%. semana 9.
 * Evaluación 3: 25%. semana 12.
 * Evaluación 4: 25%. semana 16.
 

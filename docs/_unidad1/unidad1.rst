@@ -733,11 +733,75 @@ Tiempo estimado:
 * NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
 * NRC Sensores 2: 7 horas y 20 minutos
 
-Termina por favor los ejercicios 2 al 5 y prepárate para la evaluación la próxima semana.
+* Termina por favor los ejercicios 2 al 5 y prepárate para la evaluación la próxima semana.
+* Con lo repasado hasta ahora y entiendo mejor cómo funciona Ardity. Vas a crear un proyecto 
+  en Unity, pero esta vez no vas a incluir Ardity. Lo que harás es tomar solo las clases de 
+  Ardity que necesites para el proyecto. La idea con este ejercicio es que te asegures 
+  que si comprendes cuáles son las partes de Ardity que tu proyecto usa.
 
+Sesión 5
+***********
 
-Evaluación
-------------
+Ejercicio 7: Caso de estudio 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Revisa de nuevo esta sección al inicio de la semana 5. NO OLVIDES presionar 
-la tecla F5 para refrescar la página.
+En este ejercicio te propongo que revises la solución al siguiente problema:
+
+Se propone construir una aplicación interactiva con Unity que cumpla con las siguientes 
+restricciones:
+
+#. Usa solo aquellas partes de Ardity que son necesarias.
+#. La escena en Unity tiene entre otros dos GameObjects: SerialController1 y un SerialController12. 
+   Ambos GameObjects permiten atender a dos controladores externos que se conectarán al computador 
+   por medio de dos puertos seriales diferentes. Uno de los 
+   controladores implementará un protocolo ASCII y el otro un protocolo binario.
+#. Ambos controladores tienen un sensor digital y un actuador digital (pulsador y LED para 
+   probar).
+#. La aplicación cuenta con una interfaz de usuario similar a la que muestra la figura:
+
+   .. image:: ../_static/UI.png
+      :alt: UI mínima
+
+#. La aplicación detecta automáticamente los puertos seriales disponibles y 
+   el usuario puede seleccionar el deseado.
+#. La interfaz tiene un botón que permita seleccionar entre un modo de lectura de 
+   entradas manual o automático. En el manual, las entradas digitales se leen 
+   usando los botones ``READ``. En el modo automático, la propia aplicación interactiva 
+   realiza las lecturas.
+#. En cuanto a la arquitectura de software:
+
+   * Se implementan para cada tipo de protocolo.
+   * Se crean clases que heredan de la clase abstracta ``AbstractSerialThread.cs`` 
+     para cada protocolo implementado.
+
+Para descargar la solución sigue los siguientes pasos:
+
+* Crea un directorio el directorio ~/classProjects.
+* Cámbiate a ese directorio.
+* Clona este repositorio:
+
+  .. code-block:: bash 
+
+      git clone https://github.com/juanferfranco/sf2-2022-10-ej7.git
+
+* Programa dos arduinos con los códigos que encuentras que encuentras en los directorios 
+  SerialController1AsciiProtocol y SerialController2BinaryProtocol. Ambos directorios los 
+  encontraras en el directorio del recién clonado repositorio.
+* Estudia con detenimiento los protocolos de comunicación y experimenta antes con ellos usando 
+  la aplicación ScriptCommunicator.
+* Adiciona el proyecto clonado a Unity y ábrelo. Luego analiza con detenimiento cada detalle. 
+
+Trabajo autónomo 5
+*********************
+Tiempo estimado:
+
+* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
+* NRC Sensores 2: 7 horas y 20 minutos
+
+Vas a utilizar el trabajo autónomo de esta semana para terminar de aclarar tus dudas 
+con respecto al ejercicio 7 y para realizar la evaluación de la Unidad. 
+
+Evaluación de la Unidad 1
+----------------------------
+
+En progreso..
