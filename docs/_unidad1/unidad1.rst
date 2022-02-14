@@ -778,7 +778,7 @@ Para descargar la solución sigue los siguientes pasos:
 
 * Crea un directorio el directorio ~/classProjects.
 * Cámbiate a ese directorio.
-* Clona este repositorio:
+* Clona `este <https://github.com/juanferfranco/sf2-2022-10-ej7>`__ repositorio:
 
   .. code-block:: bash 
 
