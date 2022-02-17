@@ -804,4 +804,51 @@ con respecto al ejercicio 7 y para realizar la evaluación de la Unidad.
 Evaluación de la Unidad 1
 ----------------------------
 
-En progreso..
+Enunciado
+************
+
+Usando como base el ejercicio 7, vas modifica los protocolos de comunicación ASCII y binario 
+y la interfaz de usuario para que soporten los siguientes protocolos y las necesidades 
+de visualización de la aplicación.
+
+El problema consiste en comunicar una aplicación interactiva (Unity) con un controlador 
+que tiene varios sensores digitales y varios actuadores digitales.
+
+ASCII:
+
+* La aplicación podrá preguntar por el estado de todos los sensores enviando la trama:
+  ``sensores\n``.
+* La aplicación podrá preguntar por el estado de todos los actuadores con la trama:
+  ``actuadores\n``.
+* El controlador responderá con una lista que muestre el estado de los n sensores o 
+  actuadores que tenga, así: ``1,valor,2,valor,...n,valorn\n``.
+* La aplicación podrá modificar el estado de un actuador en particular enviando: 
+  ``actuador,valor\n``. Por ejemplo, para cambiar el estado del actuador 3 a alto, 
+  se enviará la trama: ``3,1\n`` 
+
+BINARIO:
+
+NO OLVIDES que DEBES ENVIAR BYTES! NO CADENAS DE CARACTERES.
+
+* La aplicación podrá preguntar por el estado de todos los sensores enviando la trama:
+  ``0x01``.
+* La aplicación podrá preguntar por el estado de todos los actuadores con la trama:
+  ``0x02``.
+* El controlador responderá con una lista que muestre el estado de los n sensores o 
+  actuadores que tenga, así: ``Byte1 Byte2 ... Byten``. El byte 1 representa la cantidad 
+  de sensores o actuadores a reportar. Los bytes 2 a n representan los valores. Por ejemplo,
+  si un controlador tiene 2 sensores, uno en estado alto y otro en estado bajo, la trama 
+  enviada será: 0x02 0x01 0x00
+* La aplicación podrá modificar el estado de actuador enviando: ``Byte1 Byte2``. El byte 
+  1 representará el número del actuador y el byte 2 su valor.
+
+Entrega
+*********
+
+* Vas a entregar en `este <https://classroom.github.com/a/S0AR95-S>`__ repositorio SOLO 
+  los archivos que están allí con tu solución propuesta.
+* En la Wiki vas a explicar cómo solucionaste la implementación de cada protocolo.
+* Coloca imágenes de la interfaz de usuario que muestren cómo se ve la visualización 
+  de la información solicitada.
+* En la sesión de la SEMANA 6 (próxima) DEBES terminar la evaluación o traerla lista 
+  para demostrarla.

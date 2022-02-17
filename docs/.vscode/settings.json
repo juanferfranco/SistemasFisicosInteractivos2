@@ -22,5 +22,6 @@
         "mbricos",
         "prototipado",
         "sumativa"
-    ]
+    ],
+    "restructuredtext.languageServer.disabled": true
 }
