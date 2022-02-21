@@ -801,6 +801,21 @@ Tiempo estimado:
 Vas a utilizar el trabajo autónomo de esta semana para terminar de aclarar tus dudas 
 con respecto al ejercicio 7 y para realizar la evaluación de la Unidad. 
 
+Sesión 6
+***********
+
+Continuar trabajando en la evaluación y realizar la entrega en la sesión 
+en caso de terminarla.
+
+Trabajo autónomo 6
+*********************
+Tiempo estimado:
+
+* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
+* NRC Sensores 2: 7 horas y 20 minutos
+
+Terminar la evaluación.
+
 Evaluación de la Unidad 1
 ----------------------------
 
