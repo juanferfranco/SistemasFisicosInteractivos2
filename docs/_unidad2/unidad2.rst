@@ -9,19 +9,23 @@ comunicación que permiten integrar sensores y actuadores
 más sofisticados a las aplicaciones: I2C y SPI.
 
 Propósito de aprendizaje
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+**************************
 
 Crear aplicaciones interactivas de tiempo real que integren
 sensores y actuadores mediante protocolos de comunicación I2C y SPI.
 
 Temas
-^^^^^^
+********
 
 * Protocolo I2C.
 * Protocolo SPI.
 
+
 Trayecto de actividades
 ------------------------
+
+Sesión 1 y trabajo autónomo 1
+*******************************
 
 Ejercicio 1
 ^^^^^^^^^^^^
@@ -63,7 +67,7 @@ al utilizar el framework de arduino:
     SPI.transfer(0xCD);
     byte x = SPI.transfer (0x00);
   
-El valor almacenado en x corresponde a la transferencia 0xCD o 0x00?
+¿El valor almacenado en x corresponde a la transferencia 0xCD o 0x00?
 
 Ejercicio 5
 ^^^^^^^^^^^^
@@ -84,7 +88,7 @@ Ten presente este material de referencia:
 La siguiente figura te muestra un diagrama del sensor: 
 
 .. image:: ../_static/BME280Pinout.jpeg
-   :scale: 40 %
+   :scale: 40%
 
 Las señales tienen la siguiente función:
 
@@ -401,7 +405,7 @@ en un arreglo, arr, para luego transmitir dicho arreglo.
 Ejercicio 9
 ^^^^^^^^^^^^
 
-Ahora si, vamos a conectarnos a Unity, pero aún sin sensor. Vamos paso
+Ahora si, vamos a conectarnos a Unity, pero aún sin sensor. Veamos paso
 a paso. Simularemos el sensor con un programa de prueba en el ESP32. 
 
 Nuestro sensor simulado enviará tres números de 16 bits sin signo que modificarán
@@ -1027,6 +1031,10 @@ La configuración del proyecto queda como se muestra en la figura:
    :scale: 100 %
    :alt: proyecto en Unity
 
+Sesión 2 y trabajo autónomo 2
+*********************************
+
+
 Ejercicio 10
 ^^^^^^^^^^^^^
 
@@ -1223,18 +1231,35 @@ Te puedes basar en `esta <https://www.arduino.cc/en/Hacking/libraryTutorial>`__
 referencia para construir tu propia biblioteca.
 
 
-PROYECTO
-^^^^^^^^^^^^^^^^^^^^^^^^
+Evaluación de la Unidad 2
+-----------------------------
 
-Ahora piensa que quieres hacer de proyecto; sin embargo, ten presente estos
-elementos mínimos:
+.. note:: FECHA MÁXIMA DE ENTREGA
 
-* Debes incluir al menos un dispositivo I2C y otro SPI. Ambos pueden estar
-  controlados por el mismo ESP32.
+    La fecha máxima de entrega del proyecto es el 22 de marzo de 2022.
 
-* Conecta el ESP32 a Unity usando comunicaciones seriales mediante un protocolo
-  binario.
+Enunciado
+**********
 
+Vas a proponer una aplicación interactiva considerando los siguientes elementos:
+
+* ¿Qué problema resuelve tu aplicación interactiva? Piensa en un contexto para 
+  tu aplicación. ¿Para qué sirve? ¿Qué problema busca resolver? ¿Para qué usuarios
+  está orientada? Explica cómo tu aplicación interactiva resuelve el problema.
+* Tu aplicación interactiva debe incluir al menos un dispositivo I2C y otro SPI. 
+  Ambos pueden estar controlados por el mismo ESP32.
+* Conecta el ESP32 a Unity (o TouchDesigner o Unreal o Godot o ...) usando comunicaciones 
+  seriales mediante un ``protocolo binario``.
 * La configuración (puerto serial, velocidad, etc) y el control de tu aplicación
-  interactiva debe realizarse mediante una interfaz de usuario gráfica.
+  interactiva debe realizarse mediante una interfaz de usuario gráfica (Como lo hiciste 
+  en la evaluación de la unidad 1).
 
+Entrega
+*********
+
+* Vas a entregar en `este <https://classroom.github.com/a/kFVP1CzV>`__ repositorio el código 
+  de la aplicación interactiva.
+* En la Wiki del repositorio debes explicar el problema, cómo propones resolverlo, qué sensores
+  usaste, explica cómo diseñaste el protocolo binario, muestra imágenes de la aplicación donde 
+  se ilustre su funcionamiento.
+* Prepara tu aplicación para mostrarla funcionando en clase.

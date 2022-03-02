@@ -23,5 +23,6 @@
         "prototipado",
         "sumativa"
     ],
-    "restructuredtext.languageServer.disabled": true
+    "restructuredtext.languageServer.disabled": true,
+    "editor.selectionClipboard": false
 }
