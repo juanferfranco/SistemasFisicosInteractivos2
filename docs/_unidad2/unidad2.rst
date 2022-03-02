@@ -1230,6 +1230,10 @@ Construye una biblioteca para Arduino con todo lo que aprendiste.
 Te puedes basar en `esta <https://www.arduino.cc/en/Hacking/libraryTutorial>`__ 
 referencia para construir tu propia biblioteca.
 
+Sesión 3 y trabajo autónomo 3
+*********************************
+
+Corresponde a la evaluación.
 
 Evaluación de la Unidad 2
 -----------------------------
