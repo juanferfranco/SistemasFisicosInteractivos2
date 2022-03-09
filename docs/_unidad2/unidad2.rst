@@ -1172,11 +1172,8 @@ Analicemos cada uno de los pasos que observamos en el diagrama:
    
 Ejercicio 17: RETO
 ^^^^^^^^^^^^^^^^^^^^
-
-Primero vamos a conectar:
-
-Ahora vamos a practicar todo lo anterior conectando a un controlador
-un sensor I2C. En este caso será `este <https://www.didacticaselectronicas.com/index.php/semiconductores/reloj-de-tiempo-real/shield-ds1307-rtc-para-wemos-d1-mini-wemos-sh-rtc-reloj-tiempo-real-relojes-de-tiempo-real-rtcs-wemos-detail>`__ 
+Ahora vamos a practicar todo lo anterior conectando el ESP32 a un sensor I2C. En este caso 
+será `este <https://www.didacticaselectronicas.com/index.php/semiconductores/reloj-de-tiempo-real/shield-ds1307-rtc-para-wemos-d1-mini-wemos-sh-rtc-reloj-tiempo-real-relojes-de-tiempo-real-rtcs-wemos-detail>`__ 
 reloj de tiempo real.
 
 `Aquí <https://datasheets.maximintegrated.com/en/ds/DS1307.pdf>`__ 
@@ -1186,16 +1183,23 @@ La biblioteca de arduino es `esta <https://www.arduino.cc/en/Reference/Wire>`__.
 
 Los planos del sensor está `aquí <http://robotdyn.com/pub/media/0G-00005695==D1mini-SHLD-RTCDS1307/DOCS/Schematic==0G-00005695==D1mini-SHLD-RTCDS1307.pdf>`__ 
 
-Para conectar el sensor al ESP32 necesitarás ser muy cuidados con los voltajes
-de alimentación del sensor. El sensor funciona a 5 voltios y el ESP32 a 3.3 voltios.
-Afortunadamente, el sensor cuenta con un convertidor de voltaje que permite
-conectar de manera segura ambos dispositivos. En los planos se puede ver un circuito 
-convertidor bidireccional de 3.3V a 5V similar a 
-`este <https://cdn.sparkfun.com/datasheets/BreakoutBoards/Logic_Level_Bidirectional.pdf>`__
+Para conectar el ESP32 con el sensor usa la siguiente tabla:
 
-Ten mucho cuidado al alimentar el sensor, este necesitará que conectes: 5V, 3.3V, GND.
+========== ======== =======
+DevKit32   DS1307   I2C
+========== ======== =======
+5V          5V       ---
+3V          3V3      ---
+GND         GND      ---
+22          D1       SCL
+21          D2       SDA 
+========== ======== =======
 
-Las resistencias de pullup ya están en el sensor como puedes observar en los planos.
+.. note:: SOBRE LAS RESISTENCIAS DE PULL UP
+
+    Nota que no estamos usando resistencias de pull up al conectar 
+    el ESP32 con el DS1307. La razón es que el módulo que te recomendé 
+    ya tiene las resistencias.
 
 Ejercicio 18: RETO
 ^^^^^^^^^^^^^^^^^^^^

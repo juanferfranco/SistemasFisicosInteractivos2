@@ -24,5 +24,7 @@
         "sumativa"
     ],
     "restructuredtext.languageServer.disabled": true,
-    "editor.selectionClipboard": false
+    "editor.selectionClipboard": false,
+    "esbonio.sphinx.confDir": "/home/juanupb/Github/SistemasFisicosInteractivos2/docs",
+    "esbonio.server.enabled": false
 }
