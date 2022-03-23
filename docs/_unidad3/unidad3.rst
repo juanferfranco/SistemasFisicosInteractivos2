@@ -9,13 +9,13 @@ sensores y actuadores a una aplicación mediante protocolos
 de comunicación inalámbricos en una red WiFi.
 
 Propósito de aprendizaje
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+***************************
 
 Crear aplicaciones interactivas de tiempo real que integren
 sensores y actuadores mediante protocolos de comunicación inalámbrica.
 
 Temas
-^^^^^^
+********
 
 * WiFi
 * TCP 
@@ -23,6 +23,9 @@ Temas
 
 Trayecto de actividades
 ------------------------
+
+Sesión y trabajo autónomo 1
+******************************
 
 Ejercicio 1
 ^^^^^^^^^^^^
@@ -53,7 +56,6 @@ se envía un carácter de sincronización ('*').
 El código del bridge (el que recibe los comandos por serial y envía por WiFi) es el siguiente:
 
 .. code-block:: cpp
-   :lineno-start: 1
    
    #include <WiFi.h>
    #include <WiFiUdp.h>
@@ -161,7 +163,6 @@ necesario para enviar datos por UDP serán:
 El código de los actuadores distribuidos será:
 
 .. code-block:: cpp
-   :lineno-start: 1
 
     #include <WiFi.h>
     #include <WiFiUdp.h>
@@ -263,6 +264,10 @@ los dispositivos, entonces puedes:
 * Usar el ESP32 como bridge y como actuadores el celular y el computador.
 * Utiliza los programas Hercules o ScriptCommunicator para simular la aplicación del PC y los actuadores.
 
+Sesión y trabajo autónomo 2 
+*****************************
+
+
 Ejercicio 4: integración con Unity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -293,7 +298,6 @@ en la `documentación <https://docs.microsoft.com/en-us/dotnet/api/system.net.so
 de C#. Allí incluso encontramos un ejemplo:
 
 .. code-block:: csharp
-    :linenos:
 
     //Creates a UdpClient for reading incoming data.
     UdpClient receivingUdpClient = new UdpClient(11000);
@@ -334,7 +338,6 @@ No hay problema. Ya sabemos cómo usar hilos cuando estudiamos Ardity. Este podr
 ser entonces el código de nuestro hilo:
 
 .. code-block:: csharp
-    :linenos:
 
     private void ReceiveDataListener()
     {
@@ -357,7 +360,6 @@ No olvides, que no podemos acceder la API de Unity desde un hilo diferente al Ga
 ¿Entonces qué hacemos? Ya sabes: COLAS, como hicimos al estudiar Ardity.
 
 .. code-block:: csharp
-    :linenos:
 
     private void SerializeMessage(string message)
     {
@@ -380,7 +382,6 @@ No olvides, que no podemos acceder la API de Unity desde un hilo diferente al Ga
 Y cómo quedaría entonces la aplicación:
 
 .. code-block:: csharp
-    :linenos:
 
     void Update()
     {
@@ -402,7 +403,6 @@ Analiza con detenimiento el siguiente ejemplo. Te recomiendo que lo implementes
 utilizando un computador y un ESP32:
 
 .. code-block:: csharp
-   :lineno-start: 1
 
     using System.Collections;
     using System.Collections.Generic;
@@ -520,20 +520,18 @@ utilizando un computador y un ESP32:
 
     }
 
-PROYECTO
-^^^^^^^^^
+Sesión y trabajo autónomo 3 
+*****************************
 
-Ahora piensa qué quieres hacer de proyecto; sin embargo, ten presente estos
-elementos mínimos:
+Durante esta sesión comenzarás la evaluación que deberás 
+mostrar funcionando la semana 13, antes de comenzar la sesión 1 
+de la Unidad 4.
 
-* Debes incluir al menos dos ESP32.
+Evaluación de la Unidad 3
+-----------------------------
 
-* Cada ESP32 debe utilizar un sensor/actuador diferente.
+.. warning:: REGRESA AQUÍ LA SEMANA 12
 
-* Debes usar al menos un sensor I2C y otro SPI.
+    En la semana 12 vamos a leer juntos el enunciado de la evaluación y 
+    a comenzar a resolver el problema propuesto en la sesión de CLASE.
 
-* La integración entre los ESP32 y el PC la debes hacer utilizando WiFi y 
-  UDP.
-
-* La configuración y el control de tu aplicación interactiva debe realizarse 
-  mediante una interfaz de usuario gráfica.

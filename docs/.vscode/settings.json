@@ -25,6 +25,6 @@
     ],
     "restructuredtext.languageServer.disabled": true,
     "editor.selectionClipboard": false,
-    "esbonio.sphinx.confDir": "/home/juanupb/Github/SistemasFisicosInteractivos2/docs",
+    "esbonio.sphinx.confDir": "${workspaceFolder}",
     "esbonio.server.enabled": false
 }
