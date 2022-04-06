@@ -530,8 +530,37 @@ de la Unidad 4.
 Evaluación de la Unidad 3
 -----------------------------
 
-.. warning:: REGRESA AQUÍ LA SEMANA 12
+.. note:: FECHA MÁXIMA DE ENTREGA
 
-    En la semana 12 vamos a leer juntos el enunciado de la evaluación y 
-    a comenzar a resolver el problema propuesto en la sesión de CLASE.
+    La fecha máxima de entrega del proyecto es el 20 de abril de 2022.
+    Ese día hacemos clase normal, pero en los primeros minutos presentarás 
+    el proyecto funcionando.
+
+Enunciado
+**********
+
+Vas a proponer una aplicación interactiva considerando los siguientes elementos:
+
+* ¿Qué problema resuelve tu aplicación interactiva? Piensa en un contexto para 
+  tu aplicación. ¿Para qué sirve? ¿Qué problema busca resolver? ¿Para qué usuarios
+  está orientada? Explica cómo tu aplicación interactiva resuelve el problema.
+* La aplicación debe incluir al menos dos ESP32.
+* Tu aplicación interactiva debe incluir al menos un dispositivo I2C y otro SPI. 
+  Conecta cada tipo de sensor a un ESP32.
+* Cada ESP32 debe incluir un actuador.
+* Conecta el ESP32 a Unity (o TouchDesigner o Unreal o Godot o ...) usando 
+  WiFi y UDP MEDIANTE un ``protocolo BINARIO``.
+* Cualquier configuración que hagas en tu aplicación DEBE hacerse por medio de una 
+  interfaz gráfica. No ``quemes`` información en el código.
+
+Entrega
+*********
+
+* Vas a entregar en `este <https://classroom.github.com/a/L1qcWctm>`__ repositorio el código 
+  de la aplicación interactiva (PC y microcontroladores).
+* En la Wiki del repositorio debes explicar el problema, cómo propones resolverlo, qué sensores
+  usaste, explica cómo diseñaste el protocolo, explica cómo es la arquitectura, que consideraciones 
+  en términos de programación multihilada usas y por qué, muestra un video de la aplicación donde 
+  se ilustre su funcionamiento.
+* Prepara UN DEMO (demostración) de tu aplicación para mostrarla funcionando en clase.
 

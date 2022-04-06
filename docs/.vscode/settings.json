@@ -1,6 +1,5 @@
 {
     "python.pythonPath": "/bin/python",
-    "restructuredtext.confPath": "${workspaceFolder}",
     "cSpell.language": "en,es",
     "cSpell.words": [
         "Ardity",
@@ -23,8 +22,7 @@
         "prototipado",
         "sumativa"
     ],
-    "restructuredtext.languageServer.disabled": true,
     "editor.selectionClipboard": false,
     "esbonio.sphinx.confDir": "${workspaceFolder}",
-    "esbonio.server.enabled": false
+    "esbonio.server.enabled": true
 }
