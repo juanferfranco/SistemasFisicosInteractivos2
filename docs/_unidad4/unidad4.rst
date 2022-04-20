@@ -8,19 +8,23 @@ En esta unidad vamos a integrar a la aplicación interactiva
 otras aplicaciones externas mediante el protocolo de comunicación OSC
 
 Propósito de aprendizaje
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+****************************
 
 Crear aplicaciones interactivas de tiempo real que integren
 sensores, actuadores y aplicaciones mediante protocolos de comunicación
 inalámbrica.
 
 Temas
-^^^^^^
+********
 
 Integración de aplicaciones mediante OSC.
 
+
 Trayecto de actividades
 ------------------------
+
+Sesión 1
+***********
 
 Ejercicio 1: RETO
 ^^^^^^^^^^^^^^^^^^^
@@ -176,32 +180,55 @@ reproduciendo el beat 16:
 Ejercicio 2
 ^^^^^^^^^^^^^^^^^^^
 
-Explorar algunas aplicaciones con las cuales podrás realizar
+Explorar una posible aplicación con la cual podrás realizar
 el proyecto de esta unidad.
 
 Te voy a dejar dos:
 
 `TouchOSC <https://hexler.net/products/touchosc>`__
-`Node-RED <https://nodered.org/>`__
 
 
-PROYECTO
-^^^^^^^^^^^^^^^^^^^^^^^^
+Evaluación de la unidad 4
+---------------------------
 
-Ahora piensa que quieres hacer de proyecto; sin embargo, ten presente estos
-elementos mínimos:
+.. note:: FECHA MÁXIMA DE ENTREGA
 
-* Debes incluir al menos dos ESP32.
+    La fecha máxima de entrega del proyecto es el 11 de mayo de 2022. Para 
+    ese día debes preparar una presentación donde demuestres la aplicación 
+    funcionando y expongas cómo la realizaste.
 
-* Cada ESP32 debe utilizar un sensor/actuador diferente.
 
+Enunciado
+**********
+
+Vas a proponer una aplicación interactiva considerando los siguientes elementos:
+
+* ¿Qué problema resuelve tu aplicación interactiva? Piensa en un contexto para 
+  tu aplicación. ¿Para qué sirve? ¿Qué problema busca resolver? ¿Para qué usuarios
+  está orientada? Explica cómo tu aplicación interactiva resuelve el problema.
+* Debes incluir al menos dos ESP32. Cada uno con un sensor y un actuador.
+* Cada ESP32 debe utilizar un sensor diferente. Los actuadores de cada ESP32 pueden ser iguales.
 * Debes usar al menos un sensor I2C y otro SPI.
-
 * La integración entre los ESP32 y el PC la debes hacer utilizando
   OSC.
-
 * Debes incluir en el proyecto al menos una aplicación que interactúe
   con tu aplicación interactiva usando OSC. 
-
 * La configuración y el control de tu aplicación interactiva debe realizarse 
   mediante una interfaz de usuario gráfica.
+
+Entrega
+*********
+
+* Vas a entregar en `este <https://classroom.github.com/a/JyoV02iT>`__ repositorio el código 
+  de la aplicación interactiva (aplicaciones interactivas, aplicaciones de los microcontroladores).
+* En el archivo README.md del repositorio debes explicar el problema, cómo propones resolverlo, qué sensores
+  usaste, explica cómo diseñaste el protocolo, explica cómo es la arquitectura, que consideraciones 
+  en términos de programación multihilada usas y por qué, muestra un video de la aplicación donde 
+  se ilustre su funcionamiento.
+* No olvides preparar tu exposición.
+
+Criterios de evaluación
+**************************
+
+* Demo de la aplicación funcionando y documentación en Github: 3 unidades
+* Presentación de la aplicación en clase con Demo y explicación de su funcionamiento: 2 unidades.

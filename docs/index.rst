@@ -21,5 +21,5 @@ Nombre del docente moderador: Juan Fernando Franco Higuita
    Unidad 1: comunicaciones seriales <_unidad1/unidad1>
    Unidad 2: sensores y actuadores inteligentes <_unidad2/unidad2>
    Unidad 3: sensores y actuadores inalámbricos <_unidad3/unidad3>
-..
-   Unidad 4 <_unidad4/unidad4>
+   Unidad 4: aplicaciones interactivas distribuidas <_unidad4/unidad4>
+   
