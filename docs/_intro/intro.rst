@@ -44,31 +44,31 @@ Estructura y metodología del curso
 Cronograma
 -----------
 
-#. Unidad 1: semanas 1,2,3,4,5,6
-#. Unidad 2: semanas 7,8,9.
-#. Unidad 3: semanas 10,11,12.
-#. Unidad 4: semanas 13,14,15,16.
+#. Unidad 1: semanas 1 a 4
+#. Unidad 2: semanas 5 a 8.
+#. Unidad 3: semanas 9 a 12.
+#. Unidad 4: semanas 13 a 16.
 
 Evaluación
 -----------
 
-* Evaluación 1: 25%. semana 6.
-* Evaluación 2: 25%. semana 9.
+* Evaluación 1: 25%. semana 4.
+* Evaluación 2: 25%. semana 8.
 * Evaluación 3: 25%. semana 12.
 * Evaluación 4: 25%. semana 16.
 
 Dedicación
 ----------
 
-Este curso en 2022-10 se ofrecerá en modalidad proyecto. En el espacio de asesoría presencial 
-semanal se atenderá un grupo compuesto por dos NRCs correspondientes a sensores 2 y sistemas 
-físicos interactivos 2. Cada NRC tiene una cantidad de créditos diferente y por tanto actividades 
-extra para sensores 2 al tener la mayor cantidad de créditos (uno más, es decir, 3 horas más 
-de trabajo semanal).
+.. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO 
 
-* Sistemas físicos interactivos 2 tendrá 1 hora 40 minutos de asesorías presenciales y 4 horas y 20 minutos 
-  de trabajo autónomo.
-* Sensores 2 tendrá 1 hora 40 minutos de asesoría presencial y 7 horas y 20 minutos de trabajo autónomo.
+    MUY ALTO!!!!!!!!!!!!!!!!!
+
+Este curso en 2022-20 se ofrecerá en modalidad proyecto. Semanalmente tendremos encuentros
+presenciales para resolver dudas y para realizar asesorías.
+
+* Las asesorías presenciales serán de 1 hora 40 minutos.
+* El trabajo autónomo del curso será de 4 horas y 20 minutos.
 
 
 Actividades de cada unidad
