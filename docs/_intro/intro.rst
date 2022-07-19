@@ -4,8 +4,20 @@ INTRODUCCIÓN AL CURSO
 Descripción del curso
 ----------------------
 
-El objeto de este curso es aprender a integrar redes de sensores, actuadores y sistemas de cómputo 
-para la construcción de aplicaciones interactivas.
+El objeto de este curso es aprender a integrar sistemas de cómputo distribuidos para la construcción de 
+aplicaciones interactivas.
+
+¿Por ejemplo?
+
+* `Interactive <https://momentfactory.com/reel/interactive-demo>`__ Momento Factory
+* `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory
+
+Entretenimiento digital tiene 5 tipos de cursos: contenidos digitales, diseño, ingeniería de software, 
+materialización y gestión e innovación TIC. Este curso es del tipo materialización.
+
+¿Cómo encaja este curso en el diseño de Ingeniería en diseño de entretenimiento digital?
+
+Te lo cuento en el tablero.
 
 Propósito del curso
 ---------------------
@@ -27,11 +39,13 @@ de sistemas intermediados por el entretenimiento digital.
 
 NIVEL: autónomo.
 
+¿Qué significa el nivel autónomo? ¿Eso quiere decir que hay más niveles?
+
 Carta descriptiva
 -------------------
 
-En `este <https://drive.google.com/file/d/1rRzPxSS62u-0AlrML0ZpUeFVswV78DD2/view?usp=sharing>`__ enlace puedes 
-revisar la carta descriptiva del curso.
+En `este <https://drive.google.com/file/d/1rRzPxSS62u-0AlrML0ZpUeFVswV78DD2/view?usp=sharing>`__ enlace 
+puedes revisar la carta descriptiva del curso.
 
 Estructura y metodología del curso
 -----------------------------------
@@ -44,40 +58,39 @@ Estructura y metodología del curso
 Cronograma
 -----------
 
-#. Unidad 1: semanas 1 a 4
-#. Unidad 2: semanas 5 a 8.
-#. Unidad 3: semanas 9 a 12.
-#. Unidad 4: semanas 13 a 16.
+#. Unidad 1: semanas 1 a 6.
+#. Unidad 2: semanas 7 a 9.
+#. Unidad 3: semanas 10 a 13.
+#. Unidad 4: semanas 14 a 16.
 
 Evaluación
 -----------
 
-* Evaluación 1: 25%. semana 4.
-* Evaluación 2: 25%. semana 8.
-* Evaluación 3: 25%. semana 12.
+* Evaluación 1: 25%. semana 6.
+* Evaluación 2: 25%. semana 9.
+* Evaluación 3: 25%. semana 13.
 * Evaluación 4: 25%. semana 16.
 
 Dedicación
 ----------
 
-.. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO 
+.. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO... 
 
     MUY ALTO!!!!!!!!!!!!!!!!!
 
 Este curso en 2022-20 se ofrecerá en modalidad proyecto. Semanalmente tendremos encuentros
-presenciales para resolver dudas y para realizar asesorías.
+presenciales ``para resolver dudas, para realizar asesorías y para realizar el seguimiento 
+de los proyectos``.
 
 * Las asesorías presenciales serán de 1 hora 40 minutos.
 * El trabajo autónomo del curso será de 4 horas y 20 minutos.
 
-
 Actividades de cada unidad
 ----------------------------
 
-Cada unidad está compuesta por lecturas, ejercicios y un proyecto. Cada semana nos reuniremos 
+Cada unidad está compuesta por lecturas, ejercicios y ``un PROYECTO``. Cada semana nos reuniremos 
 para resolver las dudas y aclarar conceptos correspondientes al trabajo de esa semana y la semana 
 anterior. El resto del tiempo debes organizar tu agenda para emplear las horas de trabajo autónomas.
-
 
 Evidencias de evaluación
 -------------------------

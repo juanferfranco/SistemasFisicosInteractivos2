@@ -4,16 +4,15 @@ Unidad 1. Comunicaciones seriales
 Introducción
 --------------
 
-En esta primera unidad vamos a repasar algunos aspectos
-importantes de cursos anteriores que necesitarás de nuevo en este curso.
-En especial:
+En esta primera unidad vamos a repasar algunos aspectos importantes de cursos anteriores. 
+Entre los aspectos a revisar están:
 
 * Comunicaciones seriales mediante protocolos ASCII y binarios
 * Técnicas de programación concurrente y programación orientada
   a objetos.
 
-Adicionalmente, en esta unidad vamos a introducir herramientas
-de trabajo en equipo bajo control de versión y de productividad.
+Adicionalmente, en esta unidad vamos a repasar el uso de herramientas
+de trabajo en equipo bajo control de versión.
 
 Propósito de aprendizaje
 ***************************
@@ -22,53 +21,87 @@ Crear aplicaciones interactivas de tiempo real que integren
 sensores y actuadores mediante puertos seriales utilizando protocolos
 de comunicación binarios y ASCII.
 
-Aplicar herramientas de control de versión y productividad al
-desarrollo del proyecto.
+Aplicar herramientas de control de versión al desarrollo del proyecto.
 
-Temas
-********
 
-* Protocolos de comunicación seriales ASCII y binarios.
-* Arquitecturas de software concurrentes
-* Control de versión
+Evaluación de la Unidad 1
+----------------------------
+
+.. warning:: FECHA DE ENTREGA
+
+    Agosto 11 de 2022 en la sesión presencial.
+
+
+Enunciado
+************
+
+Construye una aplicación interactiva que integre CONTENIDO DIGITAL, INGENIERÍA DE SOFTWARE Y
+DISEÑO para resolver un problema simple. 
+
+
+* Define un juego simple (te propongo PONG) que quieras usar. Busca en Github el código fuente del proyecto 
+  en Unity. Realiza un fork y configura el proyecto para trabajar en equipo.
+* Vas a crear dos controles que se conectarán a la aplicación interactiva por medio 
+  de puertos seriales.
+* La aplicación debe tener una pantalla de configuración donde seleccionarás y configurarás 
+  los controles: puerto serial, velocidad, protocolo de comunicación.
+* Cada controlador debe soportar la posibilidad de comunicarse mediante un protocolo ASCII 
+  o un protocolo binario.
+
+Entrega
+*********
+
+* Vas a trabajar tu proyecto en `este <https://classroom.github.com/a/ZXy_lP5X>`__ repositorio.
+* En el archivo README.md vas a incluir TODA la documentación solicitada:
+  
+  * Inserta la URL de un video (en youtube) que muestre en funcionamiento el proyecto.
+  * Inserta imágenes con capturas de pantalla de las diferentes partes de la aplicación.
+  * ``Explica detalladamente`` cómo funciona el proyecto: cómo está construida la pantalla de
+    configuración de los controles, cómo se integra esta pantalla al juego, cómo se regresa
+    a la pantalla de configuración.
+  * ``Explica detalladamente`` cómo se integran los controlas a la aplicación interactiva. No 
+    olvides explicar el código del control y el código en Unity. FUNDAMENTAL explicar el 
+    protocolo de comunicación.
+
+Calificación
+**************
+
+* EL proyecto solo se considera entregado cuando FUNCIONE AL 100% y esté documentado al 
+  100%. Una vez logres esto la nota es 5.
+* Si entregas completo SOLO el funcionamiento la nota es 3.
+* Cualquier entrega parcial que evidencie trabajo en equipo y dedicación tendrá una nota de 2.
+* Entregas parciales que no evidencien trabajo en equipo y muestren una dedicación pobre 
+  tendrá una nota de 1.
+* No entregar tendrá una nota de 0.
+
 
 Trayecto de actividades
-------------------------
+--------------------------
 
-Sesión 1
-***********
+Es posible que necesites repasar algunos conceptos de cursos anteriores para solucionar el 
+proyecto. Por tanto, te voy a dejar unos ejercicios que te ayudarán.
 
-Ejercicio 1: Introducción a Git y GitHub 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ejercicio 1: Git y GitHub 
+******************************
 
-(Tiempo estimado: 1 hora 40 minutos)
+* Vas a ver el siguiente `playlist <https://www.youtube.com/watch?v=NB1womcQm7g&list=PLNoRsahkiuzWzJ18HSWT8ArYsi1gxFExm>`__
+* Luego de verlo, vas a repetir el playlist, pero esta vez vas a reproducir los ejercicios 
+  que están allí con un compañero, al menos.
+* Repite los procesos anteriores PERO ESTA VEZ DE MEMORIA.
 
-.. toctree::
-    :maxdepth: 1
+.. warning:: REVISIÓN LA PRÓXIMA SEMANA DE ESTE TRABAJO.
 
-    Introducción a Git y GitHub <./introGit>
+    Muestra al profesor el resultado de este ejercicio.
 
-Trabajo autónomo 1
-*********************
-Tiempo estimado:
-
-* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
-* NRC Sensores 2: 7 horas y 20 minutos
-
-
-Vas a terminar primero el Ejercicio 1. Luego vas a alistar algunas 
-de las herramientas necesarias para este curso. Finalmente, vas a realizar 
-una primera iteración a los siguientes ejercicios de repaso de los cursos Sistemas 
-Físicos Interactivos 1 y sensores 1.
 
 Ejercicio 2: ESP32 
-^^^^^^^^^^^^^^^^^^^^^
+******************************
 
-En este curso vas a trabajar con el controlador `ESP32 <https://www.didacticaselectronicas.com/index.php/comunicaciones/bluetooth/tarjeta-de-desarrollo-esp32-wroom-32d-tarjetas-modulos-de-desarrollo-con-de-wifi-y-bluetooth-esp32u-con-conector-u-fl-tarjeta-comunicaci%C3%B3n-wi-fi-bluetooth-esp32u-iot-esp32-nodemcu-d0wd-detail>`__ 
-y con el framework de arduino. Actualmente hay dos versiones del IDE. Vas a trabajar con la más estable, 
-pero te recomiendo que también le des una mirada a la versión nueva (Arduino IDE 2.0). El link con las
-urls para las descargas de las diferentes versiones de IDE está 
-`aquí <https://www.arduino.cc/en/software>`__.
+En este curso vas a trabajar con el controlador `ESP32 <https://www.didacticaselectronicas.com/index.php/sistemas-de-desarrollo/espressif-systems/esp32/tarjeta-de-desarrollo-esp32-wrover-b-tarjetas-modulos-de-desarrollo-de-con-wifi-y-bluetooth-esp32u-comunicaci%C3%B3n-wi-fi-bluetooth-esp32u-iot-esp32-nodemcu-wrover-devkit-detail>`__ 
+y con el framework de arduino. Actualmente hay dos versiones del IDE. Vas a trabajar con la más estable, es decir,
+la 1.8.19. El link con las urls para las descargas de las diferentes versiones de IDE está 
+`aquí <https://www.arduino.cc/en/software>`__. Te recomiendo que descargues la versión .zip y una vez 
+descomprimas el archivo, antes de abrir el IDE de arduino, crea la carpeta ``portable``.
 
 Para trabajar con el ESP32 debes instalar el soporte para esta plataforma en el IDE de
 arduino como indica `este <https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html>`__ 
@@ -84,7 +117,8 @@ sitio.
   la cadena ``Chao mundo``.
 
 Ejercicio 3: lee la documentación del ESP32 arduino core  
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**********************************************************
+
 
 Con este ejercicio quiero que EXPLORES y que busques todo lo que te cause 
 curiosidad acerca de la documentación oficial del PORT de arduino para el ESP32.
@@ -92,7 +126,7 @@ El repositorio oficial es `este <https://github.com/espressif/arduino-esp32>`__.
 La página oficial con la documentación es `esta <https://docs.espressif.com/projects/arduino-esp32/en/latest/index.html>`__.
 
 Ejercicio 4: protocolos ASCII
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+******************************
 
 Vamos a recordar cómo integrar un sensor a Unity mediante el uso
 de protocolos ASCII. ¿Recuerdas Ardity?
@@ -659,7 +693,7 @@ timeout de lectura.
 
 
 Ejercicio 5: protocolos binarios
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+************************************
 
 Ahora vas a repasar el uso de protocolos binarios para integrar la información 
 de un sensor que usa este protocolo a una aplicación en Unity. Se trata de un 
@@ -685,65 +719,8 @@ El código de Unity está `aquí <https://github.com/juanferfranco/sensores2/tre
 
 La escena donde está la implementación se llama DemoScene_RFIDProtocol.
 
-Sesión 2
-***********
-
-Ejercicio 6: revisión de conceptos básicos 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(Tiempo estimado: 1 hora 40 minutos)
-
-En esta sesión vamos a revisar juntos algunos conceptos básicos de manejo del puerto 
-de comunicaciones seriales, las comunicaciones en binario y en ASCII.
-
-Trabajo autónomo 2
-*********************
-Tiempo estimado:
-
-* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
-* NRC Sensores 2: 7 horas y 20 minutos
-
-Vas a revisar de nuevo los ejercicios 2 al 5. La idea es que puedas terminar de analizar detenidamente 
-y si ya lo has hecho te propongo que hagas una nueva iteración.
-
-Sesión 3
-***********
-
-Vamos a recorrer entre todos el material de la unidad resolviendo dudas.
-
-Trabajo autónomo 3
-*********************
-Tiempo estimado:
-
-* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
-* NRC Sensores 2: 7 horas y 20 minutos
-
-Realiza un programa que funcione usando dos dispositivos seriales. Los dispositivos 
-tendrán el Demo de Ardity que analizamos en clase. 
-
-Sesión 4
-***********
-
-Continuaremos revisando juntos los ejercicios 2 al 5.
-
-
-Trabajo autónomo 4
-*********************
-Tiempo estimado:
-
-* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
-* NRC Sensores 2: 7 horas y 20 minutos
-
-* Termina por favor los ejercicios 2 al 5 y prepárate para la evaluación la próxima semana.
-* Con lo repasado hasta ahora y entiendo mejor cómo funciona Ardity. Vas a crear un proyecto 
-  en Unity, pero esta vez no vas a incluir Ardity. Lo que harás es tomar solo las clases de 
-  Ardity que necesites para el proyecto. La idea con este ejercicio es que te asegures 
-  que si comprendes cuáles son las partes de Ardity que tu proyecto usa.
-
-Sesión 5
-***********
-
-Ejercicio 7: Caso de estudio 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ejercicio 6: Caso de estudio 
+******************************
 
 En este ejercicio te propongo que revises la solución al siguiente problema:
 
@@ -788,82 +765,6 @@ Para descargar la solución sigue los siguientes pasos:
   SerialController1AsciiProtocol y SerialController2BinaryProtocol. Ambos directorios los 
   encontraras en el directorio del recién clonado repositorio.
 * Estudia con detenimiento los protocolos de comunicación y experimenta antes con ellos usando 
-  la aplicación ScriptCommunicator.
+  la aplicación ``ScriptCommunicator``.
 * Adiciona el proyecto clonado a Unity y ábrelo. Luego analiza con detenimiento cada detalle. 
 
-Trabajo autónomo 5
-*********************
-Tiempo estimado:
-
-* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
-* NRC Sensores 2: 7 horas y 20 minutos
-
-Vas a utilizar el trabajo autónomo de esta semana para terminar de aclarar tus dudas 
-con respecto al ejercicio 7 y para realizar la evaluación de la Unidad. 
-
-Sesión 6
-***********
-
-Continuar trabajando en la evaluación y realizar la entrega en la sesión 
-en caso de terminarla.
-
-Trabajo autónomo 6
-*********************
-Tiempo estimado:
-
-* NRC Sistemas Físicos interactivos 2: 4 horas y 20 minutos
-* NRC Sensores 2: 7 horas y 20 minutos
-
-Terminar la evaluación.
-
-Evaluación de la Unidad 1
-----------------------------
-
-Enunciado
-************
-
-Usando como base el ejercicio 7, vas modifica los protocolos de comunicación ASCII y binario 
-y la interfaz de usuario para que soporten los siguientes protocolos y las necesidades 
-de visualización de la aplicación.
-
-El problema consiste en comunicar una aplicación interactiva (Unity) con un controlador 
-que tiene varios sensores digitales y varios actuadores digitales.
-
-ASCII:
-
-* La aplicación podrá preguntar por el estado de todos los sensores enviando la trama:
-  ``sensores\n``.
-* La aplicación podrá preguntar por el estado de todos los actuadores con la trama:
-  ``actuadores\n``.
-* El controlador responderá con una lista que muestre el estado de los n sensores o 
-  actuadores que tenga, así: ``1,valor,2,valor,...n,valorn\n``.
-* La aplicación podrá modificar el estado de un actuador en particular enviando: 
-  ``actuador,valor\n``. Por ejemplo, para cambiar el estado del actuador 3 a alto, 
-  se enviará la trama: ``3,1\n`` 
-
-BINARIO:
-
-NO OLVIDES que DEBES ENVIAR BYTES! NO CADENAS DE CARACTERES.
-
-* La aplicación podrá preguntar por el estado de todos los sensores enviando la trama:
-  ``0x01``.
-* La aplicación podrá preguntar por el estado de todos los actuadores con la trama:
-  ``0x02``.
-* El controlador responderá con una lista que muestre el estado de los n sensores o 
-  actuadores que tenga, así: ``Byte1 Byte2 ... Byten``. El byte 1 representa la cantidad 
-  de sensores o actuadores a reportar. Los bytes 2 a n representan los valores. Por ejemplo,
-  si un controlador tiene 2 sensores, uno en estado alto y otro en estado bajo, la trama 
-  enviada será: 0x02 0x01 0x00
-* La aplicación podrá modificar el estado de actuador enviando: ``Byte1 Byte2``. El byte 
-  1 representará el número del actuador y el byte 2 su valor.
-
-Entrega
-*********
-
-* Vas a entregar en `este <https://classroom.github.com/a/S0AR95-S>`__ repositorio SOLO 
-  los archivos que están allí con tu solución propuesta.
-* En la Wiki vas a explicar cómo solucionaste la implementación de cada protocolo.
-* Coloca imágenes de la interfaz de usuario que muestren cómo se ve la visualización 
-  de la información solicitada.
-* En la sesión de la SEMANA 6 (próxima) DEBES terminar la evaluación o traerla lista 
-  para demostrarla.
