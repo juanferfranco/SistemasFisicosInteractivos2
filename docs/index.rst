@@ -13,6 +13,7 @@ Curso de 2 créditos y 96 horas totales
    Introducción al curso <_intro/intro>
    ¿Cómo aprender a aprender? <_intro/learning>
    ¿Qué herramientas necesito? <_intro/tools>
+   
 
 .. toctree::
    :maxdepth: 1
