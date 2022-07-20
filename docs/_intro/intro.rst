@@ -47,32 +47,33 @@ Carta descriptiva
 En `este <https://drive.google.com/file/d/1rRzPxSS62u-0AlrML0ZpUeFVswV78DD2/view?usp=sharing>`__ enlace 
 puedes revisar la carta descriptiva del curso.
 
-Estructura y metodología del curso
------------------------------------
+Estructura 
+------------
 
-#. Unidad 1: comunicaciones seriales.
-#. Unidad 2: sensores y actuadores inteligentes.
-#. Unidad 3: sensores y actuadores inalámbricos.
-#. Unidad 4: aplicaciones interactivas distribuidas.
+#. Unidad 1: trabajo en equipo y proyecto 1.
+#. Unidad 2: proyecto 2.
+#. Unidad 3: proyecto 3.
 
 Cronograma
 -----------
 
 #. Unidad 1: semanas 1 a 6.
-#. Unidad 2: semanas 7 a 9.
-#. Unidad 3: semanas 10 a 13.
-#. Unidad 4: semanas 14 a 16.
+#. Unidad 2: semanas 7 a 11.
+#. Unidad 3: semanas 12 a 16.
 
 Evaluación
 -----------
 
-* Evaluación 1: 25%. semana 6.
-* Evaluación 2: 25%. semana 9.
-* Evaluación 3: 25%. semana 13.
-* Evaluación 4: 25%. semana 16.
+(`Reglamento estudiantil UPB <https://gconocimiento.upb.edu.co/gesdoc/Informacin%20Institucional/Reglamento%20Estudiantes%20Pregrado.pdf>`__)
 
-Dedicación
-----------
+* Evaluación 1: 10%. Control de versión y flujo de trabajo en equipo. semana 2.
+* Evaluación 2: 30%. proyecto 1. semana 6.
+* Evaluación 3: 30%. proyecto 2. semana 11.
+* Evaluación 4: 30%. proyecto 3. semana 16.
+
+
+Dedicación y metodología del curso
+------------------------------------
 
 .. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO... 
 
@@ -117,16 +118,5 @@ Para realizar el trabajo de cada unidad se espera que hagas lo siguiente:
 Bitácora  
 ------------------------------
 
-Vamos a utilizar dos herramientas para que documentes y organices tu trabajo:
-
-* GitHub
-* `Notion <https://www.notion.so>`__
-
-En GitHub mantendrás todo tu código bajo control de versión.
-
-En Notion llevarás tu bitácora electrónica.
-
-Control de versión
---------------------
-
-* Crea una cuenta en GitHub a menos que ya la tengas.
+Vamos a utilizar Github para llevar el control de versión del código 
+y de la documentación de los proyectos.

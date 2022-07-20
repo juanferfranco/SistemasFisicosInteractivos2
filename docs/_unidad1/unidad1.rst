@@ -1,4 +1,4 @@
-Unidad 1. Comunicaciones seriales
+Unidad 1. Trabajo en equipo y proyecto 1
 ==============================================
 
 Introducción
@@ -10,10 +10,8 @@ Entre los aspectos a revisar están:
 * Comunicaciones seriales mediante protocolos ASCII y binarios
 * Técnicas de programación concurrente y programación orientada
   a objetos.
-
-Adicionalmente, en esta unidad vamos a repasar el uso de herramientas
-de trabajo en equipo bajo control de versión.
-
+* Herramientas y procesos con control de versión para trabajar en equipo
+  
 Propósito de aprendizaje
 ***************************
 
@@ -24,12 +22,78 @@ de comunicación binarios y ASCII.
 Aplicar herramientas de control de versión al desarrollo del proyecto.
 
 
-Evaluación de la Unidad 1
+Evaluación 1: trabajo en equipo 
+---------------------------------
+
+.. warning:: FECHA DE ENTREGA Y SUSTENTACIÓN
+
+    Semana 2 del curso. Julio 28 de 2022 en la sesión presencial.
+
+Tiempo estimado
+*******************
+
+El tiempo estimado para este proyecto es de 10 horas.
+
+
+Enunciado
+************
+
+Vas a realizar un proyecto que consta de dos proyectos secundarios: uno en Unity y otro con el
+framework de Arduino. Considerando:
+
+
+* Los proyectos puede ser MUY SIMPLE, incluso no funcionales, pero deben evidenciar control de versión, 
+  creación de flujos de trabajo y trabajo en equipo. 
+* El proyecto en Unity debe tener assets y código, PERO no tiene que ser una aplicación 
+  funcional, es decir, puedes hacer una aplicación DUMMY que simule una aplicación real. 
+* El proyecto en Unity debe tener configurado el soporte para LFS y al menos un par de assets 
+  que hagan uso de este sistema.
+* El proyecto en el framework de Arduino lo debes realizar con visual studio code y 
+  solo tendrá código.
+* Ten presente que en ambos proyectos debes definir tareas que serán asignadas a cada miembro 
+  del equipo.
+
+
+Entrega
+*********
+
+* Vas a trabajar tu proyecto en `este <https://classroom.github.com/a/FFRXTVN->`__ repositorio. Los 
+  miembros del mismo equipo deben unirse al mismo repositorio para tener acceso compartido.
+* En el archivo README.md vas a incluir TODA la documentación solicitada:
+  
+  * Explica detalladamente cómo definiste la estrategia de branching de las aplicaciones y cómo 
+    abordaste el flujo de trabajo para evitar conflictos de versión.
+  * Vas a construir un tutorial que te servirá para repasar los procesos de control de versión 
+    y trabajo en equipo para los proyectos que vienen en el curso. En el tutorial vas a 
+    ``explicar detalladamente`` y PASO POR PASO ``qué`` estás haciendo, ``por qué`` los estás haciendo 
+    así y ``cómo`` lo estás haciendo (comandos necesarios).
+  * (Opcional) Puedes incluir de forma COMPLEMENTARIA, el tutorial debe estar por escrito, VIDEOS y/o imágenes 
+    del proceso. Si incluyes videos busca que sean cortos y que muestren solo una parte del proceso.
+
+Calificación
+**************
+
+* El trabajo solo se considera entregado cuando esté completo al 100% con todo lo solicitado
+  y sustentado en una de las sesiones presenciales. La nota es 5.
+* Si llagas a la fecha de entrega y no has terminado la evaluación se reportará en el sistema una nota 
+  temporal de 0.
+* Cumplido el plazo de entrega tendrás 2 sesiones presenciales más para entregar, SOLO se recibirán 
+  trabajos completos al 100%, pero tendrás una penalidad de una unidad en la nota. La nota será de 4.
+* En cualquier otro caso, la nota temporal de 0 asignada en la fecha de entrega quedará permanente 
+  en el sistema.
+
+Evaluación 2: proyecto 1
 ----------------------------
 
-.. warning:: FECHA DE ENTREGA
+.. warning:: FECHA DE ENTREGA Y SUSTENTACIÓN 
 
-    Agosto 11 de 2022 en la sesión presencial.
+    
+    Agosto 25 de 2022 en la sesión presencial.
+
+Tiempo estimado
+*******************
+
+El tiempo estimado para este proyecto es de 24 horas.
 
 
 Enunciado
@@ -40,13 +104,15 @@ DISEÑO para resolver un problema simple.
 
 
 * Define un juego simple (te propongo PONG) que quieras usar. Busca en Github el código fuente del proyecto 
-  en Unity. Realiza un fork y configura el proyecto para trabajar en equipo.
+  en Unity. Realiza un fork y configura el proyecto para trabajar en equipo. Puede usar un juego propio.
 * Vas a crear dos controles que se conectarán a la aplicación interactiva por medio 
   de puertos seriales.
 * La aplicación debe tener una pantalla de configuración donde seleccionarás y configurarás 
   los controles: puerto serial, velocidad, protocolo de comunicación.
-* Cada controlador debe soportar la posibilidad de comunicarse mediante un protocolo ASCII 
-  o un protocolo binario.
+* Cada control debe soportar la posibilidad de comunicarse mediante un protocolo ASCII 
+  o un protocolo binario. Esta opción es configurable.
+* Recuerda configurar tu flujo de trabajo y el sistema de control de versión para las aplicaciones 
+  de Unity y de los controles.
 
 Entrega
 *********
@@ -66,14 +132,15 @@ Entrega
 Calificación
 **************
 
-* EL proyecto solo se considera entregado cuando FUNCIONE AL 100% y esté documentado al 
-  100%. Una vez logres esto la nota es 5.
-* Si entregas completo SOLO el funcionamiento la nota es 3.
-* Cualquier entrega parcial que evidencie trabajo en equipo y dedicación tendrá una nota de 2.
-* Entregas parciales que no evidencien trabajo en equipo y muestren una dedicación pobre 
-  tendrá una nota de 1.
-* No entregar tendrá una nota de 0.
-
+* El proyecto solo se considera entregado cuando esté completo al 100% con todo lo solicitado
+  ``y`` sustentado en una de las sesiones presenciales. La nota es 5.
+* Si llagas a la fecha de entrega y no has terminado la evaluación se reportará en el sistema una nota 
+  temporal de 0.
+* Cumplido el plazo de entrega tendrás 2 sesiones presenciales más para entregar y sustentar. ``SOLO`` se 
+  recibirán trabajos completos al 100%, pero tendrás una penalidad de una unidad en la nota. 
+  La nota será de 4.
+* En cualquier otro caso, la nota temporal de 0 asignada en la fecha de entrega quedará permanente 
+  en el sistema.
 
 Trayecto de actividades
 --------------------------
@@ -84,15 +151,10 @@ proyecto. Por tanto, te voy a dejar unos ejercicios que te ayudarán.
 Ejercicio 1: Git y GitHub 
 ******************************
 
-* Vas a ver el siguiente `playlist <https://www.youtube.com/watch?v=NB1womcQm7g&list=PLNoRsahkiuzWzJ18HSWT8ArYsi1gxFExm>`__
+* Mira el siguiente `playlist <https://www.youtube.com/watch?v=NB1womcQm7g&list=PLNoRsahkiuzWzJ18HSWT8ArYsi1gxFExm>`__
 * Luego de verlo, vas a repetir el playlist, pero esta vez vas a reproducir los ejercicios 
-  que están allí con un compañero, al menos.
-* Repite los procesos anteriores PERO ESTA VEZ DE MEMORIA.
-
-.. warning:: REVISIÓN LA PRÓXIMA SEMANA DE ESTE TRABAJO.
-
-    Muestra al profesor el resultado de este ejercicio.
-
+  que están allí con tu equipo de trabajo.
+* Realiza la evaluación propuesta.
 
 Ejercicio 2: ESP32 
 ******************************
@@ -118,7 +180,6 @@ sitio.
 
 Ejercicio 3: lee la documentación del ESP32 arduino core  
 **********************************************************
-
 
 Con este ejercicio quiero que EXPLORES y que busques todo lo que te cause 
 curiosidad acerca de la documentación oficial del PORT de arduino para el ESP32.

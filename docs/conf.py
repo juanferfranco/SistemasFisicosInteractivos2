@@ -24,9 +24,9 @@ copyright = '2022, Juan Franco'
 author = 'Juan Franco'
 
 # The short X.Y version
-version = '0.9.1'
+version = '1.0.0'
 # The full version, including alpha/beta/rc tags
-release = 'beta'
+release = 'rc'
 
 
 # -- General configuration ---------------------------------------------------
