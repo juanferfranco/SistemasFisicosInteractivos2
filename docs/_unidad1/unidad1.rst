@@ -42,7 +42,7 @@ Vas a realizar un proyecto que consta de dos proyectos secundarios: uno en Unity
 framework de Arduino. Considerando:
 
 
-* Los proyectos puede ser MUY SIMPLE, incluso no funcionales, pero deben evidenciar control de versión, 
+* Los proyectos pueden ser MUY SIMPLES, incluso no funcionales, pero deben evidenciar control de versión, 
   creación de flujos de trabajo y trabajo en equipo. 
 * El proyecto en Unity debe tener assets y código, PERO no tiene que ser una aplicación 
   funcional, es decir, puedes hacer una aplicación DUMMY que simule una aplicación real. 
