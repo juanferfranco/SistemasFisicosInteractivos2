@@ -1,30 +1,27 @@
-Unidad 2. Sensores y actuadores inteligentes
+Unidad 2. proyecto de curso
 ==============================================
 
 Introducción
 --------------
 
-En esta unidad vamos a estudiar dos protocolos de
-comunicación que permiten integrar sensores y actuadores
-más sofisticados a las aplicaciones: I2C y SPI.
+Esta será la unidad dedicada al proyecto de curso. Lo 
+que te dejará en la unidad es INFORMACIÓN que puedes 
+utilizar o no para realizar el proyecto. Recuerda 
+que tienes libertad completa para usar los recursos 
+que desees.
 
 Propósito de aprendizaje
 **************************
 
-Crear aplicaciones interactivas de tiempo real que integren
-sensores y actuadores mediante protocolos de comunicación I2C y SPI.
-
-Temas
-********
-
-* Protocolo I2C.
-* Protocolo SPI.
+Definir, Diseñar e implementar un proyecto que permita integrar 
+sistemas de cómputo distribuidos para la construcción de aplicaciones 
+interactivas.
 
 
-Trayecto de actividades
+Material de referencia
 ------------------------
 
-Sesión 1 y trabajo autónomo 1
+Sensores y actuares I2C y SPI 
 *******************************
 
 Ejercicio 1
@@ -1031,10 +1028,6 @@ La configuración del proyecto queda como se muestra en la figura:
    :scale: 100 %
    :alt: proyecto en Unity
 
-Sesión 2 y trabajo autónomo 2
-*********************************
-
-
 Ejercicio 10
 ^^^^^^^^^^^^^
 
@@ -1234,40 +1227,716 @@ Construye una biblioteca para Arduino con todo lo que aprendiste.
 Te puedes basar en `esta <https://www.arduino.cc/en/Hacking/libraryTutorial>`__ 
 referencia para construir tu propia biblioteca.
 
-Sesión 3 y trabajo autónomo 3
-*********************************
+Sensores y actuadores inalámbricos
+***************************************
 
-Corresponde a la evaluación.
+Estos ejercicios te permitirán aprender cómo conectar 
+sensores y actuadores a una aplicación mediante protocolos
+de comunicación inalámbricos en una red WiFi.
 
-Evaluación de la Unidad 2
------------------------------
+Ejercicio 1
+^^^^^^^^^^^^
 
-.. note:: FECHA MÁXIMA DE ENTREGA
+Con este ejercicio aprenderás a conectar un sensor/actuador a una red 
+WiFi y a comunicar esos dispositivos mediante el protocolo TCP.
 
-    La fecha máxima de entrega del proyecto es el 22 de marzo de 2022.
+Inicia trabajando con `esta <https://docs.google.com/presentation/d/1BBIfX3Tbd6zcDdDVLyjm4PxiaBu9PbsWwRsxYX--lqY/edit?usp=sharing>`__ 
+guía.
+
+Ejercicio 2
+^^^^^^^^^^^^
+
+Ahora vamos a explorar `UDP <https://www.arduino.cc/en/Reference/WiFi>`__ mediante
+el análisis de un proyecto simple que ilustra el uso del protocolo. 
+
+Se trata de un conjunto de actuadores distribuidos en el espacio y un coordinar central, un PC.
+Cada actuador enciende y apaga un puerto de entrada salida según lo indique el comando 
+que recibido por UDP. Dicho comando será enviado por el coordinador central. 
+El coordinador cuenta con un dispositivo, que llamaremos bridge, quien recibirá por serial los 
+comandos y los reenvía por UDP a los actuadores distribuidos.
+
+El protocolo de comunicación serial es simple. Se trata de un protocolo ascii compuesto por 
+tres caracteres. El primer carácter indica a cual actuador se enviará el comando. 
+El segundo carácter el estado deseado para la salida ('1' on, '0' off). Por último, 
+se envía un carácter de sincronización ('*').
+
+El código del bridge (el que recibe los comandos por serial y envía por WiFi) es el siguiente:
+
+.. code-block:: cpp
+   
+   #include <WiFi.h>
+   #include <WiFiUdp.h>
+   
+   const char* ssid = "?";
+   const char* password = "?";
+   WiFiUDP udpDevice;
+   uint16_t localUdpPort = ?;
+   uint16_t UDPPort = ?;
+   #define MAX_LEDSERVERS 3
+   const char* hosts[MAX_LEDSERVERS] = {"?.?.?.?", "?.?.?.?", "?.?.?.?"};
+   #define SERIALMESSAGESIZE 3
+   uint32_t previousMillis = 0;
+   #define ALIVE 1000
+   #define D0 5
+   
+   void setup() {
+     pinMode(D0, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
+     digitalWrite(D0, HIGH);
+     Serial.begin(115200);
+     Serial.println();
+     Serial.println();
+     Serial.print("Connecting to ");
+     Serial.println(ssid);
+   
+     WiFi.mode(WIFI_STA);
+     WiFi.begin(ssid, password);
+   
+     while (WiFi.status() != WL_CONNECTED) {
+       delay(500);
+       Serial.print(".");
+     }
+     Serial.println("");
+     Serial.println("WiFi connected");
+     // Print the IP address
+     Serial.println(WiFi.localIP());
+     udpDevice.begin(localUdpPort);
+   }
+   
+   void networkTask() {
+     uint8_t LEDServer = 0;
+     uint8_t LEDValue = 0;
+     uint8_t syncChar;
+   
+     // Serial event:
+     if (Serial.available() >= SERIALMESSAGESIZE) {
+       LEDServer = Serial.read() - '0';
+       LEDValue = Serial.read();
+       syncChar = Serial.read();
+       if ((LEDServer == 0) || (LEDServer > 3)) {
+         Serial.println("Servidor inválido (seleccione 1,2,3)");
+         return;
+       }
+       if (syncChar == '*') {
+         udpDevice.beginPacket(hosts[LEDServer - 1] , UDPPort);
+         udpDevice.write(LEDValue);
+         udpDevice.endPacket();
+       }
+     }
+     // UDP event:
+     uint8_t packetSize = udpDevice.parsePacket();
+     if (packetSize) {
+       Serial.print("Data from: ");
+       Serial.print(udpDevice.remoteIP());
+       Serial.print(":");
+       Serial.print(udpDevice.remotePort());
+       Serial.print(' ');
+       for (uint8_t i = 0; i < packetSize; i++) {
+         Serial.write(udpDevice.read());
+       }
+     }
+   }
+   
+   void aliveTask() {
+     uint32_t currentMillis;
+     static uint8_t ledState = 0;
+     currentMillis  = millis();
+     if ((currentMillis - previousMillis) >= ALIVE) {
+       previousMillis = currentMillis;
+       if (ledState == 0) {
+         digitalWrite(D0, HIGH);
+         ledState = 1;
+       }
+       else {
+         digitalWrite(D0, LOW);
+         ledState = 0;
+       }
+     }
+   }
+   
+   void loop() {
+     networkTask();
+     aliveTask();
+   }
+
+Nota que a diferencia de TCP/IP, con UDP no es necesario establecer una conexión. Los pasos 
+necesario para enviar datos por UDP serán:
+
+* Crear un objeto WiFiUDP
+* Iniciar el objeto estableciendo un socket compuesto por la dirección IP y el puerto de escucha.
+* Iniciar la construcción del paquete a transmitir con beginPacket(), 
+* Popular el buffer de transmisión con write.
+* Enviar el paquete con endPacket().
+
+El código de los actuadores distribuidos será:
+
+.. code-block:: cpp
+
+    #include <WiFi.h>
+    #include <WiFiUdp.h>
+
+    const char* ssid = "?";
+    const char* password = "?";
+    WiFiUDP udpDevice;
+    uint16_t localUdpPort = ?;
+    uint32_t previousMillis = 0;
+    #define ALIVE 1000
+    #define D0 5
+    #define D8 18
+
+    void setup() {
+        pinMode(D0, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
+        digitalWrite(D0, HIGH);
+        pinMode(D8, OUTPUT);     
+        digitalWrite(D8, LOW);
+        Serial.begin(115200);
+        Serial.println();
+        Serial.println();
+        Serial.print("Connecting to ");
+        Serial.println(ssid);
+
+        WiFi.mode(WIFI_STA);
+        WiFi.begin(ssid, password);
+
+        while (WiFi.status() != WL_CONNECTED) {
+            delay(500);
+            Serial.print(".");
+        }
+        Serial.println("");
+        Serial.println("WiFi connected");
+        // Print the IP address
+        Serial.println(WiFi.localIP());
+        udpDevice.begin(localUdpPort);
+    }
+
+
+    void networkTask() {
+        uint8_t data;
+        uint8_t packetSize = udpDevice.parsePacket();
+        if (packetSize) {
+            data = udpDevice.read();
+            if (data == '1') {
+                digitalWrite(D0, HIGH);
+            } else if (data == '0') {
+                digitalWrite(D0, LOW);
+            }
+            // send back a reply, to the IP address and port we got the packet from
+            udpDevice.beginPacket(udpDevice.remoteIP(), udpDevice.remotePort());
+            udpDevice.write('1');
+            udpDevice .endPacket();
+        }
+    }
+
+    void aliveTask() {
+        uint32_t currentMillis;
+        static uint8_t ledState = 0;
+        currentMillis  = millis();
+        if ((currentMillis - previousMillis) >= ALIVE) {
+            previousMillis = currentMillis;
+            if (ledState == 0) digitalWrite(D8, HIGH);
+            else digitalWrite(D8, LOW);
+        }
+    }
+
+    void loop() {
+        networkTask();
+        aliveTask();
+    }
+
+Los pasos para recibir datos por UDP son:
+
+* Crear un objeto WiFiUDP
+* Iniciar el objeto estableciendo un socket compuesto por la dirección IP y el puerto de escucha.
+* Procesar el siguiente paquete UDP con parsePacket(). Esta acción devolverá el tamaño 
+  del paquete en bytes.
+* Luego de llamar parsePacket() será posible utilizar los métodos read() y available().
+* Leer el paquete.
+
+En el ejemplo mostrado, nota que un actuador distribuido responderá al bridge con el carácter 
+'1' cada que reciba un paquete. De esta manera el bridge sabrá que el dato llegó a su destino.
+
+Ejercicio 3: despliegue del ejercicio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Para desplegar este ejercicio necesitaras varios dispositivos: PC y dos ESP32. Puedes
+usar un ESP32 para implementar el bridge y otro para implementar un actuador. Así mismo
+puedes emplear el PC como coordinador y como uno o varios actuadores virtuales. También
+podrías emplear el celular para simular un actuador.
+
+Para desplegar el ejercicio es necesario identificar claramente las direcciones IP de cada 
+uno de los actuadores remotos.
+
+Utiliza un ESP32 para cada actuador y un ESP32 para el bridge. Si no cuentas con todos
+los dispositivos, entonces puedes:
+
+* Usar el ESP32 como bridge y como actuadores el celular y el computador.
+* Utiliza los programas Hercules o ScriptCommunicator para simular la aplicación del PC y los actuadores.
+
+Ejercicio 4: integración con Unity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Observa `este <https://youtu.be/cML814JD09g>`__ video. Vamos a analizar cómo podríamos
+hacer para realizar una aplicación similar que utilice realidad virtual, pero que integre
+dispositivos físicos en un ambiente real.
+
+La aplicación se desplegará en un cuarto cuadrado que modelaremos como muestra la figura:
+
+.. image:: ../_static/vrGame.png
+   :scale: 100 %
+   :alt: cuarto VR.
+
+Recuerda, tenemos un espacio físico y su respectivo modelo virtual. Por tanto, si tocas
+las paredes virtuales, sentirás las mismas paredes en el mundo físico.
+
+Nota que en el centro hay un tótem que cambiará de color si el usuario es detectado
+por un sensor laser.
+
+El sensor laser y la aplicación VR están conectados por medio de una red WiFi utilizando
+sockets UDP.
+
+Si el sensor láser se activa se enviará el mensaje: ``sensor  2`` y el material del tótem
+cambiará de rojo a negro. ``sensor  1`` hará que el color vuelva a rojo.
+
+Como el protocolo de comunicación es UDP, buscamos 
+en la `documentación <https://docs.microsoft.com/en-us/dotnet/api/system.net.sockets.udpclient.receive?view=net-5.0>`__ 
+de C#. Allí incluso encontramos un ejemplo:
+
+.. code-block:: csharp
+
+    //Creates a UdpClient for reading incoming data.
+    UdpClient receivingUdpClient = new UdpClient(11000);
+
+    //Creates an IPEndPoint to record the IP Address and port number of the sender.
+    // The IPEndPoint will allow you to read datagrams sent from any source.
+    IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
+    try{
+
+        // Blocks until a message returns on this socket from a remote host.
+        Byte[] receiveBytes = receivingUdpClient.Receive(ref RemoteIpEndPoint);
+
+        string returnData = Encoding.ASCII.GetString(receiveBytes);
+
+        Console.WriteLine("This is the message you received " +
+                                returnData.ToString());
+        Console.WriteLine("This message was sent from " +
+                                    RemoteIpEndPoint.Address.ToString() +
+                                    " on their port number " +
+                                    RemoteIpEndPoint.Port.ToString());
+    }
+    catch ( Exception e ){
+        Console.WriteLine(e.ToString());
+    }
+
+Pero más abajo leemos:
+
+The Receive method will block until a datagram arrives from a remote host. 
+When data is available, the Receive method will read the first enqueued 
+datagram and return the data portion as a byte array. This method populates the 
+remoteEP parameter with the IPAddress and port number of the sender.
+
+Como ya sabemos esto hace que tengamos que usar un HILO para realizar la comunicación, 
+de lo contrario nuestra aplicación interactiva estaría bloqueada mientras se
+espera por la llegada de datos.
+
+No hay problema. Ya sabemos cómo usar hilos cuando estudiamos Ardity. Este podría
+ser entonces el código de nuestro hilo:
+
+.. code-block:: csharp
+
+    private void ReceiveDataListener()
+    {
+        while (true)
+        {
+            try
+            {
+                byte[] data = receiveClient.Receive(ref receiveEndPoint);
+                string text = Encoding.UTF8.GetString(data);
+                SerializeMessage(text);
+            }
+            catch (System.Exception ex)
+            {
+                Debug.Log(ex.ToString());
+            }
+        }
+    }
+
+No olvides, que no podemos acceder la API de Unity desde un hilo diferente al GameLoop. 
+¿Entonces qué hacemos? Ya sabes: COLAS, como hicimos al estudiar Ardity.
+
+.. code-block:: csharp
+
+    private void SerializeMessage(string message)
+    {
+        try
+        {
+            string[] chain = message.Split(' ');
+            string key = chain[0];
+            float value = 0;
+            if (float.TryParse(chain[1], out value))
+            {
+                receiveQueue.Enqueue(value);
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e.ToString());
+        }
+    }
+
+Y cómo quedaría entonces la aplicación:
+
+.. code-block:: csharp
+
+    void Update()
+    {
+        if (receiveQueue.Count != 0)
+        {
+            float counter = (float)receiveQueue.Dequeue();
+
+            if(counter == 1F) m_Material.color = Color.black;
+            if(counter == 2F) m_Material.color = Color.red;
+        }
+
+    }
+
+
+Ejercicio 5: RETO
+^^^^^^^^^^^^^^^^^^^
+
+Analiza con detenimiento el siguiente ejemplo. Te recomiendo que lo implementes
+utilizando un computador y un ESP32:
+
+.. code-block:: csharp
+
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Net;
+    using System.Net.Sockets;
+    using System.Text;
+    using System.Threading;
+    using UnityEngine;
+
+    public class comm : MonoBehaviour
+    {
+
+        private static comm instance;
+        private Thread receiveThread;
+        private UdpClient receiveClient;
+        private IPEndPoint receiveEndPoint;
+        public string ip = "127.0.0.1";
+        public int receivePort = 32002;
+        private bool isInitialized;
+        private Queue receiveQueue;
+        public GameObject cube;
+        private Material m_Material;
+
+        private void Awake()
+        {
+            Initialize();
+        }
+
+        private void Start()
+        {
+            m_Material = cube.GetComponent<Renderer>().material;
+        }
+
+        private void Initialize()
+        {
+            instance = this;
+            receiveEndPoint = new IPEndPoint(IPAddress.Parse(ip), receivePort);
+            receiveClient = new UdpClient(receivePort);
+            receiveQueue = Queue.Synchronized(new Queue());
+            receiveThread = new Thread(new ThreadStart(ReceiveDataListener));
+            receiveThread.IsBackground = true;
+            receiveThread.Start();
+            isInitialized = true;
+        }
+
+        private void ReceiveDataListener()
+        {
+            while (true)
+            {
+                try
+                {
+                    byte[] data = receiveClient.Receive(ref receiveEndPoint);
+                    string text = Encoding.UTF8.GetString(data);
+                    SerializeMessage(text);
+                }
+                catch (System.Exception ex)
+                {
+                    Debug.Log(ex.ToString());
+                }
+            }
+        }
+
+        private void SerializeMessage(string message)
+        {
+            try
+            {
+                string[] chain = message.Split(' ');
+                string key = chain[0];
+                float value = 0;
+                if (float.TryParse(chain[1], out value))
+                {
+                    receiveQueue.Enqueue(value);
+                }
+            }
+            catch (System.Exception e)
+            {
+                Debug.Log(e.ToString());
+            }
+        }
+
+        private void OnDestroy()
+        {
+            TryKillThread();
+        }
+
+        private void OnApplicationQuit()
+        {
+            TryKillThread();
+        }
+
+        private void TryKillThread()
+        {
+            if (isInitialized)
+            {
+                receiveThread.Abort();
+                receiveThread = null;
+                receiveClient.Close();
+                receiveClient = null;
+                Debug.Log("Thread killed");
+                isInitialized = false;
+            }
+        }
+
+        void Update()
+        {
+            if (receiveQueue.Count != 0)
+            {
+                float counter = (float)receiveQueue.Dequeue();
+
+                if(counter == 1F) m_Material.color = Color.black;
+                if(counter == 2F) m_Material.color = Color.red;
+            }
+
+        }
+
+    }
+
+Aplicaciones interactivas distribuidas
+*****************************************
+
+Con estos ejercicios aprenderás a integrar aplicaciones interactivas 
+mediante el protocolo de comunicación OSC.
+
+Ejercicio 1: RETO
+^^^^^^^^^^^^^^^^^^^
+
+Construye un aplicación interactiva en Unity que se comunique
+con otra aplicación utilizando OSC. PERO HAY un RETO. Debes
+implementar en Unity el protocolo tu mismo. ¿Por qué?
+Como un ejercicio para comprender mejor el protocolo.
+
+La especificación del protocolo de comunicación OSC está 
+`aquí <http://cnmat.org/OpenSoundControl/OSC-spec.html>`__.
+
+¿Cómo es un paquete OSC?
+
+En `este <http://cnmat.org/OpenSoundControl/OSC-spec-examples.html>`__
+enlace se pueden ver algunos ejemplos de paquetes OSC.
+
+Para entender la estructura de los paquetes OSC ten en cuenta las siguientes consideraciones
+de la especificación OSC 1.0:
+
+* La comunicación en OSC se da por intercambio de paquetes.
+* La aplicación que recibe paquetes se denomina servidor o SERVER
+  y quien envía los paquetes cliente o CLIENT.
+* Todos los paquetes en OSC deben ser múltiplos de 4 bytes.
+* Los paquetes en OSC pueden ser MENSAJES o BUNDLES. Para el reto
+  usaremos solo MENSAJES.
+* Los OSC-MESSAGES tienen la siguiente estructura: OSC ADDRESS PATTERN + OSC TYPE TAG STRING + 0 o MÁS OSC ARGUMENTS
+* OSC ADDRESS PATTERN: son OSC-STRINGS que comienzan por este carácter: /
+* OSC TYPE TAG STRING: son OSC-STRINGS que comienzan por el carácter: ,
+  y luego por tags que pueden ser: i f s b. Donde i indica que el mensaje
+  tendrá un argumento entero, f un argumento en punto flotante, s una
+  cadena y b un blob.
+* Los tipos de argumentos o ATOMIC DATA TYPES son:
+
+  int32: entero de 32 bits signado y en big-endian
+
+  float32: número en punto flotante de 32 bits en formato 
+  `IEEE 754 <https://www.h-schmidt.net/FloatConverter/IEEE754.html>`__
+  en big-endian
+
+  osc-string: cadena de caracteres ascii terminada con el carácter NULL 
+  y 0 a 3 carácter NULL adicionales para lograr que la cadena sea múltiplo
+  de 4 bytes o 32 bits.
+ 
+  osc-blob y osc-time-tag, no los trabajeremos en este reto.
+
+* Semántica de OSC: cada mensaje recibido por un servidor es potencialmente
+  un llamado a un procedimiento cuyos argumentos serán los argumentos del
+  mensaje.
+
+Considera que queremos enviar un mensaje con el siguiente OSC ADDRESS PATTERN:
+``/oscillator/4/frequency`` y como argumento un número en punto flotante dado
+por 440.0. El paquete será así (entre paréntesis el carácter ascii
+correspondiente)
+
+2f (/)  6f (o)  73 (s)  63 (c)
+
+69 (i)  6c (l)  6c (l)  61 (a)
+ 
+74 (t)  6f (o)  72 (r)  2f (/)
+ 
+34 (4)  2f (/)  66 (f)  72 (r)
+ 
+65 (e)  71 (q)  75 (u)  65 (e)
+ 
+6e (n)  63 (c)  79 (y)  0 ()
+ 
+2c (,)  66 (f)  0 ()    0 ()
+ 
+43 (C)  dc (Ü)  0 ()    0 ()
+
+OSC ADDRESS PATTERN: ``/oscillator/4/frequency``
+Será una secuencia de caracteres ASCII terminados con NULL más 0 bytes NULL
+porque la cantidad de bytes sería múltiplo de 4:
+
+2f (/)  6f (o)  73 (s)  63 (c)
+
+69 (i)  6c (l)  6c (l)  61 (a)
+ 
+74 (t)  6f (o)  72 (r)  2f (/)
+ 
+34 (4)  2f (/)  66 (f)  72 (r)
+ 
+65 (e)  71 (q)  75 (u)  65 (e)
+ 
+6e (n)  63 (c)  79 (y)  0 ()
+
+OSC TYPE TAG STRING: ``,f``:
+2c (,)  66 (f)  0 ()    0 ()
+
+Como tenemos solo un argumento, tendremos solo un TAG de
+tipo f. La cadena termina con un carácter NULL y solo debemos adicionar
+un carácter NULL para hacer OSC TYPE TAG STRING múltiplo de 4.
+
+Finalmente el número 440.0 en formato IEEE 754 en big-endian será:
+
+43 (C)  dc (Ü)  0 ()    0 ()
+
+El siguiente ejemplo muestra paquetes OSC usados para comunicar dos aplicaciones
+interactivas. La primera aplicación es una drump machine construida usando
+MAX/MSP. La segunda aplicación es una interfaz de usuario remota que
+controlará la drum machine.
+
+Estos son los paquetes OSC que enviará la aplicación de interfaz remota
+a la aplicación drum machine:
+
+play:
+
+.. code-block:: csharp
+
+       "/play\x00\x00\x00,i\x00\x00\x00\x00\x00\x01"
+
+stop:
+
+.. code-block:: csharp
+
+       "/play\x00\x00\x00,i\x00\x00\x00\x00\x00\x00"
+
+Activar el beat 5 del instrumento 2:
+
+.. code-block:: csharp
+
+       "/c\x32\x00,ii\x00\x00\x00\x00\x05\x00\x00\x00\x01"
+
+Desactivar el beat 5 del instrumento 2:
+
+.. code-block:: csharp
+
+       "/c\x32\x00,ii\x00\x00\x00\x00\x05\x00\x00\x00\x00"
+
+Desactivar todos los beats del instrumento 1
+
+.. code-block:: csharp
+
+       "/c\x31\x00,ii\x00\x00\x00\x00\x11\x00\x00\x00\x00"
+
+Cambiar la velocidad del beat a 100. El rango está de 100 a 300.
+
+.. code-block:: csharp
+
+       "/speed\x00\x00,i\x00\x00\x00\x00\x00\x64"
+
+La drum machine enviará este paquete a la interfaz remota para indicar
+el beat que está reproduciendo en ese momento:
+
+Trama enviada para la aplicación remota indicando que está
+reproduciendo el beat 16:
+
+.. code-block:: csharp
+       
+       2F 63 6f 75 6e 74 65 72 00 00 00 00 2c 69 00 00 00 00 00 10
+
+Ejercicio 2
+^^^^^^^^^^^^^^^^^^^
+
+Explorar una posible aplicación con la cual podrás realizar
+el proyecto de esta unidad:
+
+`TouchOSC <https://hexler.net/products/touchosc>`__
+
+Evaluación 1 
+---------------
+
+.. note:: FECHA
+
+    Semana 10. 
 
 Enunciado
 **********
 
-Vas a proponer una aplicación interactiva considerando los siguientes elementos:
+Vas a proponer el concepto y el diseño de una experiencia interactiva 
+que integre sistemas de cómputo distribuidos.
 
-* ¿Qué problema resuelve tu aplicación interactiva? Piensa en un contexto para 
-  tu aplicación. ¿Para qué sirve? ¿Qué problema busca resolver? ¿Para qué usuarios
-  está orientada? Explica cómo tu aplicación interactiva resuelve el problema.
-* Tu aplicación interactiva debe incluir al menos un dispositivo I2C y otro SPI. 
-  Ambos pueden estar controlados por el mismo ESP32.
-* Conecta el ESP32 a Unity (o TouchDesigner o Unreal o Godot o ...) usando comunicaciones 
-  seriales mediante un ``protocolo binario``.
-* La configuración (puerto serial, velocidad, etc) y el control de tu aplicación
-  interactiva debe realizarse mediante una interfaz de usuario gráfica (Como lo hiciste 
-  en la evaluación de la unidad 1).
+Crea un repositorio público en GitHub donde estarán todos los archivos 
+y la documentación del proyecto. Toda la documentación la deberás 
+escribir en el archivo README.md
 
-Entrega
-*********
+Evaluación 2
+---------------
 
-* Vas a entregar en `este <https://classroom.github.com/a/kFVP1CzV>`__ repositorio el código 
-  de la aplicación interactiva.
-* En la Wiki del repositorio debes explicar el problema, cómo propones resolverlo, qué sensores
-  usaste, explica cómo diseñaste el protocolo binario, muestra imágenes de la aplicación donde 
-  se ilustre su funcionamiento.
-* Prepara tu aplicación para mostrarla funcionando en clase.
+.. note:: FECHA
+
+    Semana 15. 
+
+Enunciado
+**********
+
+Vas a presentar la implementación de la experiencia interactiva.
+
+Todos los archivos necesarios para implementar la experiencia 
+deberán reposar en el repositorio de GitHub de la entrega anterior.
+
+Evaluación 3
+---------------
+
+.. note:: FECHA
+
+    Semana 18.
+
+Enunciado
+**********
+
+Vas a terminar la documentación del proyecto. La documentación 
+debe tener:
+
+* Concepto
+* Diseño de la experiencia (Ux).
+* Diseño de la interfaz (UI).
+* Paso a paso para REPRODUCIR la experiencia indicando 
+  detalladamente qué partes se requieren, qué herramientas, versiones, 
+  cómo programar los sistemas de cómputo, etc.
+* Enlaces a las evidencias: fotos, videos.

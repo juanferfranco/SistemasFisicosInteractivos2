@@ -50,27 +50,24 @@ puedes revisar la carta descriptiva del curso.
 Estructura 
 ------------
 
-#. Unidad 1: trabajo en equipo y proyecto 1.
-#. Unidad 2: proyecto 2.
-#. Unidad 3: proyecto 3.
+#. Unidad 1: trabajo en equipo.
+#. Unidad 2: proyecto de curso.
 
 Cronograma
 -----------
 
-#. Unidad 1: semanas 1 a 6.
-#. Unidad 2: semanas 7 a 11.
-#. Unidad 3: semanas 12 a 16.
+#. Unidad 1: semanas 1 a 3.
+#. Unidad 2: semanas 4 a 16.
 
 Evaluación
 -----------
 
 (`Reglamento estudiantil UPB <https://gconocimiento.upb.edu.co/gesdoc/Informacin%20Institucional/Reglamento%20Estudiantes%20Pregrado.pdf>`__)
 
-* Evaluación 1: 10%. Control de versión y flujo de trabajo en equipo. semana 2.
-* Evaluación 2: 30%. proyecto 1. semana 6.
-* Evaluación 3: 30%. proyecto 2. semana 11.
-* Evaluación 4: 30%. proyecto 3. semana 16.
-
+* 10%. Control de versión y flujo de trabajo en equipo. semana 3.
+* 30%. Conceptualización y diseño de la experiencia. semana 10.
+* 30%. Implementación de la experiencia interactiva. semana 16.
+* 30%. Documentación final de la experiencia. semana 18.
 
 Dedicación y metodología del curso
 ------------------------------------
@@ -79,44 +76,15 @@ Dedicación y metodología del curso
 
     MUY ALTO!!!!!!!!!!!!!!!!!
 
-Este curso en 2022-20 se ofrecerá en modalidad proyecto. Semanalmente tendremos encuentros
-presenciales ``para resolver dudas, para realizar asesorías y para realizar el seguimiento 
-de los proyectos``.
+Este curso en 2022-20 se ofrecerá en modalidad proyecto. Semanalmente 
+tendremos encuentros presenciales ``para resolver dudas, para realizar 
+asesorías y para realizar el seguimiento al proyecto``.
 
 * Las asesorías presenciales serán de 1 hora 40 minutos.
 * El trabajo autónomo del curso será de 4 horas y 20 minutos.
 
-Actividades de cada unidad
-----------------------------
-
-Cada unidad está compuesta por lecturas, ejercicios y ``un PROYECTO``. Cada semana nos reuniremos 
-para resolver las dudas y aclarar conceptos correspondientes al trabajo de esa semana y la semana 
-anterior. El resto del tiempo debes organizar tu agenda para emplear las horas de trabajo autónomas.
-
-Evidencias de evaluación
--------------------------
-
-En cada unidad te indicaré las consideraciones para entregar la evaluación; sin embargo, 
-ten presente SIEMPRE este código de honor:
-
-Código de honor
-^^^^^^^^^^^^^^^^
-
-Para realizar el trabajo de cada unidad se espera que hagas lo siguiente:
-
-* Colabora con tus compañeros cuando así se indique.
-* Trabaja de manera individual cuando la actividad así te lo
-  proponga.
-* No busques la solución a los ejercicios y proyectos porque DAÑARÍAS tu
-  proceso de aprendizaje. Recuerda, se trata de seguir un camino
-  y aprender en el recorrido.
-* ¿Entonces qué hacer si no me funciona algo? Te propongo que
-  experimentes, crea hipótesis, experimenta de nuevo, observa y concluye.
-* NO OLVIDES, este curso se trata de pensar y experimentar NO de
-  BUSCAR soluciones en Internet.
-
-Bitácora  
-------------------------------
-
-Vamos a utilizar Github para llevar el control de versión del código 
-y de la documentación de los proyectos.
+El proyecto de curso consiste en abordar un problema mediante 
+la realización de un proyecto integrador. Los estudiantes 
+pueden utilizar los recursos que quieran y necesiten para realizar 
+el proyecto. En este sitio web se montarán ejercicios y recursos 
+que podrán ser de utilidad para afrontar el problema.

@@ -1,5 +1,5 @@
-Unidad 1. Trabajo en equipo y proyecto 1
-==============================================
+Unidad 1. Trabajo en equipo y control de versión
+=================================================
 
 Introducción
 --------------
@@ -79,66 +79,6 @@ Calificación
   temporal de 0.
 * Cumplido el plazo de entrega tendrás 2 sesiones presenciales más para entregar, SOLO se recibirán 
   trabajos completos al 100%, pero tendrás una penalidad de una unidad en la nota. La nota será de 4.
-* En cualquier otro caso, la nota temporal de 0 asignada en la fecha de entrega quedará permanente 
-  en el sistema.
-
-Evaluación 2: proyecto 1
-----------------------------
-
-.. warning:: FECHA DE ENTREGA Y SUSTENTACIÓN 
-
-    
-    Agosto 25 de 2022 en la sesión presencial.
-
-Tiempo estimado
-*******************
-
-El tiempo estimado para este proyecto es de 24 horas.
-
-
-Enunciado
-************
-
-Construye una aplicación interactiva que integre CONTENIDO DIGITAL, INGENIERÍA DE SOFTWARE Y
-DISEÑO para resolver un problema simple. 
-
-
-* Define un juego simple (te propongo PONG) que quieras usar. Busca en Github el código fuente del proyecto 
-  en Unity. Realiza un fork y configura el proyecto para trabajar en equipo. Puede usar un juego propio.
-* Vas a crear dos controles que se conectarán a la aplicación interactiva por medio 
-  de puertos seriales.
-* La aplicación debe tener una pantalla de configuración donde seleccionarás y configurarás 
-  los controles: puerto serial, velocidad, protocolo de comunicación.
-* Cada control debe soportar la posibilidad de comunicarse mediante un protocolo ASCII 
-  o un protocolo binario. Esta opción es configurable.
-* Recuerda configurar tu flujo de trabajo y el sistema de control de versión para las aplicaciones 
-  de Unity y de los controles.
-
-Entrega
-*********
-
-* Vas a trabajar tu proyecto en `este <https://classroom.github.com/a/ZXy_lP5X>`__ repositorio.
-* En el archivo README.md vas a incluir TODA la documentación solicitada:
-  
-  * Inserta la URL de un video (en youtube) que muestre en funcionamiento el proyecto.
-  * Inserta imágenes con capturas de pantalla de las diferentes partes de la aplicación.
-  * ``Explica detalladamente`` cómo funciona el proyecto: cómo está construida la pantalla de
-    configuración de los controles, cómo se integra esta pantalla al juego, cómo se regresa
-    a la pantalla de configuración.
-  * ``Explica detalladamente`` cómo se integran los controlas a la aplicación interactiva. No 
-    olvides explicar el código del control y el código en Unity. FUNDAMENTAL explicar el 
-    protocolo de comunicación.
-
-Calificación
-**************
-
-* El proyecto solo se considera entregado cuando esté completo al 100% con todo lo solicitado
-  ``y`` sustentado en una de las sesiones presenciales. La nota es 5.
-* Si llagas a la fecha de entrega y no has terminado la evaluación se reportará en el sistema una nota 
-  temporal de 0.
-* Cumplido el plazo de entrega tendrás 2 sesiones presenciales más para entregar y sustentar. ``SOLO`` se 
-  recibirán trabajos completos al 100%, pero tendrás una penalidad de una unidad en la nota. 
-  La nota será de 4.
 * En cualquier otro caso, la nota temporal de 0 asignada en la fecha de entrega quedará permanente 
   en el sistema.
 
