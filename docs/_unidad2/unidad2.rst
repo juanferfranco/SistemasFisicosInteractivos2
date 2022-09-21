@@ -1893,7 +1893,7 @@ Evaluación 1
 
 .. note:: FECHA
 
-    Semana 10. 
+    Semana 10. Septiembre 21 de 2022.
 
 Enunciado
 **********
@@ -1910,7 +1910,7 @@ Evaluación 2
 
 .. note:: FECHA
 
-    Semana 15. 
+    Semana 16. Noviembre 3 de 2022.
 
 Enunciado
 **********
@@ -1925,7 +1925,7 @@ Evaluación 3
 
 .. note:: FECHA
 
-    Semana 18.
+    Semana 18. Noviembre 17 de 2022.
 
 Enunciado
 **********

@@ -14,7 +14,8 @@ Curso de 2 créditos y 96 horas totales
    ¿Cómo aprender a aprender? <_intro/learning>
    ¿Qué herramientas necesito? <_intro/tools>
    Introducción al control de versión <_intro/introGit>
-   Trabajo en equipo <_intro/gitWorkflow>   
+   Trabajo en equipo <_intro/gitWorkflow>
+   Información para el proyecto de curso <_intro/projectInfo>   
 
 .. toctree::
    :maxdepth: 1
