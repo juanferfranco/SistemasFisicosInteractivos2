@@ -114,16 +114,6 @@ El juego a implementar se llama ATRAPADOS. Fue diseñado en el año 2014 por:
 
 `Aquí <https://youtu.be/OD44njx0Wh4>`__ puedes ver un game play simulado del juego.
 
-Conceptualmente el sistema de cómputo distribuido que implementarás es este:
-
-.. figure:: ../_static/AtrapadosDiagram.png
-   :alt: Diagrama conceptual de atrapados
-   :class: with-shadow
-   :align: center
-   :width: 100%
-
-   Diagrama conceptual de los componentes del juego
-
 El documento de diseño original:
 
 .. figure:: ../_static/DesignDoc.JPG
@@ -136,6 +126,16 @@ El documento de diseño original:
 
 `Aquí <https://drive.google.com/drive/folders/0B0FEIQwvlT4MN2pUd0JRdnlVMjA?resourcekey=0-cSomz0TgoCQmvo9f_sXdLQ&usp=share_link>`__ 
 puedes ver algunas fotos de las pruebas de usuario.
+
+Conceptualmente el sistema de cómputo distribuido que implementarás es este:
+
+.. figure:: ../_static/AtrapadosDiagram.png
+   :alt: Diagrama conceptual de atrapados
+   :class: with-shadow
+   :align: center
+   :width: 100%
+
+   Diagrama conceptual de los componentes del juego
 
 Condiciones de entrega 
 -----------------------
