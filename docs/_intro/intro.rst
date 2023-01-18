@@ -124,6 +124,19 @@ Conceptualmente el sistema de cómputo distribuido que implementarás es este:
 
    Diagrama conceptual de los componentes del juego
 
+El documento de diseño original:
+
+.. figure:: ../_static/DesignDoc.JPG
+   :alt: Documento de diseño 
+   :class: with-shadow
+   :align: center
+   :width: 100%
+
+|
+
+`Aquí <https://drive.google.com/drive/folders/0B0FEIQwvlT4MN2pUd0JRdnlVMjA?resourcekey=0-cSomz0TgoCQmvo9f_sXdLQ&usp=share_link>`__ 
+puedes ver algunas fotos de las pruebas de usuario.
+
 Condiciones de entrega 
 -----------------------
 
