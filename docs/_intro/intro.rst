@@ -4,42 +4,54 @@ INTRODUCCIÓN AL CURSO
 Descripción del curso
 ----------------------
 
-El objeto de este curso es aprender a integrar sistemas de cómputo distribuidos para la construcción de 
-aplicaciones interactivas.
+El objeto de este curso es aprender a integrar sistemas de cómputo distribuidos 
+para la construcción de aplicaciones interactivas.
 
 ¿Por ejemplo?
 
 * `Interactive <https://momentfactory.com/reel/interactive-demo>`__ Momento Factory
 * `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory
 
-Entretenimiento digital tiene 5 tipos de cursos: contenidos digitales, diseño, ingeniería de software, 
-materialización y gestión e innovación TIC. Este curso es del tipo materialización.
+Entretenimiento digital tiene 5 tipos de cursos: contenidos digitales, diseño, 
+ingeniería de software, materialización y gestión e innovación TIC. 
+Este curso es del tipo materialización.
 
 ¿Cómo encaja este curso en el diseño de Ingeniería en diseño de entretenimiento digital?
 
-Te lo cuento en el tablero.
+Es una curso del área de materialización. Entonces se espera que en este curso construyas 
+una aplicación interactiva que tenga un objetivo de diseño definido.
 
 Propósito del curso
 ---------------------
 
-El entendimiento y uso de los fundamentos, herramientas y procesos mediante los cuales es posible integrar 
-sensores, actuadores y sistemas de cómputo conectados en red para la construcción de aplicaciones interactivas.
+El entendimiento y uso de los fundamentos, herramientas y procesos mediante los 
+cuales es posible integrar sensores, actuadores y sistemas de cómputo conectados 
+en red para la construcción de aplicaciones interactivas.
 
 Competencia
 ------------
 
-Materializa sistemas intermediados por el entretenimiento digital para resolver problemas de acuerdo con 
-requerimientos condicionados por el contexto.
+Materializa sistemas intermediados por el entretenimiento digital para resolver 
+problemas de acuerdo con requerimientos condicionados por el contexto.
 
-Criterios de competencia
---------------------------
+Resultados de aprendizaje
+----------------------------
 
-Integro dispositivos de entrada, salida e interfaces mecánicas con sistemas de cómputo para la creación 
-de sistemas intermediados por el entretenimiento digital.
+.. note:: RESULTADO DE APRENDIZAJE
 
-NIVEL: autónomo.
+    Integro dispositivos de entrada, salida e interfaces mecánicas con sistemas de 
+    cómputo para la creación de sistemas intermediados por el entretenimiento digital.
 
-¿Qué significa el nivel autónomo? ¿Eso quiere decir que hay más niveles?
+    ``NIVEL: autónomo.``
+
+¿Qué significa el nivel autónomo?
+
+Significa que dado un problema tu debes seleccionar los conceptos y herramientas más 
+apropiadas para conseguir una solución óptima al problema.
+
+¿Eso quiere decir que hay más niveles?
+
+Si. Receptivo, resolutivo y estratégico.
 
 Carta descriptiva
 -------------------
@@ -47,44 +59,99 @@ Carta descriptiva
 En `este <https://drive.google.com/file/d/1rRzPxSS62u-0AlrML0ZpUeFVswV78DD2/view?usp=sharing>`__ enlace 
 puedes revisar la carta descriptiva del curso.
 
-Estructura 
-------------
+Proyecto docente
+-------------------
 
-#. Unidad 1: trabajo en equipo.
-#. Unidad 2: proyecto de curso.
+Te dejo `aquí <https://github.com/juanferfranco/SistemasFisicosInteractivos2/blob/main/docs/_static/FormatoPlaneacionInteractivos22023-10.xlsx>`__ 
+el proyecto docente de este curso.
+
+Metodología del curso
+----------------------
+
+Este curso se ofrece en modalidad proyecto. En esta modalidad se propone un 
+proyecto de curso que tendrás que solucionar con tu equipo de trabajo, sobre todo, 
+en tiempo autónomo. Las sesiones presenciales se usarán para asesorías y revisar el avance 
+de los proyectos.
 
 Cronograma
 -----------
 
-#. Unidad 1: semanas 1 a 3.
-#. Unidad 2: semanas 4 a 16.
+Ver el proyecto docente del curso.
 
 Evaluación
 -----------
 
-(`Reglamento estudiantil UPB <https://gconocimiento.upb.edu.co/gesdoc/Informacin%20Institucional/Reglamento%20Estudiantes%20Pregrado.pdf>`__)
-
-* 10%. Control de versión y flujo de trabajo en equipo. semana 3.
-* 30%. Conceptualización y diseño de la experiencia. semana 10.
-* 30%. Implementación de la experiencia interactiva. semana 16.
-* 30%. Documentación final de la experiencia. semana 18.
+* Prototipo 1. 20% Semana 3.
+* Prototipo 2. 20% Semana 6.
+* Prototipo 3. 20% Semana 9.
+* Prototipo 4. 20% Semana 12.
+* Portafolio.  20% Semana 16.
 
 Dedicación y metodología del curso
 ------------------------------------
 
-.. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO... 
+.. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO ENORME!
 
-    MUY ALTO!!!!!!!!!!!!!!!!!
+    Este curso en 2023-10 se ofrecerá en modalidad proyecto. Semanalmente 
+    tendremos encuentros presenciales ``para resolver dudas, para realizar 
+    asesorías y para realizar el seguimiento al proyecto``.
 
-Este curso en 2022-20 se ofrecerá en modalidad proyecto. Semanalmente 
-tendremos encuentros presenciales ``para resolver dudas, para realizar 
-asesorías y para realizar el seguimiento al proyecto``.
+* Las asesorías presenciales serán de 1 hora 40 minutos. Cada equipo presentará 
+  los avances realizados y entre todos realizaremos la retroalimentación.
+* El trabajo autónomo del curso será de 4 horas.
 
-* Las asesorías presenciales serán de 1 hora 40 minutos.
-* El trabajo autónomo del curso será de 4 horas y 20 minutos.
+Proyecto de curso
+--------------------
 
-El proyecto de curso consiste en abordar un problema mediante 
-la realización de un proyecto integrador. Los estudiantes 
-pueden utilizar los recursos que quieran y necesiten para realizar 
-el proyecto. En este sitio web se montarán ejercicios y recursos 
-que podrán ser de utilidad para afrontar el problema.
+Vamos a implementar un BIG GAME con un objetivo de diseño meramente lúdico. 
+
+El juego a implementar se llama ATRAPADOS. Fue diseñado en el año 2014 por:
+
+* Alejandro Vanegas.
+* Nelson Carvajal.
+* Stephanie Rivera.
+* Andrés Medina.
+
+`Aquí <https://youtu.be/OD44njx0Wh4>`__ puedes ver un game play simulado del juego.
+
+Conceptualmente el sistema de cómputo distribuido que implementarás es este:
+
+.. figure:: ../_static/AtrapadosDiagram.png
+   :alt: Diagrama conceptual de atrapados
+   :class: with-shadow
+   :align: center
+   :width: 100%
+
+   Diagrama conceptual de los componentes del juego
+
+Condiciones de entrega 
+-----------------------
+
+Cada equipo debe tener su repositorio en GitHub por prototipo y para el portafolio.
+
+Repositorio para los prototipos:
+
+* El código de todos los proyectos de software involucrados.
+* Documentar el proceso, pruebas intermedias, qué funcionó, qué no funcionó, qué 
+  problemas tuviste, cómo se solucionaron, que material consultaste.
+* Documenta en fotos y video (coloca enlaces) del proceso y del resultado final 
+  del prototipo.
+
+Repositorio para el portafolio:
+
+* El código de todos los proyectos de software involucrados.
+* Un documento tipo tutorial con el cual una persona que no conozca 
+  tu proyecto pueda reproducirlo.
+* El enlace a un video donde muestres el proceso y el resultado final del proyecto.
+
+Te voy a dejar dos enlaces muy interesantes:
+
+* `Un portafolio <https://www.jellever.be/>`__ ejemplo que me gusta mucho.
+* `Un video <https://youtu.be/CTvbuqRCoKk>`__ donde puedes ver una manera interesante 
+  de presentar un proyecto y el proceso para llegar a ese resultado.
+
+
+
+
+
+
