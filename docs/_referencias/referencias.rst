@@ -2559,3 +2559,11 @@ Explorar una posible aplicación con la cual podrás realizar
 el proyecto de esta unidad:
 
 `TouchOSC <https://hexler.net/products/touchosc>`__
+
+
+Aplicaciones móviles: prototipado rápido
+*****************************************
+
+Los ejercicios propuestos están en `este <https://github.com/juanferfranco/appSensorActivity>`__ 
+repositorio.
+
