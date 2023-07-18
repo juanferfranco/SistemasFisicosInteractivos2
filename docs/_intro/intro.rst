@@ -4,43 +4,52 @@ INTRODUCCIÓN AL CURSO
 Descripción del curso
 ----------------------
 
-El objeto de este curso es aprender a integrar sistemas de cómputo distribuidos 
-para la construcción de aplicaciones interactivas.
+El objeto de este curso es aportar a las competencias que te permitan construir aplicaciones 
+interactivas que pueda intercambiar información con varios dispositivos de cómputo externos 
+que tengan la capacidad de leer y/o modificar el mundo físico . El curso se estructura alrededor 
+de un proyecto que permita trabajar conceptos tales como comunicaciones inalámbricas, protocolos 
+de comunicación híbridos, sockets udp, técnicas de programación multihilo y máquinas de estado. 
+La aplicación deberá intercambiar información de manera inalámbrica con dos o más dispositivos 
+de cómputo y podrá ser controlada remotamente por otra aplicación. La aplicación interactiva 
+construida se publicará en un repositorio público y hará parte de tu portafolio.
 
-¿Por ejemplo?
+Algunos ejemplos de este tipo de aplicaciones:
 
 * `Interactive <https://momentfactory.com/reel/interactive-demo>`__ Momento Factory
 * `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory
-
-Entretenimiento digital tiene 5 tipos de cursos: contenidos digitales, diseño, 
-ingeniería de software, materialización y gestión e innovación TIC. 
-Este curso es del tipo materialización.
-
-¿Cómo encaja este curso en el diseño de Ingeniería en diseño de entretenimiento digital?
-
-Es una curso del área de materialización. Entonces se espera que en este curso construyas 
-una aplicación interactiva que tenga un objetivo de diseño definido.
+* `TDAxis <https://tdaxis.github.io/>`__
 
 Propósito del curso
 ---------------------
 
-El entendimiento y uso de los fundamentos, herramientas y procesos mediante los 
-cuales es posible integrar sensores, actuadores y sistemas de cómputo conectados 
-en red para la construcción de aplicaciones interactivas.
+Se espera que al finalizar el curso seas capaz de construir una aplicación 
+interactiva que pueda intercambiar información con múltiples sistemas de cómputo externos 
+que tengan la capacidad de leer y/o modificar el mundo físico. Para este fin te propondré un 
+tema o una situación problemática que debes resolver seleccionando las técnicas 
+de programación y protocolos más adecuados (nivel autónomo) según los requerimientos. 
 
 Competencia
 ------------
 
-Materializa sistemas intermediados por el entretenimiento digital para resolver 
-problemas de acuerdo con requerimientos condicionados por el contexto.
+Entretenimiento digital tiene 5 tipos de cursos: contenidos digitales, diseño, 
+ingeniería de software, materialización y gestión e innovación TIC. 
+Este curso es del tipo materialización. Los cursos del área de materialización buscan 
+que puedas desarrollar las competencias necesarias para solucionar problemas de 
+interacción integrando lo que has aprendido de ingeniería de software, construcción 
+de contenidos digitales y diseño interactivo.
+
+La competencia específica a la que apunta este curso es:
+
+Materializa sistemas intermediados por el entretenimiento digital para resolver problemas 
+de acuerdo con requerimientos condicionados por el contexto
 
 Resultados de aprendizaje
 ----------------------------
 
 .. note:: RESULTADO DE APRENDIZAJE
 
-    Integro dispositivos de entrada, salida e interfaces mecánicas con sistemas de 
-    cómputo para la creación de sistemas intermediados por el entretenimiento digital.
+    Integro dispositivos de entrada-salida con sistemas de cómputo para la creación de sistemas 
+    intermediados por el entretenimiento digital según los requisitos definidos.
 
     ``NIVEL: autónomo.``
 
@@ -56,48 +65,67 @@ Si. Receptivo, resolutivo y estratégico.
 Carta descriptiva
 -------------------
 
-En `este <https://drive.google.com/file/d/1rRzPxSS62u-0AlrML0ZpUeFVswV78DD2/view?usp=sharing>`__ enlace 
+En `este <https://github.com/juanferfranco/SistemasFisicosInteractivos2/tree/main/docs/_static/cartaDescriptiva.xlsm>`__ enlace 
 puedes revisar la carta descriptiva del curso.
-
-Proyecto docente
--------------------
-
-Te dejo `aquí <https://github.com/juanferfranco/SistemasFisicosInteractivos2/blob/main/docs/_static/FormatoPlaneacionInteractivos22023-10.xlsx>`__ 
-el proyecto docente de este curso.
 
 Metodología del curso
 ----------------------
 
-Este curso se ofrece en modalidad proyecto. En esta modalidad se propone un 
-proyecto de curso que tendrás que solucionar con tu equipo de trabajo, sobre todo, 
-en tiempo autónomo. Las sesiones presenciales se usarán para asesorías y revisar el avance 
-de los proyectos.
+Este curso se ofrece en modalidad proyecto. En esta modalidad se propone un problema que 
+deberás abordar mediante un proyecto de curso.
+
+¿Qué haremos entonces en las sesión presencial?
+
+* Presentar avances del proyecto
+* Retroalimentar el proceso
+* Realizar algunos talleres
+* Analizar algunos casos de estudio.
+
+¿Qué harás en el tiempo autónomo?
+
+* Trabajar en los prototipos del proyecto.
+
+
+Entregas
+-----------
+
+* Prototipo 1: diseño de la aplicación e integración con el primer dispositivo.
+* Prototipo 2: ajustes al diseño de la aplicación e integración con dos dispositivos.
+* Prototipo 3: ajustes al diseño de la aplicación e integración con dos dispositivos y 
+  aplicación de control externa.	
+* Prototipo 4: versión final de la aplicación y publicación del portafolio.	
 
 Cronograma
 -----------
 
-Ver el proyecto docente del curso.
+=========== ==================  ===================== =====================
+Evaluación  Plazo 1 (sobre 5)   Plazo 2 (sobre 5)     Plazo 3 (sobre 4)
+=========== ==================  ===================== ===================== 
+Prototipo 1 semana 4 ago 7      semana 4              semana 5
+Prototipo 2 semana 7            semana 8              semana 9
+Prototipo 3 semana 12           semana 13             semana 14
+Prototipo 4 semana 15           no hay                semana 16
+=========== ==================  ===================== ===================== 
 
-Evaluación
+* Ten presente que te reportaré al SIGAA siempre en el plazo 1. Si entregas en los 
+  plazos posteriores de modificaré la nota. Luego del plazo 3 la nota quedará 
+  en cero.
+* Solo se recibirán los prototipos con todas los requisitos solicitados. La nota 
+  para un prototipo incompleto será 0. Mira por favor muy bien las condiciones de entrega 
+  para cada prototipo.
+
+Porcentajes
 -----------
 
-* Prototipo 1. 20% Semana 3.
-* Prototipo 2. 20% Semana 6.
-* Prototipo 3. 20% Semana 9.
-* Prototipo 4. 20% Semana 12.
-* Portafolio.  20% Semana 16.
+* Prototipo 1: 30%
+* Prototipo 2: 20%
+* Prototipo 3: 20%
+* Prototipo 4: 30%
 
-Dedicación y metodología del curso
-------------------------------------
+Dedicación 
+------------
 
-.. warning:: ESTE CURSO TIENE UN COMPONENTE DE TRABAJO AUTÓNOMO ENORME!
-
-    Este curso en 2023-10 se ofrecerá en modalidad proyecto. Semanalmente 
-    tendremos encuentros presenciales ``para resolver dudas, para realizar 
-    asesorías y para realizar el seguimiento al proyecto``.
-
-* Las asesorías presenciales serán de 1 hora 40 minutos. Cada equipo presentará 
-  los avances realizados y entre todos realizaremos la retroalimentación.
+* Las asesorías presenciales serán de 1 hora 40 minutos.
 * El trabajo autónomo del curso será de 4 horas.
 
 Proyecto de curso
@@ -140,31 +168,36 @@ Conceptualmente el sistema de cómputo distribuido que implementarás es este:
 Condiciones de entrega 
 -----------------------
 
-Cada equipo debe tener su repositorio en GitHub por prototipo y para el portafolio.
-
-Repositorio para los prototipos:
+Para los prototipos 1 a 3
 
 * El código de todos los proyectos de software involucrados.
-* Documentar el proceso, pruebas intermedias, qué funcionó, qué no funcionó, qué 
-  problemas tuviste, cómo se solucionaron, que material consultaste.
-* Documenta en fotos y video (coloca enlaces) del proceso y del resultado final 
-  del prototipo.
+* Explicar el diseño conceptual de la aplicación.
+* Enlace a un video con el resultado final del prototipo funcionando.
 
-Repositorio para el portafolio:
+Para el prototipo 4:
 
-* El código de todos los proyectos de software involucrados.
+* Versión final del código de todos los dispositivos de cómputo involucrados.
+* Explicar el diseño conceptual de la aplicación.
 * Un documento tipo tutorial con el cual una persona que no conozca 
-  tu proyecto pueda reproducirlo.
-* El enlace a un video donde muestres el proceso y el resultado final del proyecto.
+  tu proyecto pueda reproducirlo y probarlo.
+* El enlace a un video donde muestres en funcionamiento el prototipo final.
+* Un enlace a tu portafolio donde se vea la publicación de este trabajo.
 
-Te voy a dejar dos enlaces muy interesantes:
+
+Te voy a dejar algunas ideas de portafolio y cómo puedes mostrar tu trabajo:
 
 * `Un portafolio <https://www.jellever.be/>`__ ejemplo que me gusta mucho.
 * `Un video <https://youtu.be/CTvbuqRCoKk>`__ donde puedes ver una manera interesante 
   de presentar un proyecto y el proceso para llegar a ese resultado.
 
+Repositorio para las entregas
+-------------------------------
+
+En `este <https://classroom.github.com/a/VziI50xB>`__ repositorio deberás entregar tus prototipos.
 
 
+Tablero de clase
+------------------
 
-
-
+`Tablero <https://upbeduco-my.sharepoint.com/:wb:/g/personal/juanf_franco_upb_edu_co/EaEbUCuFdDlHi26CSt36qdwBwwlp-F_Zjtj9YeQNMck9lQ?e=GVdzE2>`__ 
+del curso.

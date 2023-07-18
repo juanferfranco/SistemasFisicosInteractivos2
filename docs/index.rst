@@ -1,4 +1,4 @@
-Curso Sistemas Físicos Interactivos 2 2023-10
+Curso Sistemas Físicos Interactivos 2 2023-20
 ==============================================
 
 Docente diseñador del curso: Juan Fernando Franco Higuita
