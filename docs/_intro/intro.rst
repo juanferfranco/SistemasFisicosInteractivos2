@@ -104,7 +104,7 @@ Evaluación  Plazo 1 (sobre 5)   Plazo 2 (sobre 5)     Plazo 3 (sobre 4)
 Prototipo 1 semana 4 ago 7      semana 4              semana 5
 Prototipo 2 semana 7 ago 28     semana 8              semana 9
 Prototipo 3 semana 12 oct 2     semana 13             semana 14
-Prototipo 4 semana 15           no hay                semana 16
+Prototipo 4 semana 15 oct 23    no hay                semana 16
 =========== ==================  ===================== ===================== 
 
 * Ten presente que te reportaré al SIGAA siempre en el plazo 1. Si entregas en los 
