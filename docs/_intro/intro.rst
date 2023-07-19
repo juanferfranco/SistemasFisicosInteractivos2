@@ -15,9 +15,14 @@ construida se publicará en un repositorio público y hará parte de tu portafol
 
 Algunos ejemplos de este tipo de aplicaciones:
 
-* `Interactive <https://momentfactory.com/reel/interactive-demo>`__ Momento Factory
-* `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory
-* `TDAxis <https://tdaxis.github.io/>`__
+* `Interactive <https://momentfactory.com/reel/interactive-demo>`__ Momento Factory.
+* `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory.
+* `TDAxis <https://tdaxis.github.io/>`__.
+* `RisitasCorp <https://github.com/juanferfranco/RisitasCorp_Rider>`__ y 
+   `RisitasCorpApp <https://github.com/juanferfranco/RisitasCorp_App>`__.
+* `Proyecto Cosmere <https://github.com/juanferfranco/FisInt2>`__.
+* `Proyecto WEM_23 <https://github.com/juanferfranco/WEM_23>`__.
+* `Proyecto Los Repartidores <https://github.com/juanferfranco/INTERACTIVOS_2_REPARTIDOR>__`.
 
 Propósito del curso
 ---------------------
@@ -101,7 +106,7 @@ Cronograma
 =========== ==================  ===================== =====================
 Evaluación  Plazo 1 (sobre 5)   Plazo 2 (sobre 5)     Plazo 3 (sobre 4)
 =========== ==================  ===================== ===================== 
-Prototipo 1 semana 4 ago 7      semana 4              semana 5
+Prototipo 1 semana 4 ago 7      semana 5              semana 6
 Prototipo 2 semana 7 ago 28     semana 8              semana 9
 Prototipo 3 semana 12 oct 2     semana 13             semana 14
 Prototipo 4 semana 15 oct 23    no hay                semana 16
@@ -183,6 +188,10 @@ Para el prototipo 4:
 * El enlace a un video donde muestres en funcionamiento el prototipo final.
 * Un enlace a tu portafolio donde se vea la publicación de este trabajo.
 
+.. note:: PRESENTACIÓN FINAL 
+
+  En la última sesión del curso, en la semana 16 presentarás tu trabajo 
+  a los compañeros.
 
 Te voy a dejar algunas ideas de portafolio y cómo puedes mostrar tu trabajo:
 

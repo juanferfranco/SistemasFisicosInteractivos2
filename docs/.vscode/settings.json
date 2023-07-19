@@ -2,9 +2,9 @@
     "python.pythonPath": "/bin/python",
     "cSpell.language": "en,es",
     "cSpell.words": [
-        "Ardity",
         "actuador",
         "actuadores",
+        "Ardity",
         "cent",
         "centígrados",
         "descomenta",
@@ -19,6 +19,7 @@
         "inicializar",
         "mbrica",
         "mbricos",
+        "multihilo",
         "prototipado",
         "sumativa"
     ],

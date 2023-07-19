@@ -2561,6 +2561,12 @@ el proyecto de esta unidad:
 `TouchOSC <https://hexler.net/products/touchosc>`__
 
 
+Proyecto Cycling
+*****************************************
+
+* `Exploración e ideas <https://navy-point-d0d.notion.site/Informaci-n-para-el-proyecto-de-curso-95167f2b2243400c8c608f1c4df87201>`__.
+* `Información compartida con la empresa <https://navy-point-d0d.notion.site/Informaci-n-para-Landian-6905b19826cf4c12883147d3e0d86ad5>`__.
+
 Aplicaciones móviles: prototipado rápido
 *****************************************
 
