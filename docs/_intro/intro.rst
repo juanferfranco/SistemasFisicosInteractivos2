@@ -19,10 +19,10 @@ Algunos ejemplos de este tipo de aplicaciones:
 * `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory.
 * `TDAxis <https://tdaxis.github.io/>`__.
 * `RisitasCorp <https://github.com/juanferfranco/RisitasCorp_Rider>`__ y 
-   `RisitasCorpApp <https://github.com/juanferfranco/RisitasCorp_App>`__.
+  `RisitasCorpApp <https://github.com/juanferfranco/RisitasCorp_App>`__.
 * `Proyecto Cosmere <https://github.com/juanferfranco/FisInt2>`__.
 * `Proyecto WEM_23 <https://github.com/juanferfranco/WEM_23>`__.
-* `Proyecto Los Repartidores <https://github.com/juanferfranco/INTERACTIVOS_2_REPARTIDOR>__`.
+* `Proyecto Los Repartidores <https://github.com/juanferfranco/INTERACTIVOS_2_REPARTIDOR>`__.
 
 Propósito del curso
 ---------------------
