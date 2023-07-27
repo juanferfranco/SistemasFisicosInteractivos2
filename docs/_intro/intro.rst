@@ -202,7 +202,7 @@ Te voy a dejar algunas ideas de portafolio y cómo puedes mostrar tu trabajo:
 Repositorio para las entregas
 -------------------------------
 
-En `este <https://classroom.github.com/a/VziI50xB>`__ repositorio deberás entregar tus prototipos.
+En `este <https://classroom.github.com/a/lp09VZsi>`__ repositorio deberás entregar tus prototipos.
 
 
 Tablero de clase
