@@ -2573,3 +2573,11 @@ Aplicaciones móviles: prototipado rápido
 Los ejercicios propuestos están en `este <https://github.com/juanferfranco/appSensorActivity>`__ 
 repositorio.
 
+Integración de Unity con ZigSim: prototipado rápido
+**********************************************************
+
+La guía de trabajo propuesta está en `este <https://github.com/juanferfranco/ZigSimUnity>`__ 
+repositorio.
+
+
+
