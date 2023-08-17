@@ -2579,5 +2579,13 @@ Integración de Unity con ZigSim: prototipado rápido
 La guía de trabajo propuesta está en `este <https://github.com/juanferfranco/ZigSimUnity>`__ 
 repositorio.
 
+Trabajo en equipo utilizando TouchDesigner
+********************************************
 
-
+* `Teamwork & Version Control a Git Workflow for TouchDesigner <https://youtu.be/aJ3Lur9zpKU>`__ 
+  - Idzard Kwadijk.
+* `Best Practices for TouchDesigner Collaboration <https://youtu.be/6KPwrmrBoAE>`__.
+* MATTHEW RAGAN: `TOUCHDESIGNER, WORKING STYLES, GIT <https://matthewragan.com/2017/12/03/touchdesigner-working-styles-git/>`__.
+* Matthew ragan: `videos <https://www.youtube.com/@mir4486/featured>`__ 
+  sobre definición de arquitectura de una aplicación en TouchDesigner y 
+  flujos de trabajo con Git y GitHub.
