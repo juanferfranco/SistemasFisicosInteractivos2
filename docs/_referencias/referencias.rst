@@ -2591,7 +2591,7 @@ Trabajo en equipo utilizando TouchDesigner
   flujos de trabajo con Git y GitHub.
 
 WebGL y WebGPU
-----------------
+******************
 
 * `Introducing WebGPU <https://youtu.be/m6T-Mq1BPXg?si=nkdEfpjpsJGNA1sF>`__: 
   Unlocking modern GPU access for JavaScript.
@@ -2605,7 +2605,7 @@ WebGL y WebGPU
 * `Practical Programming with Dr. Xu <https://www.youtube.com/@PracticalProgrammingwithDrXu/videos>`__.
 
 Web ML
-----------------
+*********
 
 * `What's new with Web ML in 2023 <https://youtu.be/r7hOoCY6uGo?si=G2FcGgN-GzRl-3ni>`__.
 * `Visual Blocks for ML <https://visualblocks.withgoogle.com/>`__.
@@ -2613,7 +2613,7 @@ Web ML
 * `Machine Learning for Web Developers (Web ML) <https://youtube.com/playlist?list=PLOU2XLYxmsILr3HQpqjLAUkIPa5EaZiui&si=_YoTv7bfW9ZHvShV>`__
 
 Tools
--------
+********
 
 * `Textfx <https://textfx.withgoogle.com/>`__.
 * `AutoDraw <https://www.autodraw.com/>`__.
