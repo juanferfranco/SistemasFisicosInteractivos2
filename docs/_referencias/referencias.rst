@@ -2589,3 +2589,31 @@ Trabajo en equipo utilizando TouchDesigner
 * Matthew ragan: `videos <https://www.youtube.com/@mir4486/featured>`__ 
   sobre definición de arquitectura de una aplicación en TouchDesigner y 
   flujos de trabajo con Git y GitHub.
+
+WebGL y WebGPU
+----------------
+
+* `Introducing WebGPU <https://youtu.be/m6T-Mq1BPXg?si=nkdEfpjpsJGNA1sF>`__: 
+  Unlocking modern GPU access for JavaScript.
+* `Diseño WEB con programación visual en cables.gl <https://youtube.com/playlist?list=PLNiHKzKZc4rKfZvFNdPS6qCLjKN2OV29a&si=B2CbcZSob4YTnymi>`__.
+* `Play Canvas <https://playcanvas.com/>`__.
+* `Babylonjs <https://www.babylonjs.com/>`__. 
+* `WebGPU API <https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API>`__.
+* `WebGPU Tutorial <https://youtu.be/KTFFdZSDiTU?si=VM8ZE9XdkUU8ECP7>`__ - Advanced Graphics on the Web Course
+* `Webgpu samples <https://webgpu.github.io/webgpu-samples/>`__.
+* `Your first WebGPU app <https://codelabs.developers.google.com/your-first-webgpu-app#0>`__.
+* `Practical Programming with Dr. Xu <https://www.youtube.com/@PracticalProgrammingwithDrXu/videos>`__.
+
+Web ML
+----------------
+
+* `What's new with Web ML in 2023 <https://youtu.be/r7hOoCY6uGo?si=G2FcGgN-GzRl-3ni>`__.
+* `Visual Blocks for ML <https://visualblocks.withgoogle.com/>`__.
+* `Google machine learning courses <https://ai.google/build/machine-learning>`__.
+* `Machine Learning for Web Developers (Web ML) <https://youtube.com/playlist?list=PLOU2XLYxmsILr3HQpqjLAUkIPa5EaZiui&si=_YoTv7bfW9ZHvShV>`__
+
+Tools
+-------
+
+* `Textfx <https://textfx.withgoogle.com/>`__.
+* `AutoDraw <https://www.autodraw.com/>`__.
