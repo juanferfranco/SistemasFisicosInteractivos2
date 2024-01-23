@@ -1,17 +1,24 @@
 INTRODUCCIÓN AL CURSO 
 =======================
 
+Carta descriptiva
+--------------------
+
+Por favor consulta la carta descriptiva en el sistema de la Universidad. Te voy a 
+mostrar aquí los puntos más importantes de ese documento.
+
 Descripción del curso
 ----------------------
 
 El objeto de este curso es aportar a las competencias que te permitan construir aplicaciones 
 interactivas que pueda intercambiar información con varios dispositivos de cómputo externos 
-que tengan la capacidad de leer y/o modificar el mundo físico . El curso se estructura alrededor 
-de un proyecto que permita trabajar conceptos tales como comunicaciones inalámbricas, protocolos 
-de comunicación híbridos, sockets udp, técnicas de programación multihilo y máquinas de estado. 
-La aplicación deberá intercambiar información de manera inalámbrica con dos o más dispositivos 
-de cómputo y podrá ser controlada remotamente por otra aplicación. La aplicación interactiva 
-construida se publicará en un repositorio público y hará parte de tu portafolio.
+que tengan la capacidad de leer y/o modificar el mundo físico . El curso se estructura 
+alrededor de un proyecto que permita trabajar conceptos tales como comunicaciones inalámbricas, 
+protocolos de comunicación híbridos, sockets udp, técnicas de programación multihilo y 
+máquinas de estado. La aplicación deberá intercambiar información de manera inalámbrica 
+con dos o más dispositivos de cómputo y podrá ser controlada remotamente por 
+otra aplicación. La aplicación interactiva construida se publicará en un repositorio público 
+y hará parte de tu portafolio.
 
 Algunos ejemplos de este tipo de aplicaciones:
 
@@ -23,6 +30,9 @@ Algunos ejemplos de este tipo de aplicaciones:
 * `Proyecto Cosmere <https://github.com/juanferfranco/FisInt2>`__.
 * `Proyecto WEM_23 <https://github.com/juanferfranco/WEM_23>`__.
 * `Proyecto Los Repartidores <https://github.com/juanferfranco/INTERACTIVOS_2_REPARTIDOR>`__.
+* `video prototipo #3 sistemas físicos 2 Rafael Castaño Méndez <https://youtu.be/AVl84DJk1r4?si=D8vele5TJEv-vAyM>`__.
+* `¿Como se ven nuestras neuronas con cada accion que realizamos? + Explicacion <https://youtu.be/Vl3FXVoz-V4?si=PQl7JUfh9_kppABJ>`__.
+* `Tercer Prototipo - Sistemas Físicos - Jose Santiago Restrepo <https://youtu.be/OksQ4hUmVkQ?si=4Fh4ByuuurN2uQ0J>`__.
 
 Propósito del curso
 ---------------------
@@ -33,8 +43,16 @@ que tengan la capacidad de leer y/o modificar el mundo físico. Para este fin te
 tema o una situación problemática que debes resolver seleccionando las técnicas 
 de programación y protocolos más adecuados (nivel autónomo) según los requerimientos. 
 
+
+Resultado de aprendizaje general 
+-----------------------------------
+
+Soluciono problemas de interacción mediante la integración de contenidos digitales y 
+software de acuerdo con un diseño previo, para la implementación de sistemas intermediados 
+por el entretenimiento digital. 
+
 Competencia
-------------
+*************
 
 Entretenimiento digital tiene 5 tipos de cursos: contenidos digitales, diseño, 
 ingeniería de software, materialización y gestión e innovación TIC. 
@@ -48,8 +66,8 @@ La competencia específica a la que apunta este curso es:
 Materializa sistemas intermediados por el entretenimiento digital para resolver problemas 
 de acuerdo con requerimientos condicionados por el contexto
 
-Resultados de aprendizaje
-----------------------------
+Resultados de aprendizaje específico
+***************************************
 
 .. note:: RESULTADO DE APRENDIZAJE
 
@@ -66,12 +84,6 @@ apropiadas para conseguir una solución óptima al problema.
 ¿Eso quiere decir que hay más niveles?
 
 Si. Receptivo, resolutivo y estratégico.
-
-Carta descriptiva
--------------------
-
-En `este <https://github.com/juanferfranco/SistemasFisicosInteractivos2/tree/main/docs/_static/cartaDescriptiva.xlsm>`__ enlace 
-puedes revisar la carta descriptiva del curso.
 
 Metodología del curso
 ----------------------
@@ -90,48 +102,89 @@ deberás abordar mediante un proyecto de curso.
 
 * Trabajar en los prototipos del proyecto.
 
-
-Entregas
------------
-
-* Prototipo 1: diseño de la aplicación e integración con el primer dispositivo.
-* Prototipo 2: ajustes al diseño de la aplicación e integración con dos dispositivos.
-* Prototipo 3: ajustes al diseño de la aplicación e integración con dos dispositivos y 
-  aplicación de control externa.	
-* Prototipo 4: versión final de la aplicación y publicación del portafolio.	
-
 Cronograma
 -----------
 
-=========== ==================  ===================== =====================
-Evaluación  Plazo 1 (sobre 5)   Plazo 2 (sobre 5)     Plazo 3 (sobre 4)
-=========== ==================  ===================== ===================== 
-Prototipo 1 semana 4 ago 7      semana 5              semana 6
-Prototipo 2 semana 7 ago 28     semana 8              semana 9
-Prototipo 3 semana 12 oct 2     semana 13             semana 14
-Prototipo 4 semana 15 oct 23    no hay                semana 16
-=========== ==================  ===================== ===================== 
+* Prototipo 1: semana 4.
+* Prototipo 2: semana 8.
+* Prototipo 3: semana 12.
+* Prototipo 4: semana 16.
 
-* Ten presente que te reportaré al SIGAA siempre en el plazo 1. Si entregas en los 
-  plazos posteriores de modificaré la nota. Luego del plazo 3 la nota quedará 
-  en cero.
-* Solo se recibirán los prototipos con todas los requisitos solicitados. La nota 
-  para un prototipo incompleto será 0. Mira por favor muy bien las condiciones de entrega 
-  para cada prototipo.
-
-Porcentajes
+Evaluación 
 -----------
 
-* Prototipo 1: 30%
-* Prototipo 2: 20%
-* Prototipo 3: 30%
-* Prototipo 4: 20%
+* El prototipo de cada entrega lo deberás construir semana a semana. Las primeras 
+  semanas estarán dedicadas a investigar y experimentar. Las semanas 
+  finales a la construcción del prototipo y a la documentación del mismo.
+* En la semana de cierre del prototipo (4,8,12 y 16) debes hacer una presentación
+  donde muestres los resultados de tu prototipo.
+
+La distribución de puntos por unidad queda así:
+
+
+* Prototipo 1: bitácora (4) + documentación (1). 25%
+* Prototipo 2: bitácora (4) + documentación (1). 25%
+* Prototipo 3: bitácora (4) + documentación (1). 25%
+* Prototipo 4: bitácora (4) + documentación (1). 25%
 
 Dedicación 
 ------------
 
-* Las asesorías presenciales serán de 1 hora 40 minutos.
+* Las asesorías presenciales serán de 1 hora 40 minutos
 * El trabajo autónomo del curso será de 4 horas.
+
+Rutina de trabajo en aula (sesión de avances)  
+------------------------------------------------
+
+Actividad grupal (30 minutos por persona)
+
+* Cada persona presenta los avances realizados al prototipo.
+* ¿Se cumplieron las tareas?
+* Los compañeros y el profesor darán retroalimentación al trabajo.
+* Toda la información debe estar en la bitácora.
+* Todos las aplicaciones deben estar bajo control de versión en 
+  el repositorio creado por el profesor.
+
+Actividad individual (10 minutos)
+
+* Se reportarán las acciones de mejora sugeridas en la presentación grupal.
+* Se reportarán en la bitácora las tareas para la semana siguiente.
+
+
+Rutina de trabajo en aula (sesión de cierre)  
+------------------------------------------------
+
+Actividad grupal (30 minutos por persona)
+
+* Cada persona presenta la bitácora de su prototipo y una 
+  demostración del funcionamiento.
+* La persona que presenta aclarará dudas de diseño y dudas técnicas
+  de los demás.
+
+Actividad individual (10 minutos por persona)
+
+* Se reportarán las acciones de mejora sugeridas en la presentación grupal.
+* Se reportarán en la bitácora las tareas para la semana siguiente.
+
+
+Rutina de trabajo independiente 
+---------------------------------
+
+En la bitácora se deben reportar dos sesiones de trabajo 
+independiente. El trabajo de estas sesiones será el insumo 
+para presentar en las sesiones presenciales.
+
+Manejo de la Bitácora
+------------------------
+
+Cada semana la bitácora deberá tener tres entradas:
+
+* Sesión de trabajo independiente 1.
+* Sesión de trabajo independiente 2.
+* Sesión de trabajo presencial.
+
+En la sesión presencial se dará el punto si las tres entradas 
+están completas.
 
 Proyecto de curso
 --------------------
@@ -199,14 +252,8 @@ Te voy a dejar algunas ideas de portafolio y cómo puedes mostrar tu trabajo:
 * `Un video <https://youtu.be/CTvbuqRCoKk>`__ donde puedes ver una manera interesante 
   de presentar un proyecto y el proceso para llegar a ese resultado.
 
-Repositorio para las entregas
--------------------------------
+Bitácora de trabajo  
+--------------------
 
-En `este <https://classroom.github.com/a/lp09VZsi>`__ repositorio deberás entregar tus prototipos.
-
-
-Tablero de clase
-------------------
-
-`Tablero <https://upbeduco-my.sharepoint.com/:wb:/g/personal/juanf_franco_upb_edu_co/EaEbUCuFdDlHi26CSt36qdwBwwlp-F_Zjtj9YeQNMck9lQ?e=GVdzE2>`__ 
-del curso.
+`Aquí <https://classroom.github.com/a/r5q3W_4V>`__ podrás encontrar el enlace a tu bitácora 
+personal para el curso.
