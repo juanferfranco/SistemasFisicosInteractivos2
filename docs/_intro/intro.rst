@@ -160,6 +160,8 @@ Actividad grupal (30 minutos por persona)
   demostración del funcionamiento.
 * La persona que presenta aclarará dudas de diseño y dudas técnicas
   de los demás.
+* Además ten en cuenta que cada sesión de cierre debe tener 
+  en la bitácora la información extra que te propondré más abajo.
 
 Actividad individual (10 minutos por persona)
 
@@ -186,50 +188,63 @@ Cada semana la bitácora deberá tener tres entradas:
 En la sesión presencial se dará el punto si las tres entradas 
 están completas.
 
-Proyecto de curso
---------------------
+Problema
+------------
 
-Vamos a implementar un BIG GAME con un objetivo de diseño meramente lúdico. 
+.. note::
+  Sistema Interactivo para evento musical en vivo.
 
-El juego a implementar se llama ATRAPADOS. Fue diseñado en el año 2014 por:
+Objetivo
+**********
+crear un sistema interactivo para un evento musical en vivo que integre efectos visuales y 
+de iluminación controlados en tiempo real. Este sistema debe responder a estímulos musicales y acciones del público, 
+creando una experiencia de concierto inmersiva y dinámica.
 
-* Alejandro Vanegas.
-* Nelson Carvajal.
-* Stephanie Rivera.
-* Andrés Medina.
+Componentes Clave del Proyecto
+*********************************
 
-`Aquí <https://youtu.be/OD44njx0Wh4>`__ puedes ver un game play simulado del juego.
+#. Análisis de audio en tiempo real: utilizar el análisis de audio para que el sistema reaccione a la música. 
+   Esto puede incluir la sincronización de visuales y efectos de iluminación con la intensidad, el ritmo, y 
+   la melodía de la música.
+#. Interacción con el público: implementar mecanismos para que el público interactúe con el sistema, posiblemente 
+   a través de dispositivos móviles o sensores distribuidos en el lugar del evento.
 
-El documento de diseño original:
+#. Comunicación Inalámbrica: usar comunicación inalámbrica para conectar dispositivos móviles del público y sensores 
+   con la aplicación central.
+#. Sockets UDP para comunicación en tiempo real: implementar sockets UDP para manejar la comunicación en tiempo real 
+   entre la aplicación central y otros dispositivos o aplicaciones (pueden usarse otros protocolos, pero este 
+   será el punto de partida).
+#. Programación multihilo: utilizar programación multihilo para gestionar varios flujos de datos simultáneamente, 
+   asegurando una respuesta rápida y sincronizada con el evento en vivo. Mira, la idea de este requisito es llamarte 
+   la atención para que pienses aprovechar de la mejor manera posible el hardware tu computador. No necesariamente 
+   debes usar hilos, son una herramienta. Recuerda que puedes y en muchos casos debes aprovechar la GPU.
+#. Máquinas de estado: desarrollar máquinas de estado para controlar los diferentes modos de visualización y 
+   efectos de iluminación, dependiendo de los estímulos recibidos (por ejemplo, cambios en la música o interacciones del público).
+#. Visualización interactiva y efectos especiales: crear efectos visuales interactivos y dinámicos que se proyecten en 
+   pantallas o superficies del escenario, y que cambien en respuesta a la música y la interacción del público.
 
-.. figure:: ../_static/DesignDoc.JPG
-   :alt: Documento de diseño 
-   :class: with-shadow
-   :align: center
-   :width: 100%
+Resultados esperados
+***********************
 
-|
+#. Reactividad musical: el sistema debe cambiar los visuales y la iluminación en respuesta a la música en tiempo real.
+#. Interacción del público: debe permitir que el público influya en los efectos visuales y de iluminación a través 
+   de interacciones predefinidas.
+#. Experiencia inmersiva: crear una experiencia de concierto única e inmersiva que mejore la actuación musical y 
+   cree un ambiente interactivo para el público.
 
-`Aquí <https://drive.google.com/drive/folders/0B0FEIQwvlT4MN2pUd0JRdnlVMjA?resourcekey=0-cSomz0TgoCQmvo9f_sXdLQ&usp=share_link>`__ 
-puedes ver algunas fotos de las pruebas de usuario.
+Este proyecto te brindará la oportunidad de explorar cómo la tecnología puede mejorar las experiencias de 
+entretenimiento, particularmente en eventos en vivo. Además, te desafía a pensar en formas creativas de integrar 
+la interactividad y la tecnología en el arte del espectáculo, una habilidad cada vez más demandada en la 
+industria del entretenimiento digital.
 
-Conceptualmente el sistema de cómputo distribuido que implementarás es este:
-
-.. figure:: ../_static/AtrapadosDiagram.png
-   :alt: Diagrama conceptual de atrapados
-   :class: with-shadow
-   :align: center
-   :width: 100%
-
-   Diagrama conceptual de los componentes del juego
-
-Condiciones de entrega 
------------------------
+Entradas extras en la bitácora para los cierres de prototipo
+--------------------------------------------------------------
 
 Para los prototipos 1 a 3
 
 * El código de todos los proyectos de software involucrados.
-* Explicar el diseño conceptual de la aplicación.
+* Explicar el diseño conceptual de la aplicación y cómo va evolucionando 
+  con cada prototipo.
 * Enlace a un video con el resultado final del prototipo funcionando.
 
 Para el prototipo 4:
@@ -241,16 +256,6 @@ Para el prototipo 4:
 * El enlace a un video donde muestres en funcionamiento el prototipo final.
 * Un enlace a tu portafolio donde se vea la publicación de este trabajo.
 
-.. note:: PRESENTACIÓN FINAL 
-
-  En la última sesión del curso, en la semana 16 presentarás tu trabajo 
-  a los compañeros.
-
-Te voy a dejar algunas ideas de portafolio y cómo puedes mostrar tu trabajo:
-
-* `Un portafolio <https://www.jellever.be/>`__ ejemplo que me gusta mucho.
-* `Un video <https://youtu.be/CTvbuqRCoKk>`__ donde puedes ver una manera interesante 
-  de presentar un proyecto y el proceso para llegar a ese resultado.
 
 Bitácora de trabajo  
 --------------------

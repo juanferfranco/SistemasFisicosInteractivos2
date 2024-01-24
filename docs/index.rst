@@ -13,7 +13,7 @@ Curso de 2 créditos y 96 horas totales
 
 .. toctree::
    :maxdepth: 1
-   :caption: SECCIONES
+   :caption: Trayecto de actividades
 
    Introducción al curso <_intro/intro> 
    Material de referencia <_referencias/referencias>

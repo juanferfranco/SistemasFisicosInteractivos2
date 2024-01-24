@@ -2617,3 +2617,43 @@ Tools
 
 * `Textfx <https://textfx.withgoogle.com/>`__.
 * `AutoDraw <https://www.autodraw.com/>`__.
+
+Formato interesante de documentación de un proyecto 
+*******************************************************
+
+* `Un video <https://youtu.be/CTvbuqRCoKk>`__ donde puedes ver una manera interesante 
+  de presentar un proyecto y el proceso para llegar a ese resultado.
+
+Portafolios
+****************
+
+* `Jellever <https://www.jellever.be/>`__.
+* `Jelle story telling idea <https://youtu.be/CTvbuqRCoKk>`__.
+* `Andrea Gonzalez profe de IDED <https://drive.google.com/file/d/1OpKvM0XYEKNzZuHbyix1ohnfU5JwGGWI/view?usp=sharing>`__.
+* `Mateusz Grad <https://www.behance.net/gallery/139111749/Fundi-UIUX-App-Design?tracking_source=search_projects>`__.
+* `Gapsy Studio <https://www.behance.net/gallery/139545717/Pickle-Mobile-UIUX-for-Social-app?tracking_source=search_projects>`__.
+* `Gapsy Studio <https://www.behance.net/gallery/114257749/MyLagro-Website-Mobile-App>`__.
+* `Fabian Shinzato <https://www.behance.net/gallery/104515801/Bloom-UXUI?tracking_source=search_projects>`__.
+* `Allison winter <https://www.allisonwinter.com/>`__.
+* `Koenvo <https://www.koenvo.com/>`__.
+*  `Dennis Snellenberg <https://dennissnellenberg.com/>`__.
+* `Brandon Hampton <https://www.bhamps.com/>`__.
+* `Luca Vonilo <https://lucavolino.com/>`__.
+* `Greg Koberger <https://gkoberger.com/>`__.
+* `Paco Coursey <https://paco.me/>`__.
+* `Rauno Freiberg <https://rauno.me/>`__.
+* `Naxo <https://naxo.dev/>`__.
+* `Jesse Zhou <https://jesse-zhou.com/>`__.
+* `Bruno Simon <https://bruno-simon.com/>`__.
+* `Alex Pierce <https://www.behance.net/alexpierce/moodboards>`__.
+* `Alex Pierce <http://thegeekdesigner.com/>`__.
+* `embed <https://astolfo.co/>`__.
+* `Anthony Fu <https://antfu.me/_>`__.
+* `Niccolo Miranda <https://www.niccolomiranda.com/>`__.
+* `Gass Zone <https://www.gass.zone/>`__.
+* `Minh Pham <https://minhpham.design/>`__.
+* `Grabriel Bianchi <https://www.gabrielbianchi.com/>`__.
+* `Guillaume Reygner <https://guillaumereygner.fr/>`__. 
+* `dan abramov <https://danabra.mov/>`__.
+* `Edan Kwan <https://edankwan.com/>`__.
+
