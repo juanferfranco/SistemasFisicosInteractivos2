@@ -1,4 +1,4 @@
-INTRODUCCIÓN AL CURSO 
+Introducción al curso 
 =======================
 
 Carta descriptiva
@@ -11,17 +11,18 @@ Descripción del curso
 ----------------------
 
 El objeto de este curso es aportar a las competencias que te permitan construir aplicaciones 
-interactivas que pueda intercambiar información con varios dispositivos de cómputo externos 
-que tengan la capacidad de leer y/o modificar el mundo físico . El curso se estructura 
+interactivas que que intercambien información con varios dispositivos de cómputo externos que 
+tienen la capacidad de leer y/o modificar el mundo físico . El curso se estructura 
 alrededor de un proyecto que permita trabajar conceptos tales como comunicaciones inalámbricas, 
 protocolos de comunicación híbridos, sockets udp, técnicas de programación multihilo y 
-máquinas de estado. La aplicación deberá intercambiar información de manera inalámbrica 
+máquinas de estado, entre otros. La aplicación deberá intercambiar información de manera inalámbrica 
 con dos o más dispositivos de cómputo y podrá ser controlada remotamente por 
 otra aplicación. La aplicación interactiva construida se publicará en un repositorio público 
 y hará parte de tu portafolio.
 
 Algunos ejemplos de este tipo de aplicaciones:
 
+* `Moment factory Shows & Concerts <https://youtu.be/WD8zBDsf1Kg?si=riQpcqxZULxL2gaQ>`__.
 * `Interactive <https://momentfactory.com/reel/interactive-demo>`__ Momento Factory.
 * `Lumia <https://momentfactory.com/reel/lumina-night-walks-demo>`__ de Moment Factory.
 * `TDAxis <https://tdaxis.github.io/>`__.

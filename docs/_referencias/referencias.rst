@@ -2579,8 +2579,8 @@ Integración de Unity con ZigSim: prototipado rápido
 La guía de trabajo propuesta está en `este <https://github.com/juanferfranco/ZigSimUnity>`__ 
 repositorio.
 
-Trabajo en equipo utilizando TouchDesigner
-********************************************
+TouchDesigner
+***************
 
 * `Teamwork & Version Control a Git Workflow for TouchDesigner <https://youtu.be/aJ3Lur9zpKU>`__ 
   - Idzard Kwadijk.
@@ -2589,6 +2589,16 @@ Trabajo en equipo utilizando TouchDesigner
 * Matthew ragan: `videos <https://www.youtube.com/@mir4486/featured>`__ 
   sobre definición de arquitectura de una aplicación en TouchDesigner y 
   flujos de trabajo con Git y GitHub.
+* `Audio-reactive psychedelic visuals | TouchDesigner Beginner Tutorial <https://youtu.be/Mt2hwb5cngA?si=Pt2EeutE4SRjgFYE>`__.
+* `Touch Designer Beginner Tutorials <https://youtube.com/playlist?list=PLZeDM2TloijWODqRjQrE_WwoK1inYP1PX&si=P6vtZQBvOxXbA94C>`__.
+* HQ Interactive `TouchDesigner Tutorials <https://youtube.com/playlist?list=PLpuCjVEMQha9_WchDzqG878GtsJd1uJ5s&si=VH93A8i_twqWsU2U>`__.
+* `Meta Spark for TouchDesigner Creators <https://youtu.be/aZob4c6ULo4?si=VtZZqMBKzY4B2ji->`__.
+
+Meta Spark 
+**************
+
+* Contenido interactivo XR para redes sociales. `Meta Spark Tutorials <https://youtube.com/playlist?list=PLpuCjVEMQha-xKMJjXgNoj-Uff8J_zDVe&si=aDXUoZdaT3QrW5ij>`__.
+
 
 WebGL y WebGPU
 ******************
@@ -2657,3 +2667,15 @@ Portafolios
 * `dan abramov <https://danabra.mov/>`__.
 * `Edan Kwan <https://edankwan.com/>`__.
 
+Events en vivo
+***************************
+
+* `THE KILLERS, IMPLODING THE MIRAGE TOUR <https://momentfactory.com/work/all/all/the-killers-imploding-the-mirage-tour>`__. 
+* `VIRTUAL PRODUCTION WORKSHOP EP1./ Making a Live concert / with Antonia Forster from Unity <https://www.youtube.com/live/VhMhFtozC9E?si=DRYbgXatQ2JMPifZ>`__.
+* `Moment Factory’s DMX Sample Project For Live Event Previs | Unreal Engine <https://youtu.be/UXodNAcyFj8?si=rxhoIVQMQWFcCAYS>`__.
+
+Formación profesional 
+************************
+
+* `HQ Interactive <https://interactiveimmersive.io/>`__.
+* `Academy of Live Technology <https://academyoflivetechnology.co.uk/>`__.
