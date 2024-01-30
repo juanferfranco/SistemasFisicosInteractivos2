@@ -263,3 +263,11 @@ Bitácora de trabajo
 
 `Aquí <https://classroom.github.com/a/r5q3W_4V>`__ podrás encontrar el enlace a tu bitácora 
 personal para el curso.
+
+Puntos semanales
+------------------
+
+En `este <https://docs.google.com/spreadsheets/d/1g2zBOsLA1omgD-wbp6pq4tka_BVZMzu59um-rYuA8CQ/edit?usp=sharing>`__ 
+enlace puedes consultar la asignación semanal de puntos. Recuerda que tienes plazo hasta el viernes a las 12 
+del medio día todas las semanas para completar tus tres sesiones de trabajo (una en el aula y dos de trabajo 
+independiente) y el resultado o producto de cierre de la unidad. 
