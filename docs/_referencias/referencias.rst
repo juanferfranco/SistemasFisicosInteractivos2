@@ -2586,7 +2586,7 @@ TouchDesigner
   - Idzard Kwadijk.
 * `Best Practices for TouchDesigner Collaboration <https://youtu.be/6KPwrmrBoAE>`__.
 * MATTHEW RAGAN: `TOUCHDESIGNER, WORKING STYLES, GIT <https://matthewragan.com/2017/12/03/touchdesigner-working-styles-git/>`__.
-* Matthew ragan: `videos <https://www.youtube.com/@mir4486/featured>`__ 
+* Matthew ragan: `videos <https://youtube.com/playlist?list=PLBjvv2l4Z43jvn8M9fyjy_sGAezCcph2f&si=w9jRbSGTKgVQDcIa>`__ 
   sobre definición de arquitectura de una aplicación en TouchDesigner y 
   flujos de trabajo con Git y GitHub.
 * `Audio-reactive psychedelic visuals | TouchDesigner Beginner Tutorial <https://youtu.be/Mt2hwb5cngA?si=Pt2EeutE4SRjgFYE>`__.
