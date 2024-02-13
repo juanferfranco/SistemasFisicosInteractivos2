@@ -2673,6 +2673,7 @@ Events en vivo
 * `THE KILLERS, IMPLODING THE MIRAGE TOUR <https://momentfactory.com/work/all/all/the-killers-imploding-the-mirage-tour>`__. 
 * `VIRTUAL PRODUCTION WORKSHOP EP1./ Making a Live concert / with Antonia Forster from Unity <https://www.youtube.com/live/VhMhFtozC9E?si=DRYbgXatQ2JMPifZ>`__.
 * `Moment Factory’s DMX Sample Project For Live Event Previs | Unreal Engine <https://youtu.be/UXodNAcyFj8?si=rxhoIVQMQWFcCAYS>`__.
+* Using Pixera Media Servers for Immersive Projects. `Video with an overview <https://youtu.be/TmGq12juoe0?si=o52XB_RkUXbaLQ4T>`__.
 
 Formación profesional 
 ************************
