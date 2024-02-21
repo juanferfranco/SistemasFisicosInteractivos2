@@ -17,4 +17,5 @@ Curso de 2 créditos y 96 horas totales
 
    Introducción al curso <_intro/intro> 
    Material de referencia <_referencias/referencias>
-   
+
+* `Bitácoras de los aprendices <https://classroom.github.com/classrooms/19781391-sistemas-fisicos-interactivos-2-2024-10/assignments/bitacorassf2-2024-10>`__.
