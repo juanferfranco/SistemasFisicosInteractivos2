@@ -2674,6 +2674,8 @@ Events en vivo
 * `VIRTUAL PRODUCTION WORKSHOP EP1./ Making a Live concert / with Antonia Forster from Unity <https://www.youtube.com/live/VhMhFtozC9E?si=DRYbgXatQ2JMPifZ>`__.
 * `Moment Factory’s DMX Sample Project For Live Event Previs | Unreal Engine <https://youtu.be/UXodNAcyFj8?si=rxhoIVQMQWFcCAYS>`__.
 * Using Pixera Media Servers for Immersive Projects. `Video with an overview <https://youtu.be/TmGq12juoe0?si=o52XB_RkUXbaLQ4T>`__.
+* Control remoto de aplicaciones usando `Remote-RED<https://interactiveimmersive.io/blog/controlling-touchdesigner/remote-red-with-touchdesigner/?utm_source=ActiveCampaign&utm_medium=email&utm_content=Immersive+Monday+%23340&utm_campaign=Immersive+Monday+%23335
+>`__
 
 Formación profesional 
 ************************
