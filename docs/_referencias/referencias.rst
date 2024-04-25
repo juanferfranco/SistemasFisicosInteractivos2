@@ -2681,3 +2681,33 @@ Formación profesional
 
 * `HQ Interactive <https://interactiveimmersive.io/>`__.
 * `Academy of Live Technology <https://academyoflivetechnology.co.uk/>`__.
+
+
+Recursos para el prototipo 4 
+**********************************
+
+Para el prototipo 4 te he pedido que hagas varias cosas, pero una en particular 
+que experimentes con tu portafolio personal. Para esto te dejo algunos enlances 
+para que trates con la herramienta cables.gl:
+
+* Lo primero que deberás hacer es familiarizarte con la herramienta y sus posibilidades. Para 
+  esto de recomiendo que mires en los `playlists de cables.gl <https://www.youtube.com/@cablesgl/playlists>`__.
+* Luego te pediré que HAGAS EXPERIMENTOS mientras exploras `estos tutoriales <https://youtube.com/playlist?list=PLigMhZPczouVkDLB3Ji66M3K0frprOXW5&si=Nn0EISDqpu8uTiW_>`__.
+* Si estás motivado y puedes invertir más tiempo y además quieres aprender algo de diseño WEB con programación 
+  visual en cables.gl, puedes ver `estos tutoriales <https://youtube.com/playlist?list=PLNiHKzKZc4rKfZvFNdPS6qCLjKN2OV29a&si=0pBWc6-BcoBMoRPr>`__.
+
+Además puedes inspirarte con estos portafolios:
+
+* Portafolio de Bruno Simon. `Website <https://bruno-simon.com/>`__.
+* Portafolio de David Hckh. `Website <https://www.david-hckh.com/>`__.
+* Portafolio de Edan Kwan. `Website <https://edankwan.com/>`__.
+* Portafolio de Greg Koberger. `Website <https://gkoberger.com/>`__.
+* Portafolio de Rauno Freiberg. `Website <https://rauno.me/>`__.
+* Portafolio de Nacho Vazquez. `Website <https://naxo.dev/about>`__.
+* Portafolio de Jesse Zhou. `Website <https://jesse-zhou.com/>`__.
+* Portafolio de Alex Pierce. `Website <https://thegeekdesigner.com/>`__.
+* Portafolio de Niccolo Miranda. `Website <https://www.niccolomiranda.com/>`__.
+* Portafolio de Minh Pham `Website <https://minhpham.design/>`__.
+* Portafolio de Grabriel Bianchi. `Website <https://www.gabrielbianchi.com/>`__.
+* Portafolio de Guillaume Reygner. `Website <https://guillaumereygner.fr/>`__. 
+
