@@ -2711,3 +2711,13 @@ Además puedes inspirarte con estos portafolios:
 * Portafolio de Grabriel Bianchi. `Website <https://www.gabrielbianchi.com/>`__.
 * Portafolio de Guillaume Reygner. `Website <https://guillaumereygner.fr/>`__. 
 
+Websockets 
+**************
+
+Esta guía en construcción te mostrará cómo usar websockets para que luego 
+integres con tu plataforma de aplicaciones interactivas favorita.
+
+* Guía. `Repositorio en github <https://github.com/juanferfranco/sf2Websockets>`__.
+* Un ejemplo en Touchdesigner. Heroku ya no es gratuito. 
+  How to Control TouchDesigner with a Website & Vice Versa: Intro to WebSockets 
+  `Youtube playlist <https://youtube.com/playlist?list=PLgfxkm9xFocaQvweC3KF3uIeQyDhsLhWX&si=WcQk6LkcTBN0xPYF>`__.
