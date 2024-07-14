@@ -17,6 +17,7 @@ Secciones del curso
 
    Introducción al curso <_intro/intro> 
    Material de referencia <_referencias/referencias>
+   Trayecto de actividades <_trayecto/trayecto>
 
 Mi bitácora y mis puntos
 --------------------------
