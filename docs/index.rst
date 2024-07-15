@@ -16,8 +16,8 @@ Secciones del curso
    :maxdepth: 1
 
    Introducción al curso <_intro/intro> 
-   Material de referencia <_referencias/referencias>
    Trayecto de actividades <_trayecto/trayecto>
+   Material de referencia <_referencias/referencias>
 
 Mi bitácora y mis puntos
 --------------------------
