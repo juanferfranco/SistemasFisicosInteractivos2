@@ -132,21 +132,52 @@ que puedes generar más preguntas a medida que avanzas en tu investigación, per
 con una pregunta. Te propondré dos actividades. La primera busca que explores de manera general el tema. 
 En la segunda actividad, te propondré que profundices en un caso de estudio específico.
 
+Recursos Guía 
+***************
+
+Para comenzar tu investigación, te recomiendo revisar los siguientes recursos:
+
+Referentes iniciales:
+
+* `Patrik Hübner <https://www.patrik-huebner.com/>`__.
+* `Tim Rodenbröker <https://timrodenbroeker.de/>`__.
+* `Two Perspectives Podcast <https://www.twoperspectives.de/>`__.
+* `Generative Design <http://www.generative-gestaltung.de/2/>`__.
+
+Referentes para seguir explorando:
+
+* `Joshua Davis Studios <https://joshuadavis.com/>`__.
+* `onformative <https://onformative.com/commissions>`__.
+*  `David McCandless - Information is beautiful <https://informationisbeautiful.net/>`__.
+*  `Rune Madsen <https://runemadsen.com/>`__.
+* `Sagmeister & Walsh <https://sagmeisterwalsh.com/>`__.
+* `Invade Diseñando el futuro <https://youtu.be/CmRUtUHXCus?si=PqWJbg_n2X_6j1fG>`__. 
+* `Bastarda Studio <https://bastardatype.com/studio/>`__.
+* `Design Systems International <https://designsystems.international/>`__.
+* `Benedikt Groß <https://benedikt-gross.de/>`__.
+* `Hartmut Bohnacker <https://www.hartmut-bohnacker.de/>`__.
+* `FIELD.IO <https://field.io/>`__.
+* `Manolo Gamboa Naon <https://www.behance.net/manoloide>`__.
+* `Refik Anadol <https://refikanadol.com/>`__.
+* `Universal Everything <https://www.universaleverything.com/>`__.
+* `SOSO <https://www.sosolimited.com/>`__.
+  
+
 Actividad 1
 **************
 
 * ¿Qué es el diseño generativo interactivo en tiempo real en la web?
 * ¿Cuáles son las características clave de un diseño generativo interactivo?
-* ¿Qué tecnologías se utilizan para implementar diseño generativo interactivo en la web?
+* ¿Qué tecnologías se utilizan para implementar diseños generativos interactivos en la web?
 * ¿Qué ejemplos de aplicaciones o proyectos de diseño generativo interactivo en tiempo real en la web 
-  puedes encontrar?
+  puedes encontrar o podrían llegar a ser?
 
 Actividad 2
 **************
 
 * Selecciona un caso de estudio de diseño generativo interactivo en tiempo real en la web.
 * Describe el proyecto y sus características principales.
-* ¿Qué tecnologías y herramientas se utilizaron en el proyecto?
+* ¿Qué tecnologías y herramientas se utilizaron en el proyecto o crees que podrían servir y por qué?
 * ¿Cómo se logra la interactividad en el proyecto?
 * ¿Qué impacto o valor agregado tiene la interactividad en la experiencia del usuario?
 * ¿Qué aprendizajes puedes obtener de este caso de estudio para tu proyecto?
