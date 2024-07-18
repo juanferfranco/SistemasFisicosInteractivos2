@@ -118,14 +118,14 @@ Cada semana
 se asignarán un punto. Durante el semestre reportaremos en el sistema SIGAA 
 la nota equivalente a los puntos máximos obtenidos.
 
-* Investigación 1. Semana 2. 25%
-* Investigación 2. Semana 4. 25%
-* Investigación 3. Semana 6. 25%
-* Investigación 4. Semana 8. 25%
-* Prototipo 1. Semana 10. 25%
-* Prototipo 2. Semana 12. 25%
-* Prototipo 3. Semana 14. 25%
-* Prototipo 4. Semana 16. 25%
+* Investigación 1. Semana 2. 12.5%
+* Investigación 2. Semana 4. 12.5%
+* Investigación 3. Semana 6. 12.5%
+* Investigación 4. Semana 8. 12.5%
+* Prototipo 1. Semana 10. 12.5%
+* Prototipo 2. Semana 12. 12.5%
+* Prototipo 3. Semana 14. 12.5%
+* Prototipo 4. Semana 16. 12.5%
 
 Dedicación 
 ------------
