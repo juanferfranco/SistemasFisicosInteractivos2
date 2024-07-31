@@ -185,6 +185,37 @@ Actividad 2
 Investigación  2
 ------------------
 
+Actividad 1
+**************
+
+* Lee de nuevo el enunciado del proyecto de curso. 
+
+* Ahora analiza el marco que propone * `Patrik Hübner <https://www.patrik-huebner.com/method/>`__ 
+  para diseñar sistemas de diseño generativos. Luego, vas a proponer 10 ejemplos de sistemas de diseño generativos 
+  que varían los inputs y los outputs. Estas ideas te servirán para inspirarte en la creación de tu proyecto:
+
+.. note:: Objetivo del proyecto
+
+      Diseñar y desarrollar una aplicación web interactiva que utilice principios de diseño generativo en 
+      tiempo real y se comunique con al menos dos dispositivos de cómputo externos para crear una experiencias o instalación 
+      interactiva que responda a la interacción del público y a cambios en el entorno físico.
+
+Esta actividad la presentarás en la próxima sesión presencial para discutirla con tus compañeros y profesor.
+
+
+Actividad 2
+**************
+
+Selecciona tres casos de estudio de diseño generativo interactivo en tiempo real en la web que guarden 
+relación con el proyecto.
+
+* Describe el proyecto y sus características principales.
+* ¿Qué tecnologías y herramientas se utilizaron en el proyecto o crees que podrían servir y por qué?
+* ¿Cómo se logra la interactividad en el proyecto?
+* ¿Qué impacto o valor agregado tiene la interactividad en la experiencia del usuario?
+* ¿Qué aprendizajes puedes obtener de este caso de estudio para tu proyecto?
+
+
 Investigación  3
 ------------------
 
