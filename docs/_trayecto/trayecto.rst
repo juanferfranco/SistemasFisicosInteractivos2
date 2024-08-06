@@ -190,7 +190,7 @@ Actividad 1
 
 * Lee de nuevo el enunciado del proyecto de curso. 
 
-* Ahora analiza el marco que propone * `Patrik Hübner <https://www.patrik-huebner.com/method/>`__ 
+* Ahora analiza el marco que propone `Patrik Hübner <https://www.patrik-huebner.com/method/>`__ 
   para diseñar sistemas de diseño generativos. Luego, vas a proponer 10 ejemplos de sistemas de diseño generativos 
   que varían los inputs y los outputs. Estas ideas te servirán para inspirarte en la creación de tu proyecto:
 
@@ -201,7 +201,7 @@ Actividad 1
       interactiva que responda a la interacción del público y a cambios en el entorno físico.
 
 Esta actividad la presentarás en la próxima sesión presencial para discutirla con tus compañeros y profesor.
-
+(presentación para la semana 3)
 
 Actividad 2
 **************
@@ -215,6 +215,8 @@ relación con el proyecto.
 * ¿Qué impacto o valor agregado tiene la interactividad en la experiencia del usuario?
 * ¿Qué aprendizajes puedes obtener de este caso de estudio para tu proyecto?
 
+Esta actividad la presentarás en la próxima sesión presencial para discutirla con tus compañeros y profesor.
+(presentación para la semana 4)
 
 Investigación  3
 ------------------
