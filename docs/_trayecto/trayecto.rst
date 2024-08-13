@@ -221,6 +221,41 @@ Esta actividad la presentarás en la próxima sesión presencial para discutirla
 Investigación  3
 ------------------
 
+En este punto de tu proceso de investigación, ya has explorado los conceptos 
+fundamentales del diseño generativo interactivo en tiempo real en la web y has 
+buscado inspiración en casos de estudio relevantes. Ahora, es momento de 
+profundizar un poco en las herramientas y tecnologías que podrías utilizar.
+
+Actividad 1
+************
+
+* Vas realizar los tutoriales que propone `Kirell Benzi <https://www.kirellbenzi.com/>`__ 
+  en `decode.gl <https://decode.gl/>`__. Específicamente, la playlist 
+  `Introduction to Cables.gl and Javascript coding <https://youtube.com/playlist?list=PLigMhZPczouVkDLB3Ji66M3K0frprOXW5&si=clndJSin1gzkfzjh>`__.
+* Para la sesión presecial presentarás y explicarás UNA aplicación 
+  hecha por ti donde explores el marco: INPUT-PROCESS-OUTPUT propuesto por 
+  `Patrik Hübner <https://www.patrik-huebner.com/method/>`__ que tenga 
+  relación con el proyecto de curso. Mira, ten presente, que aún no es momento 
+  de tener el concepto definitivo de tu proyecto, recuerda que estás explorando, 
+  pero sí es importante que comiences a experimentar con las herramientas y 
+  tecnologías que podrías utilizar.
+
+.. warning:: NO USAREMOS LA VERSIÓN STANDALONE
+
+   Ten cuidado. Recientemente se lanzón la versión standlone de cables.gl. 
+   En este curso exploraremos la versión web.
+
+Esta actividad la presentarás en la próxima sesión presencial para 
+discutirla con tus compañeros y profesor (presentación para la semana 5)
+
+Actividad 2
+************
+
+Te la propondré en la próxima sesión presencial.
+
+Esta actividad la presentarás en la próxima sesión presencial para 
+discutirla con tus compañeros y profesor (presentación para la semana 6)
+
 Investigación  4
 ------------------
 
