@@ -251,7 +251,19 @@ discutirla con tus compañeros y profesor (presentación para la semana 5)
 Actividad 2
 ************
 
-Te la propondré en la próxima sesión presencial.
+* Esta semana continuarás con el tutorial de la actividad 1.
+* Para la sesión presencial vas a desplegar una aplicación cables.gl en 
+  GitHub pages:
+  
+  * De nuevo, usa el marco INPUT-PROCESS-OUTPUT. Pero la novedad de 
+    esta aplicación es que explorarás todos los inputs y outputs que 
+    puedas con tu celular. De todas maneras no olvides que estamos 
+    sujetos a las limitaciones de seguridad de los navegadores móviles.
+  * Recuerda que la aplicación debe ser interactiva y generativa.
+  * La aplicación debe estar relacionada de alguna manera con el proyecto 
+    de curso, pero te insisto, aunque todavía no tengas el concepto, la 
+    idea es que la aplicación te ayude a explorar posibilidades para un 
+    evento en vivo.
 
 Esta actividad la presentarás en la próxima sesión presencial para 
 discutirla con tus compañeros y profesor (presentación para la semana 6)

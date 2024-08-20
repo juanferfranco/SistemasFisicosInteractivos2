@@ -2721,3 +2721,25 @@ integres con tu plataforma de aplicaciones interactivas favorita.
 * Un ejemplo en Touchdesigner. Heroku ya no es gratuito. 
   How to Control TouchDesigner with a Website & Vice Versa: Intro to WebSockets 
   `Youtube playlist <https://youtube.com/playlist?list=PLgfxkm9xFocaQvweC3KF3uIeQyDhsLhWX&si=WcQk6LkcTBN0xPYF>`__.
+
+Cables.gl experiments 
+***********************
+
+Desplegar una app en github 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Para poder desplegar una aplicación en github pages se requiere:
+
+* Crear un repositorio en github.
+* Habilitar github pages en la sección de settings.
+* Generar un token de acceso. Este token se debe guardar porque 
+  lo necesitarás al momento de realizar el deployment a github pages.
+* Una vez creada la aplicación en cables, 
+  `aquí <https://cables.gl/docs/4_export_embed/dev_embed/export_github/export_github>`__
+  se puede ver cómo configurar las propiedades al exportar la aplicación.
+* Si no es posible exportar la aplicación para realizar directamente 
+  el deployment en Github, se puede descargar el archivo .zip en la 
+  opción de exportación HTML.
+* Demo para clase `aquí <https://cables.gl/p/npC6da>`__.
+
+
