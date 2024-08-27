@@ -271,6 +271,101 @@ discutirla con tus compañeros y profesor (presentación para la semana 6)
 Investigación  4
 ------------------
 
+En este punto del proceso de nuestro curso proyecto hemos llegado a la 
+última etapa de investigación. En esta etapa, vas a proponer un concepto 
+de solución. Ten presente que este concepto puede ir evolucionando, pero 
+la idea es que te comprometas desde ahora con este concepto y lo desarrolles 
+hasta el final del curso.
+
+Luego de esta última fase, que comienzas hoy, y durará 2 semanas, comenzarás 
+con la fase de prototipado. En esta fase, vas a desarrollar 4 prototipos 
+de tu concepto de solución. Cada prototipo debe explorar diferentes aspectos 
+de tu concepto, como la interactividad, los algoritmos generativos, la 
+comunicación con dispositivos externos, etc.
+
+Actividad 1
+************
+
+.. warning:: Esta actividad es para la semana 7
+
+   Presentarás esta actividad como un pitch de tu proyecto.
+   Prepara una presentación para que dure 10 minutos. Ni más 
+   ni menos.
+
+* Lee de nuevo el enunciado del proyecto de curso.
+* Revisa los resultados de tus investigaciones anteriores.
+* Propón un concepto de solución para el proyecto de curso. Este concepto 
+  debe incluir una descripción general de la aplicación, los algoritmos 
+  generativos que utilizarás, la interacción con los dispositivos externos, 
+  y la experiencia que quieres crear para los usuarios.
+* Presenta el diseño de la experiencia, incluyendo la narrativa, las 
+  funcionalidades clave, los beneficios para el cliente.
+* Describe cómo planeas implementar este concepto, qué tecnologías y herramientas 
+  utilizarás, y cuál será el proceso de desarrollo.
+* Qué esperas lograr con cada uno de los cuatro prototipos que desarrollarás 
+  en la siguiente fase.
+
+Esta actividad la presentarás en la próxima sesión presencial para 
+discutirla con tus compañeros y profesor (presentación para la semana 7)
+
+Actividad 2
+************
+
+.. warning:: Esta actividad es para la semana 8
+
+   Presentarás esta actividad como un pitch de tu proyecto.
+   Nota que en el formato de hablo de cliente y de objetivos. 
+   En este caso, el cliente son los usuarios de tu experiencia y 
+   los objetivos son los del proyecto de curso.
+
+Prepara un pitch de 10 minutos para presentar el diseño de la 
+experiencia. La presentación debe tener estos puntos:
+
+1. Introducción
+
+   * Contexto: explica brevemente la necesidad del proyecto o problema 
+     que se va a resolver. Resalta la importancia de la interacción en 
+     tiempo real en la web y cómo esto beneficia al cliente.
+   * Objetivo: menciona claramente el objetivo principal de la experiencia 
+     interactiva que vas a desarrollar.
+
+2. Concepto creativo
+
+   * Visión: describe la idea central de la experiencia. ¿Qué sensaciones 
+     o emociones buscas generar en los usuarios? ¿Cuál es el mensaje clave?
+   * Narrativa o historia: presenta una breve narrativa o 
+     flujo de la experiencia. Explica cómo los usuarios interactuarán y 
+     qué acciones podrán realizar.
+
+3. Funcionalidades clave
+   
+   * Interactividad: detalla las principales funcionalidades interactivas. 
+     ¿Cómo interactúan los usuarios con la web en tiempo real? ¿Qué tipo 
+     de input reciben y qué tipo de respuesta inmediata se les ofrece (output)?
+   * Tecnología: menciona las tecnologías que se van a utilizar 
+     (p5.js, cables, otra?) y cómo estas permiten lograr la experiencia en 
+     tiempo real.
+   * Ejemplo de flujo: si es posible, muestra un flujo de usuario con un ejemplo 
+     o prototipo rápido para que el cliente vea cómo funcionará la interacción.
+
+4. Beneficios para el cliente
+   
+   * Impacto en el usuario final y resultados esperados.
+
+5. Cronograma y recursos
+
+   * Fases del proyecto: presenta el alcance de cada uno de los 4 prototipos.
+   * Definición de tareas: describe las tareas clave que se deben realizar 
+     en cada prototipo.
+
+6. Cierre
+
+   * Resumen: reafirma los puntos clave de la propuesta, destacando cómo 
+     tu diseño cumple con los objetivos del cliente.
+
+Esta actividad la presentarás en la próxima sesión presencial para 
+discutirla con tus compañeros y profesor (presentación para la semana 8)
+
 Prototipo 1
 ------------------
 
