@@ -2721,6 +2721,10 @@ integres con tu plataforma de aplicaciones interactivas favorita.
 * Un ejemplo en Touchdesigner. Heroku ya no es gratuito. 
   How to Control TouchDesigner with a Website & Vice Versa: Intro to WebSockets 
   `Youtube playlist <https://youtube.com/playlist?list=PLgfxkm9xFocaQvweC3KF3uIeQyDhsLhWX&si=WcQk6LkcTBN0xPYF>`__.
+* En `esta <https://github.com/juanferfranco/sfInteractiveWebSocketsDesktopMobile>`__ 
+  guía explorarás cómo usar websockets para controlar una aplicación 
+  web desde el celular. Ten presente que esta guía NO te ofrece una solución de 
+  producción. El objetivo aquí es que explores un concepto.
 
 Cables.gl experiments 
 ***********************
