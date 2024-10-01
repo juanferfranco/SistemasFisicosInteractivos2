@@ -369,15 +369,75 @@ discutirla con tus compañeros y profesor (presentación para la semana 8)
 Prototipo 1
 ------------------
 
+Actividad 1
+************
+Vamos a analizar juntos el caso de estudio de una aplicación que permite 
+comunicar dos clientes en tiempo real mediante el uso de websockets.
+
+(Semana 9)
+
+Actividad 2
+************
+Cada estudiante presenta los avances con su primer prototipo.
+
+(Semana 10)
+
 Prototipo 2
 ------------------
+
+Actividad 1
+************
+
+* Conversación ágil acerca de los avances y dificultades con el segundo prototipo.
+* Revisión de casos de estudio.
+* Revisión de actividades pendientes o sin entregar.
+
+(Semana 11)
+
+Actividad 2
+************
+
+Cada estudiante presenta los avances con su primer prototipo.
+
+(Semana 12)
 
 Prototipo 3
 ------------------
 
+Actividad 1
+************
+
+* Conversación ágil acerca de los avances y dificultades con el segundo prototipo.
+* Revisión de casos de estudio.
+* Revisión de actividades pendientes o sin entregar.
+
+(Semana 13)
+
+Actividad 2
+************
+
+Cada estudiante presenta los avances con su primer prototipo.
+
+(Semana 14)
+
 Prototipo 4
 ------------------
 
+Actividad 1
+************
+
+* Conversación ágil acerca de los avances y dificultades con el segundo prototipo.
+* Revisión de casos de estudio.
+* Revisión de actividades pendientes o sin entregar.
+
+(Semana 15)
+
+Actividad 2
+************
+
+Cada estudiante presenta los avances con su primer prototipo.
+
+(Semana 16)
 
 
 

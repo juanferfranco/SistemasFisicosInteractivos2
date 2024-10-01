@@ -2725,6 +2725,9 @@ integres con tu plataforma de aplicaciones interactivas favorita.
   guía explorarás cómo usar websockets para controlar una aplicación 
   web desde el celular. Ten presente que esta guía NO te ofrece una solución de 
   producción. El objetivo aquí es que explores un concepto.
+* En `este <https://github.com/juanferfranco/juanferfranco-entagledTest-sfi1-2024-20>`__ repositorio 
+  encontrarás el caso de estudio que permite conectar dos ventanas del mismo navegador.
+
 
 Cables.gl experiments 
 ***********************
