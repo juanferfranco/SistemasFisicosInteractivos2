@@ -2727,7 +2727,11 @@ integres con tu plataforma de aplicaciones interactivas favorita.
   producción. El objetivo aquí es que explores un concepto.
 * En `este <https://github.com/juanferfranco/juanferfranco-entagledTest-sfi1-2024-20>`__ repositorio 
   encontrarás el caso de estudio que permite conectar dos ventanas del mismo navegador.
-
+* En `este <https://github.com/juanferfranco/WebsocketP5-ImageToCableGL>`__ enlace encontrarás una 
+  prueba de concepto de una aplicación compuesta por un servidor 
+  node.js que recibe datos de un cliente en p5.js, los proceso, y los envía a un cliente en
+  cables.gl. Los datos que puede enviar el cliente en p5.js son datos de sensores o imáganes. 
+  El caso de los sensores no está implementado, el de la imágenes si.
 
 Cables.gl experiments 
 ***********************
