@@ -407,7 +407,7 @@ Prototipo 3
 Actividad 1
 ************
 
-* Conversación ágil acerca de los avances y dificultades con el segundo prototipo.
+* Conversación ágil acerca de los avances y dificultades con el tercer prototipo.
 * Revisión de casos de estudio.
 * Revisión de actividades pendientes o sin entregar.
 
@@ -416,7 +416,7 @@ Actividad 1
 Actividad 2
 ************
 
-Cada estudiante presenta los avances con su primer prototipo.
+Cada estudiante presenta los avances de su tercer prototipo.
 
 (Semana 14)
 
@@ -426,7 +426,7 @@ Prototipo 4
 Actividad 1
 ************
 
-* Conversación ágil acerca de los avances y dificultades con el segundo prototipo.
+* Conversación ágil acerca de los avances y dificultades con el cuarto prototipo.
 * Revisión de casos de estudio.
 * Revisión de actividades pendientes o sin entregar.
 
@@ -435,7 +435,7 @@ Actividad 1
 Actividad 2
 ************
 
-Cada estudiante presenta los avances con su primer prototipo.
+Cada estudiante presenta los avances de su cuarto prototipo.
 
 (Semana 16)
 
